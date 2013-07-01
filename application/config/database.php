@@ -41,7 +41,7 @@ return array
 			 */
 			'dsn'        => 'mysql:host=localhost;dbname=ziptask',
 			'username'   => 'root',
-			'password'   => '',
+			'password'   => 'e041uz33j',
 			'persistent' => FALSE,
 		),
 		/**

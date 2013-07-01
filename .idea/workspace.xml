@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2781a17f-c5f7-4c9a-9f5d-bdebb379a712" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/DbUnit-1.2.1.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/File_Iterator-1.3.3.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/PHPUnit_MockObject-1.2.1.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/PHPUnit_Selenium-1.2.9.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/PHP_CodeCoverage-1.2.6.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/PHP_Invoker-1.1.2.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/PHP_Timer-1.0.4.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/PHP_TokenStream-1.1.5.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/Text_Template-1.1.3.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/media/guide/image/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/dependencies/Yaml-2.1.2.tgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/background_body.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/background_wrapper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/breadcrumbs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/media/guide/kohana/cascading_filesystem.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/media/guide/codebench/codebench_screenshot1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/media/guide/codebench/codebench_screenshot2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.phar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/userguide/contrib-github-edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/userguide/contrib-github-fork.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/userguide/contrib-github-pull.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/media/guide/image/crop_form.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/media/guide/image/crop_orig.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/media/guide/image/crop_result.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/media/guide/image/dynamic-400.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/media/guide/image/dynamic-600.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/ext_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/filter_left_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/filter_right_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/test_data/github.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/h2_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/h3_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/media/guide/kohana/hello_world_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/media/guide/kohana/hello_world_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/media/guide/kohana/hello_world_2_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/home_icon_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/icon_select_account.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/media/guide/kohana/install.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/kohana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/left_panel_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/lightbulb_48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/lines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/logo_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/logout_icon_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/orange-tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/template/frontend/pm-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/tests/test_data/test_image" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/media/guide/image/upload_form.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/media/guide/image/upload_result.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/media/guide/kohana/welcome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/img/wrapper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ziptask.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/1021.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/244.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/300.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/300.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/301.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/301.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/302.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/302.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/303.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/303.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/304.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/304.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/305.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/305.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/307.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/307.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/322.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/400.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/400.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/401.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/401.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/402.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/402.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/403.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/403.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/405.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/405.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/406.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/406.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/407.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/407.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/408.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/408.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/409.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/409.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/410.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/410.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/411.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/411.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/412.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/412.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/413.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/413.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/414.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/414.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/415.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/415.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/416.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/416.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/417.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/417.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/433.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/445.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/500.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/500.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/501.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/501.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/502.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/502.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/503.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/503.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/503.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/504.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/504.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/505.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/505.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/523.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/578.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/581.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/684.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/74.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/AbstractMockTestClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/AbstractTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/Accounts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Model/Accounts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Model/AccountsTypes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/AnInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/And.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/AnyInvokedCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/AnyParameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Apc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Apc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/ApcTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Arithmetic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Arithmetic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Arr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Arr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/ArrCallback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/ArrTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Array.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ArrayHasKey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/AssertTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/AssertionFailedError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Attribute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/classes/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/classes/Kohana/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Author.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/AutoLinkEmails.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Autoload.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Autoload.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/Text/Template/Autoload.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/PHP/Timer/Autoload.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token/Stream/Autoload.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Autoload.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Autoload.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/Text/Template/Autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/PHP/Timer/Autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token/Stream/Autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/BankAccount-clover.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/BankAccount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/BankAccount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/BankAccountTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/BankAccountTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/BankAccountTest.test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Runner/BaseTestRunner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Runner/BaseTestRunnerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Book.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/CLI.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Minion/CLI.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/HTTP/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/HTTP/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/CacheArithmeticMethods.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/CacheBasicMethodsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/CacheTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/request/client/CacheTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Result/Cached.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Result/Cached.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token/Stream/CachingFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Calculator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Callback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ChangeCurrentWorkingDirectoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/ChangeLog.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/ChangeLog.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/ChangeLog.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/ChangeLog.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/ChangeLog.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/ChangeLog.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783/ChildSuite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ClassHasAttribute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ClassHasStaticAttribute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/ClassTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/ClassTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ClassWithNonPublicAttributes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ClassWithToString.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/request/ClientTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Clover.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/Report/CloverTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverageTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Codebench.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Controller/Codebench.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Kohana/Codebench.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/TextUI/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/ComparatorFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/ComparatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/ComparisonFailure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Composite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ConcreteTest.my.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ConcreteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/ConfigTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Configuration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/ConfigurationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ConsecutiveCalls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/ConstraintTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/tests/userguide/ControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Session/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Session/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/CookieTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Core.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/CoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Count.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageClassExtendedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageClassTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageFunctionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageMethodOneLineAnnotationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageMethodTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNoneTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNotPrivateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNotProtectedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNotPublicTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageNothingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoveragePrivateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageProtectedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoveragePublicTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoverageTwoDefaultClassAnnotations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoveredClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/CoveredFunction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Curl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request/Client/Curl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/DB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/DB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/DOMDocument.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Dashboard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite/DataProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DataProviderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Config/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Model/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Session/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Model/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Session/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/DateSpan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/DateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/DebugTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/PHP/Default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DependencyFailureTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DependencySuccessTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DependencyTestSuite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Error/Deprecated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/DeprecatedFeature.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Diff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/DiffTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Directory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Node/Directory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Double.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/DoubleTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/DumpException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Dumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/DumperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/EmptyTestCaseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Encrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Encrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/ErrorHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/JsonMatches/ErrorMessageProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/Constraint/JsonMatches/ErrorMessageProviderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Escaper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Minion/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Kohana/ORM/Validation/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/ORM/Validation/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Kohana/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Recursion/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Session/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/UTF8/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Validation/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/View/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request/Client/Recursion/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Session/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/UTF8/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Validation/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/View/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ExceptionCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInAssertPostConditionsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInAssertPreConditionsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInSetUpTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInTearDownTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionInTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/ExceptionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ExceptionMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionNamespaceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionStack.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/ExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ExceptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/ExpectationFailedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/Expected.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/Expected.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/ExplodeLimit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Expression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Expression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/External.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request/Client/External.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/request/client/ExternalTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Facade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/Report/FactoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Failure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/FailureTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/FatalTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Feed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Feed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/FeedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/classes/Auth/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/classes/Kohana/Auth/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Config/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Log/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Node/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/FileExists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/FileTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/FileTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Fileloader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Filesystem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Filter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Filter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/FilterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/FormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Fragment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Fragment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/FunctionCallback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/FunctionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert/Functions.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert/Functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/classes/Image/GD.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/classes/Kohana/Image/GD.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/GarbageCollect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/GarbageCollect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/General.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/Admin/General.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/GeneratorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Getopt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/GlobalState.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/GoogleSearch.wsdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/GreaterThan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Config/Group.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/Group.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/Config/GroupTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/GroupTestSuite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/GruberURL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestDox/ResultPrinter/HTML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/HTMLTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/HTTP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request/Client/HTTP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/HTTPTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/Http/HeaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Task/Help.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/I18n.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/I18n.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/I18nTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/Identity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/classes/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/classes/Kohana/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/tests/kohana/ImageTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/classes/Image/Imagick.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/classes/Kohana/Image/Imagick.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/IncludeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/IncompleteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/IncompleteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/IncompleteTestError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Inflector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Inflector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/InflectorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/InheritedTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Inline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/InlineTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/InterfaceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Internal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request/Client/Internal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/request/client/InternalTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Util/InvalidArgumentHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/InvalidArgumentHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Exception/InvalidTask.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Minion/Exception/InvalidTask.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Invocation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/Invocation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/InvocationMocker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/InvocationMocker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Invokable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/InvokedAtIndex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/InvokedAtLeastOnce.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/InvokedCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/InvokedRecorder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsAnything.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsEmpty.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsEqual.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsFalse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsIdentical.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsInstanceOf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsNull.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsTrue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/1021/Issue1021Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/244/Issue244Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/322/Issue322Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/433/Issue433Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/445/Issue445Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/503/Issue503Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/523/Issue523Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/578/Issue578Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/581/Issue581Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/684/Issue684Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/74/Issue74Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Node/Iterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Log/JSON.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Log/JUnit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Join.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Join.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/JsonMatches.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/Constraint/JsonMatchesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/tests/KodocTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/LessThan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/vendor/markdown/License.text" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/LogTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/PhptTestCase/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/DeprecatedFeature/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/LtrimDigits.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoBaseURL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoImageURL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/MDDoIncludeViews.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/Main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/Admin/Main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Markdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Markdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/Match.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/MatcherCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Memcache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/MemcacheTag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/MemcacheTag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/arithmetic/MemcacheTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Method.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Method.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/MethodCallback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/MethodName.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/MethodNameMatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Missing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Missing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/MockBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockBuilderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/MockObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/MockObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObjectTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/MockRunner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/Mockable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/ModelTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/MultiDependencyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/MySQL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/MySQL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestDox/NamePrettifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/TestDox/NamePrettifierTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/Namespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageClassExtendedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageClassTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageCoversClassPublicTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageCoversClassTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageMethodTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotPrivateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotProtectedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotPublicTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoveragePrivateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageProtectedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoveragePublicTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NamespaceCoveredClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/Token/NamespaceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Session/Native.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Session/Native.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/74/NewException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NoArgTestCaseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NoTestCaseClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NoTestCases.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Node.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NonStatic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Not.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/NotExistingCoveredElementTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NotPublicTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NotVoidTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/NothingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Error/Notice.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Num.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Num.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/NumTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Numeric.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/ORM.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Auth/ORM.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Kohana/ORM.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Kohana/Auth/ORM.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Invocation/Object.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Object.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/ObjectHasAttribute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/Invocation/ObjectTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783/OneTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/OneTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Or.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/OutputError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/OutputTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/OverrideTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/PCREMatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/PDO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/PDO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/PHP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/PHP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Method/Param.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Method/Param.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/Parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/ParametersMatch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783/ParentSuite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Exception/ParseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/ParserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/PartialMockTestClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/PhptTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/PhptTestSuite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Printer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Profiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kodoc/Property.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Kodoc/Property.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Config/Database/Reader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database/Reader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/Reader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/File/Reader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/Config/File/ReaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Exception/Redirect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Exception/Redirect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/RepeatedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Extensions/RepeatedTestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/RequestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/RequirementsClassDocBlockTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/RequirementsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Resource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/HTTP/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/HTTP/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/ResponseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/MySQL/Result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/MySQL/Result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/TextUI/ResultPrinter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestDox/ResultPrinter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/Return.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnArgument.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnCallback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnSelf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnValueMap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/Role.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/Role.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/RouteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/SameSize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/SampleClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Scalar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/SecurityTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/SelectorAssertionsFixture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SelfDescribing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/SessionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Singleton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SkippedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SkippedTestError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SkippedTestSuiteError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/SomeClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/Source.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/SplObjectStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Sqlite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Sqlite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/SqliteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/StackTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Runner/StandardTestSuiteLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Matcher/StatelessInvocation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Invocation/Static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/_files/StaticMockTestClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/Invocation/StaticTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/StdErr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Log/StdErr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/StdOut.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Log/StdOut.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Request/Client/Stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Request/Client/Stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token/Stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/String.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/StringContains.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/StringEndsWith.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/StringMatches.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/StringStartsWith.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/StripNullBytes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Struct.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Builder/Stub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/Success.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/SuiteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/SyntheticError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/Syslog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Log/Syslog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Log/TAP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Tagging.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Tagging.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Kohana/Minion/Task.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/classes/Minion/Task.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Controller/Template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Controller/Template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/Text/Template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/TemplateMethodsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Database/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Database/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Process/TestCaseMethod.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/TestCaseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/TestDecorator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestFailure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/TestImplementorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/TestIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Framework/TestListenerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/TestSuite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/TestSuite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestSuiteIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Runner/TestSuiteLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/TestTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Kohana/Unittest/Tests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/classes/Unittest/Tests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/Text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/TestDox/ResultPrinter/Text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/TextTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ThrowExceptionTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/ThrowNoExceptionTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Extensions/TicketListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/PHP/Timer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/Tests/TimerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/User/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/User/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/PHP/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/TokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/Transliterate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/TraversableContains.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/TraversableContainsOnly.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/783/TwoTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Comparator/Type.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/Type.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/TypeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/URL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/URL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/URLSite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/URLTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/UTF8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/UTF8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/UTF8Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Unescaper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/UploadTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/classes/Model/Auth/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/UserFuncArray.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Controller/Userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/classes/Kohana/Controller/Userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Controller/Users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/classes/Model/Users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Util.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/UtilTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Valid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Valid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/ValidColor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/ValidTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/classes/Bench/ValidURL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/ValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Verifiable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Version.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Runner/Version.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/kohana/ViewTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Warning.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Error/Warning.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/WasRun.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Database/Query/Builder/Where.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Database/Query/Builder/Where.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Cache/Wincache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/classes/Kohana/Cache/Wincache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/cache/WincacheTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/PHP/Windows.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Config/Database/Writer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/classes/Kohana/Config/Database/Writer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Config/Writer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Kohana/Log/Writer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/classes/Log/Writer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Util/XML.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Util/XMLTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Driver/Xdebug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Xor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Yaml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/YamlTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsAnchorAlias.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsBasicTests.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsBlockMapping.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsDocumentSeparator.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsErrorTests.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsFlowCollections.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsFoldedScalars.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsNullsAndEmpties.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsSpecificationExamples.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/YtsTypeTransfers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/de-de/about.conventions.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/de-de/about.kohana.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/abstract-test-class.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/accounts/add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/adding.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/api.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/JsonData/arrayObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/assertions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/auth-schema-mysql.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/auth-schema-postgresql.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/config/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/scripts/auto_append.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/scripts/auto_prepend.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/autoloading.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/bar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/bootstrap.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/bootstrap_all_modules.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/guide/database/query/builder.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/config/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache.usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/test_data/callback_routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/classExtendsNamespacedClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/classInNamespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/classInScopedNamespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_call_parent_clone.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_call_parent_constructor.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_dont_call_parent_clone.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_dont_call_parent_constructor.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_implementing_interface_call_parent_constructor.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_implementing_interface_dont_call_parent_constructor.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/class_partial.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/files/classes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/clean-urls.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/config/codebench.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/views/codebench.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/concrete-test-class.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/config.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/config.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/guide/database/config.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/config.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/config.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/files/config.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/configuration.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/configuration_xinclude.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/contributing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/controllers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/mvc/controllers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/conventions.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/cookies.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/security/cookies.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/coverage_bar.html.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/config/credit_cards.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/guide/image/examples/crop.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/config/curl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/dashboard.html.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/security/database.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dataprovider-log-xml-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dataprovider-log-xml.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dataprovider-testdox.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/debug.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/debugging.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/default-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/default.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies2-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies2.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies3-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/dependencies3.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/security/deploying.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/driver/develop.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/developers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/directory.html.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/directory_item.html.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/guide/image/examples/dynamic.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/accounts/edit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/embededPhp.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/empty-testcase.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/i18n/en.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/config/encrypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/security/encryption.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/error-pages.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/views/minion/help/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/examples/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/views/kohana/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/messages/tests/validation/error_type_check.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/errors.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/i18n/es.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/escapedCharacters.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/example.phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/examples.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/guide/database/examples.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/guide/image/examples.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/examples.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/exception-stack.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/exclude-group-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/exclude-group.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/expectedFileFormat.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/extension.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/failure-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/failure.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/fatal-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/fatal.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/file.html.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/driver/file.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/file_item.html.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/files.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-class-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-class.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-method-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-method.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/filter-no-results.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/filters.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/flow.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/foo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/i18n/fr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/fragments.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/from_unicode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/views/kohana/generate_logo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/git.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/frontend/global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/group-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/group.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/hello-world.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/examples/hello_world_error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/help.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/help2.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/helpers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/js/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/files/i18n.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/ignored-lines-clover.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/include_paths.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/guide/codebench/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/guide/database/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/guide/image/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/guide/minion/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/users/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/index.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/config/inflector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/install.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/interface.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/invocation_object_clone_object.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/invocation_static_clone_object.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/issue19.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.9.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.0.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.10.0.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/dataTables/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/kodoc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/kodoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/layout_login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/layout_users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/left_bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/library-kohana.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/list-groups.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/views/minion/help/list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/log-json.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/log-tap.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/log-xml.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/login.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/auth/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/views/kohana/logo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/ltrim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/frontend/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/markdown.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/vendor/markdown/markdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/guide/auth/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/guide/codebench/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/guide/database/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/guide/image/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/guide/minion/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/menu.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/files/messages.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/method.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/method_item.html.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/config/mimes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/minion" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/miniond" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/mocked_class.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/mocked_clone.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/mocked_object_method.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/mocked_static_method.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/mockobjects.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/models.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/mvc/models.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/modules.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/modules.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/multipleNamespacesWithOneClassUsingBraces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/multipleNamespacesWithOneClassUsingNonBraceSyntax.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/mvc.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_call_parent_clone.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_call_parent_constructor.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_dont_call_parent_clone.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_dont_call_parent_constructor.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_implementing_interface_call_parent_constructor.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_implementing_interface_dont_call_parent_constructor.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_class_partial.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/namespaced_interface.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/nonexistent_class.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/nonexistent_class_with_namespace.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/nonexistent_class_with_namespace_starting_with_separator.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/ord.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/package-composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/package-composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/package-composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/package-composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/package-composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/package.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/page-toc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/guide/database/query/parameterized.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/phar-autoload.php.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpdox.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/phpmd.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/phpmd.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build/phpmd.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/build/phpmd.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/phpmd.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/phpmd.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/phpmd.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/tests/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/Regression/GitHub/322/phpunit322.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bin/phpunit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/composer/bin/phpunit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/profiling.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/guide/database/query.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/auth/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/mails/frontend/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/relationships.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/requests.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/auth/restore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/mails/frontend/restore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/guide/database/results.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/routing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/rtrim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/PHPCS/ruleset.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/ruleset.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-text-template/build/PHPCS/ruleset.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/build/PHPCS/ruleset.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/PHPCS/ruleset.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/PHPCS/ruleset.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/build/PHPCS/ruleset.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/security.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/sessions.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/frontend/users/settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/guide/minion/setup.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfComments.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfCompact.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfMergeKey.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfObjects.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfQuotes.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfTests.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/shBrushPhp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/shThemeDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/css/shThemeKodoc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/sharing-kohana.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/simple-mvc.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/examples/simple.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/JsonData/simpleObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/JsonData/simpleObject2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/media/guide/js/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-token-stream/Tests/_files/source4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_with_ignore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_with_namespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_with_oneline_annotations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_without_ignore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/Tests/_files/source_without_namespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/views/profiler/stats.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/str_ireplace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/str_pad.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/str_split.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strcasecmp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strcspn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/strict-incomplete.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/strict-isolation.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/strict.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/stristr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strlen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strpos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strrev.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strrpos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strspn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strtolower.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/strtoupper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureAttributesAreSameButValuesAreNot.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureExpected.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureIgnoreTextNodes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureIsSameButDataIsNot.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureWrongNumberOfAttributes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/_files/structureWrongNumberOfNodes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/views/profiler/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Template/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/frontend/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/substr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/substr_replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/tags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/tap.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/tests/minion/task.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/views/minion/help/task.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/guide/minion/tasks.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/templates.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/test-suffix-multiple.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/test-suffix-single.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/tests/test_data/views/test.css.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/testdox-html.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/testdox-text.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/Tests/TextUI/testdox.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/testing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/testing_workflows.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/tests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tips.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/to_unicode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/views/userguide/api/toc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/trait_class.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials/translation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/transliterate_to_ascii.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/trim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/guide/unittest/troubleshooting.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/tutorials.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/tutorials.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/ucfirst.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/utf8/ucwords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/unindentedCollections.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/config/unittest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/unmocked_clone.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/upgrading.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/upgrading.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/guide/image/examples/upload.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/guide/cache/usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/config/user_agents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/auth/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/cache/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/codebench/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/database/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/unittest/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/messages/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/config/userguide.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/image/guide/image/using.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/using.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/using.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/validation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/orm/guide/orm/examples/validation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/security/validation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/messages/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/minion/views/minion/error/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/messages/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/mvc/views.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/userguide/guide/userguide/works.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/wsdl_class.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/wsdl_class.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/wsdl_class_namespace.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/Tests/MockObject/wsdl_class_partial.phpt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator/wsdl_method.tpl.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/guide/kohana/security/xss.md" />
+    </list>
+    <ignored path="ziptask.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/.htaccess" changelist="2781a17f-c5f7-4c9a-9f5d-bdebb379a712" time="1372672991886" ignored="false" />
+    <file path="/bootstrap.php" changelist="2781a17f-c5f7-4c9a-9f5d-bdebb379a712" time="1372672615921" ignored="false" />
+    <file path="/Dummy.txt" changelist="2781a17f-c5f7-4c9a-9f5d-bdebb379a712" time="1372673449300" ignored="false" />
+    <file path="/.gitignore" changelist="2781a17f-c5f7-4c9a-9f5d-bdebb379a712" time="1372673516596" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ziptask" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ziptask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ziptask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ziptask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ziptask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ziptask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="435c45e8-fd41-4419-95e4-16f31546f20a">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="efc40666-d03b-47d7-93b1-d6450fc9d4a1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2781a17f-c5f7-4c9a-9f5d-bdebb379a712" name="Default" comment="" />
+      <created>1372671127680</created>
+      <updated>1372671127680</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19545455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="50" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.680734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="50" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.12660551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.653211">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

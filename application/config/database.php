@@ -21,7 +21,7 @@ return array
 			'hostname'   => 'localhost',
 			'database'   => 'ziptask',
 			'username'   => 'root',
-			'password'   => FALSE,
+			'password'   => 'e041uz33j',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',

@@ -19,7 +19,7 @@
                 <span class="redmessage"><?php echo arr::get($errors, 'email');?></span>
             <?php // endif;?>
                 
-            <?php echo Form::submit("login", __("Login"), array("class"=>"login-btn", "style"=>"height: 26px"));?>
+            <?php echo Form::submit("login", __("LOGIN"), array("class"=>"login-btn", "style"=>"height: 26px"));?>
             
             <div class="actions_login">
                 <?php echo HTML::anchor('auth/restorePassword', __("Forgot password ?"), array("title"=>"Forgot password"));?>

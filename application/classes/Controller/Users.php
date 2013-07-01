@@ -92,8 +92,6 @@ class Controller_Users extends Controller_General {
             } catch (ORM_Validation_Exception $e) {
                 $errors = $e->errors('validation');
             }
-            
-            
         }
         
         $data['user'] = $model;

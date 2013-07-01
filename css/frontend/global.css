@@ -1,6 +1,47 @@
-* {
-    padding: 0;
+@charset "utf-8";
+
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../../files/fonts/MyriadPro-Regular.eot");
+    src: url("../../files/fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+         url("../../files/fonts/MyriadPro-Regular.ttf") format("truetype"),
+         url("../../files/fonts/MyriadPro-Regular.svg#JournalRegular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro-SemiBold";
+    src: url("../../files/fonts/MyriadPro-Semibold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
     margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+
+:focus {
+    outline: 0 none;
+}
+
+body {
+    background: none repeat scroll 0 0 white;
+    color: black;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none outside none;
 }
 
 html, body {
@@ -9,7 +50,10 @@ html, body {
 }
 
 body {
-    /*font-family: 'MyriadPro-Regular';*/
+    background: none repeat scroll 0 0 #F9F9F9;
+    font-family: 'MyriadPro-Regular';
+    font-size: 75%;
+    min-width: 1200px;
 }
 
 root { 
@@ -19,7 +63,7 @@ root {
 body.login {
     background: url("../../files/template/frontend/background_body.png") repeat scroll 0 0 transparent;
     color: #FFFFFF;
-    /*font-family: 'MyriadPro-Regular';*/
+    font-family: 'MyriadPro-Regular';
     font-size: 14px;
     font-weight: normal;
 }
@@ -45,8 +89,4 @@ body.login {
     line-height: 0;
     margin: 0;
     padding: 0;
-}
-
-ol, ul {
-    list-style: none outside none;
 }

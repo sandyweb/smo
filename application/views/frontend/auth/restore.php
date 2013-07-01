@@ -17,11 +17,11 @@
                 <span class="redmessage"><?php echo arr::get($errors, 'email');?></span>
             <?php // endif;?>
             
-            <?php echo Form::submit("restore", __("Send password"), array("class"=>"login-btn", "style"=>"height: 26px"));?>
+            <?php echo Form::submit("restore", __("SEND PASSWORD"), array("class"=>"login-btn", "style"=>"height: 26px"));?>
             
             <div class="actions_login">
-                <?php echo HTML::anchor('auth/login', __("Login page"), array("title"=>"Login"));?>
-                <?php echo HTML::anchor('main/index', __("Home"), array("title"=>"Learn More..."));?>
+                <?php echo HTML::anchor('auth/login', __("Login"), array("title"=>"Login"));?>
+                <?php echo HTML::anchor('main/index', __("Home page"), array("title"=>"Learn More..."));?>
             </div>
 
         <?php echo Form::close();?>

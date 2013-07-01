@@ -21,6 +21,13 @@
             <?php endforeach;?>
         </ul>
         <?php endif;?>
-        
+    </div>
+    <div class="bar_tab_body">
+        <h4>Order List</h4>
+        <ul class="filter_box">
+            <li <?=(Request::current()->uri() == 'users/orders') ? 'class="active"' : '';?>>
+                <?=HTML::anchor('users/orders/', '<span>My Invoices</span>');?>
+            </li>
+        </ul>
     </div>
 </div>

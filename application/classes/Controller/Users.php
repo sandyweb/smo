@@ -97,4 +97,9 @@ class Controller_Users extends Controller_General {
         $data['user'] = $model;
         $this->template->content = view::factory('frontend/users/settings', $data)->set('form', $_POST)->bind('errors', $errors);
     }
+
+    public function action_orders()
+    {
+        $this->template->content = view::factory('frontend/users/orders', array());
+    }
 }

@@ -22,4 +22,11 @@ class Controller_General extends Controller_Template {
         $this->template->title = "ZipTask";
     }
 
+
+
+    protected function _response_json($result)
+    {
+        header('Content-type: application/json');
+        return json_encode($result);
+    }
 }

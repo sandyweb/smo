@@ -163,7 +163,9 @@ div.login .logo {
     margin: 0;
     padding: 12px 0 0;
 }
-
+.bar_tab .bar_tab_body{
+    min-height: 100px;
+}
 .bar_tab .bar_tab_body h4 {
     color: #225485;
     font-family: 'MyriadPro-SemiBold';

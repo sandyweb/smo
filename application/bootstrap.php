@@ -90,7 +90,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 Kohana::init(array(
-	'base_url'   => '/ziptask/',
+	'base_url'   => 'http://ziptask/',
         'index_file' => FALSE
 ));
 
@@ -117,6 +117,7 @@ Kohana::modules(array(
 	'image'      => MODPATH.'image',      // Image manipulation
 	// 'minion'     => MODPATH.'minion',     // CLI Tasks
 	'orm'        => MODPATH.'orm',        // Object Relationship Mapping
+	'email'        => MODPATH.'email',        // Email module
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 	));
@@ -128,5 +129,5 @@ Kohana::modules(array(
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
 		'controller' => 'main',
-		'action'     => 'index',
+		'action'     => 'home',
 	));

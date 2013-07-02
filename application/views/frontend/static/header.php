@@ -19,7 +19,7 @@
             </section>
             <section class="row">
                 <label for="Email">Email:</label>
-                <input id="emailInput" type="text" name="Email" id="emailInput" value="" class="input1 input2" onkeyup="javascript:checkEmail();"/>
+                <input id="emailInput" type="text" name="Email" id="emailInput" value="" class="input1 input2"/>
                 <section class="clear"></section>
                 <small id="emailError" style="visibility:hidden;">Sorry this email is not valid</small>
             </section>
@@ -32,7 +32,7 @@
                 </p>
             </section>
             <section class="clear"></section>
-            <input name="btnCreateMyAccount" value="Create My Account" class="bt-blue" onclick="javascript:signupClick();"/>
+            <input name="btnCreateMyAccount" value="Create My Account" class="bt-blue"/>
             <!-- start ribbon -->
             <section class="ribbon">
                 <p><span>Fully Managed</span><span>Oversight Built-In</span>

@@ -1,6 +1,7 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 class Controller_Main extends Controller_General {
+
     public $template = 'frontend/static/template';
 
     public function action_home()
@@ -50,6 +51,7 @@ class Controller_Main extends Controller_General {
                 if(Email::send($to, $data['email'], $data['subject'], $template, TRUE))
                 {
                     $message = 'Email was sent successfully';
+                    unset($_POST);
                 }
                 else
                 {

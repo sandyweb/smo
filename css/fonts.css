@@ -34,51 +34,51 @@ body {
 
 @font-face {
     font-family: 'MyriadPro-Regular';
-    src: url(http://www.ziptask.com/fonts/myriadpro-regular-webfont-webfont.eott');
-    src: url(http://www.ziptask.com/fonts/myriadpro-regular-webfont-webfont.eot?#iefixx') format('embedded-opentype'),
+    src: url('../fonts/myriadpro-regular-webfont-webfont.eott');
+    src: url('../fonts/myriadpro-regular-webfont-webfont.eot?#iefixx') format('embedded-opentype'),
          url('../fonts/myriadpro-regular-webfont-webfont.woff') format('woff'),
          url('../fonts/myriadpro-regular-webfont-webfont.ttf') format('truetype'),
-         url(http://www.ziptask.com/fonts/myriadpro-regular-webfont-webfont.svg#myriadpro-regular-webfont-webfontt') format('svg');
+         url('../fonts/myriadpro-regular-webfont-webfont.svg#myriadpro-regular-webfont-webfontt') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
 	font-family: 'MyriadPro-BoldCond';
 	src: url('../fonts/myriadpro-boldcond.eot');
-	src: url(http://www.ziptask.com/fonts/myriadpro-boldcond.eot?#iefixx') format('embedded-opentype'),
+	src: url('../fonts/myriadpro-boldcond.eot?#iefixx') format('embedded-opentype'),
 			 url('../fonts/myriadpro-boldcond.woff') format('woff'),
 			 url('../fonts/myriadpro-boldcond.ttf') format('truetype'),
-			 url(http://www.ziptask.com/fonts/myriadpro-boldcond.svg#myriadpro-boldcondd') format('svg');
+			 url('../fonts/myriadpro-boldcond.svg#myriadpro-boldcondd') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'MyriadPro-Cond';
 	src: url('../fonts/myriadpro-cond.eot');
-	src: url(http://www.ziptask.com/fonts/myriadpro-cond.eot?#iefixx') format('embedded-opentype'),
+	src: url('../fonts/myriadpro-cond.eot?#iefixx') format('embedded-opentype'),
 			 url('../fonts/myriadpro-cond.woff') format('woff'),
 			 url('../fonts/myriadpro-cond.ttf') format('truetype'),
-			 url(http://www.ziptask.com/fonts/myriadpro-cond.svg#myriadpro-condd') format('svg');
+			 url('../fonts/myriadpro-cond.svg#myriadpro-condd') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'MyriadPro-It';
 	src: url('../fonts/myriadpro-it.eot');
-	src: url(http://www.ziptask.com/fonts/myriadpro-it.eot?#iefixx') format('embedded-opentype'),
+	src: url('../fonts/myriadpro-it.eot?#iefixx') format('embedded-opentype'),
 			 url('../fonts/myriadpro-it.woff') format('woff'),
 			 url('../fonts/myriadpro-it.ttf') format('truetype'),
-			 url(http://www.ziptask.com/fonts/myriadpro-it.svg#myriadpro-itt') format('svg');
+			 url('../fonts/myriadpro-it.svg#myriadpro-itt') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
     font-family: 'MyriadPro-SemiBold';
     src: url('../fonts/myriadpro-semibold-webfont.eot');
-    src: url(http://www.ziptask.com/fonts/myriadpro-semibold-webfont.eot?#iefixx') format('embedded-opentype'),
+    src: url('../fonts/myriadpro-semibold-webfont.eot?#iefixx') format('embedded-opentype'),
          url('../fonts/myriadpro-semibold-webfont.woff') format('woff'),
          url('../fonts/myriadpro-semibold-webfont.ttf') format('truetype'),
-         url(http://www.ziptask.com/fonts/myriadpro-semibold-webfont.svg#myriadpro-semibold-webfontt') format('svg');
+         url('../fonts/myriadpro-semibold-webfont.svg#myriadpro-semibold-webfontt') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -86,10 +86,10 @@ body {
 @font-face {
     font-family: 'MyriadPro-SemiBoldItalic';
     src: url('../fonts/myriadpro-semiboldit-webfont.eot');
-    src: url(http://www.ziptask.com/fonts/myriadpro-semiboldit-webfont.eot?#iefixx') format('embedded-opentype'),
+    src: url('../fonts/myriadpro-semiboldit-webfont.eot?#iefixx') format('embedded-opentype'),
          url('../fonts/myriadpro-semiboldit-webfont.woff') format('woff'),
          url('../fonts/myriadpro-semiboldit-webfont.ttf') format('truetype'),
-         url(http://www.ziptask.com/fonts/myriadpro-semiboldit-webfont.svg#myriadpro-semiboldit-webfontt') format('svg');
+         url('../fonts/myriadpro-semiboldit-webfont.svg#myriadpro-semiboldit-webfontt') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -97,10 +97,10 @@ body {
 @font-face {
     font-family: 'MyriadPro-Bold';
     src: url('../fonts/myriadpro-bold-webfont.eot');
-    src: url(http://www.ziptask.com/fonts/myriadpro-bold-webfont.eot?#iefixx') format('embedded-opentype'),
+    src: url('../fonts/myriadpro-bold-webfont.eot?#iefixx') format('embedded-opentype'),
          url('../fonts/myriadpro-bold-webfont.woff') format('woff'),
          url('../fonts/myriadpro-bold-webfont.ttf') format('truetype'),
-         url(http://www.ziptask.com/fonts/myriadpro-bold-webfont.svg#myriadpro-bold-webfontt') format('svg');
+         url('../fonts/myriadpro-bold-webfont.svg#myriadpro-bold-webfontt') format('svg');
     font-weight: normal;
     font-style: normal;
 }

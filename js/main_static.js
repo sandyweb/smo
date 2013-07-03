@@ -29,6 +29,7 @@ $(document).ready(function(){
     });
 });
 function navToProcess(){
+    console.log(window.location.pathname);
     if (window.location.pathname == '/') {
         $('#process').click();
         $('#tab2').click(function () {
@@ -152,24 +153,4 @@ function checkEmail(email, name, callback){
 
 function closeModal(){
     $.modal.close();
-}
-
-function twoFieldSignUp() {
-    var name = $('#txtName').val();
-    var email = $('#emailInput').val();
-
-    var url = '<?=URL::base();?>webservices/Core.ashx' + "?fc=twofieldsignup&name=" + name + "&email=" + email;
-
-    $.getJSON(url, twoFieldSignUpCallback);
-}
-function twoFieldSignUpCallback(data){
-    if (data != null) {
-        //handle the new signup
-        if (data.SessionKey != null) {
-            var SessionKey = data.SessionKey;
-            var PersonID = data.PersonID;
-            var wsurlsamelocation = '<?=URL::base();?>confirmationbasic' + '?s=' + SessionKey + '&firstrun=true&pid=' + PersonID;
-            window.location = wsurlsamelocation;
-        }
-    }
 }

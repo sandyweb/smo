@@ -12,11 +12,11 @@
                 <section id="footer-left">
                     <section class="footer-link">
                         <ul>
-                            <li><a href="/#tab1" onclick="javascript:navToProcess();" title="Process">Process</a></li>
-                            <li><a href="/#tab2" onclick="javascript:navToDifference();" title="Difference">Difference</a></li>
-                            <li><a href="/#tab3" onclick="javascript:navToPrice();" title="Pricing">Pricing</a></li>
-                            <li><a href="/#tab4" onclick="javascript:navToOversight();" title="Oversight">Oversight</a></li>
-                            <li><a href="/#tab6" onclick="javascript:navToTeam();" title="Teams">Teams</a></li>
+                            <li><a href="#tab2" onclick="javascript:navToProcess();" title="Process">Process</a></li>
+                            <li><a href="#tab1" onclick="javascript:navToDifference();" title="Difference">Difference</a></li>
+                            <li><a href="#tab3" onclick="javascript:navToPrice();" title="Pricing">Pricing</a></li>
+                            <li><a href="#tab4" onclick="javascript:navToOversight();" title="Oversight">Oversight</a></li>
+                            <li><a href="#tab6" onclick="javascript:navToTeam();" title="Teams">Teams</a></li>
                         </ul>
                     </section>
                     <section class="footer-link">

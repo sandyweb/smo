@@ -74,4 +74,9 @@ class Controller_Main extends Controller_General {
     {
         $this->template->content = View::factory('frontend/static/freelance');
     }
+
+    public function action_confirmation()
+    {
+        $this->template->content = View::factory('frontend/static/confirmation');
+    }
 }

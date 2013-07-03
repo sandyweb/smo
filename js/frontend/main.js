@@ -54,7 +54,8 @@ function account_save() {
 $(document).ready(function() {
     
     $('#accounts').dataTable();
-    
+    $('.order-list-table').dataTable();
+
     $(document).on("click", "#save_account", function() {
         account_save();
     });

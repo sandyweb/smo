@@ -100,6 +100,13 @@ class Controller_Users extends Controller_General {
 
     public function action_orders()
     {
-        $this->template->content = view::factory('frontend/users/orders', array());
+        $auth_user_id = $this->auth->get_user()->id;
+        $order = new Model_Order();
+        $paid_orders = $order->get_paid_orders($auth_user_id);
+        $unpaid_orders = $order->get_unpaid_orders($auth_user_id);
+        $this->template->content = view::factory('frontend/users/orders')
+            ->bind('paid_orders', $paid_orders)
+            ->bind('unpaid_orders', $unpaid_orders)
+        ;
     }
 }

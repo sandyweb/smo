@@ -356,3 +356,16 @@ label {
     padding: 10px;
     width: 200px;
 }
+.order_list{
+    margin: 10px 10px 40px 10px;
+}
+.order_list h4{
+    color: #225485;
+    font-family: 'MyriadPro-SemiBold';
+    font-size: 1em;
+    line-height: 24px;
+    text-shadow: 0 1px #FFFFFF;
+}
+.order_list .dataTables_wrapper{
+    margin-top: 20px;
+}

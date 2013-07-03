@@ -38,7 +38,7 @@
 
             <div class="actions_login">
                 <?php echo HTML::anchor('auth/restorePassword', __("Forgot password ?"), array("title"=>"Forgot password"));?>
-                <?php echo HTML::anchor('main/index', __("Home page"), array("title"=>"Learn More..."));?>
+                <?php echo HTML::anchor('', __("Home page"), array("title"=>"Learn More..."));?>
             </div>
         <?php echo Form::close();?>
     </div>

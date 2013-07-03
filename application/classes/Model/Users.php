@@ -15,9 +15,10 @@ class Model_Users extends Model_User {
     }
         
     protected $_has_many = array(
-            'user_tokens' => array('model' => 'User_Token'),
-            'roles'       => array('model' => 'Role', 'through' => 'roles_users', 'foreign_key' => 'user_id'),
-            'accounts'    => array('model' => 'Accounts', 'foreign_key' => 'users_id')
+        'user_tokens' => array('model' => 'User_Token'),
+        'roles'       => array('model' => 'Role', 'through' => 'roles_users', 'foreign_key' => 'user_id'),
+        'accounts'    => array('model' => 'Accounts', 'foreign_key' => 'users_id'),
+        'orders' => array('model' => 'Orders', 'foreign_key' => 'user_id')
     );
     
     public function rules() {

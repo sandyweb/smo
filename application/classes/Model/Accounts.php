@@ -8,6 +8,10 @@ class Model_Accounts extends ORM {
         'accountsTypes' => array('model' => 'AccountsTypes', 'foreign_key' => 'accounts_types_id')
     );
 
+    protected $_has_many = array(
+        'orders' => array('model' => 'Orders', 'foreign_key' => 'account_id')
+    );
+
     public function rules() {
         return array(
             'title' => array(array('not_empty'), array('max_length', array(':value', 250))),

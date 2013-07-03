@@ -5,6 +5,7 @@ $(document).ready(function(){
         var $email = $('#emailInput');
         var $emailError = $('#emailError');
         var email = $email.val();
+        var name = $('#txtName').val();
         var errorMessage = '';
         if(!verifyEmail(email)){
             errorMessage = "Invalid email format.";
@@ -22,12 +23,13 @@ $(document).ready(function(){
             $emailError.css('visibility', 'hidden');
             $email.removeClass('error2');
         }
-        checkEmail(email, function(){
-
+        checkEmail(email, name, function(data){
+            window.location = data.redirect;
         });
     });
 });
 function navToProcess(){
+    console.log(window.location.pathname);
     if (window.location.pathname == '/') {
         $('#process').click();
         $('#tab2').click(function () {
@@ -122,7 +124,7 @@ function verifyEmail(email){
     return true;
 }
 
-function checkEmail(email, callback){
+function checkEmail(email, name, callback){
     var $email = $('#emailInput');
     var $emailError = $('#emailError');
     var errorMessage = '';
@@ -131,7 +133,7 @@ function checkEmail(email, callback){
         type: 'POST',
         cache: false,
         dataType: 'json',
-        data: {email: email},
+        data: {email: email, name: name},
         success: function(response){
             if(response.status == 200){
                 $email.removeClass('error2');
@@ -141,7 +143,7 @@ function checkEmail(email, callback){
                 }
             }
             else{
-                errorMessage = "Email already in use.";
+                errorMessage = response.reason;
                 $emailError.text(errorMessage).css('visibility', 'visible');
                 $email.addClass('error2');
             }
@@ -151,24 +153,4 @@ function checkEmail(email, callback){
 
 function closeModal(){
     $.modal.close();
-}
-
-function twoFieldSignUp() {
-    var name = $('#txtName').val();
-    var email = $('#emailInput').val();
-
-    var url = '<?=URL::base();?>webservices/Core.ashx' + "?fc=twofieldsignup&name=" + name + "&email=" + email;
-
-    $.getJSON(url, twoFieldSignUpCallback);
-}
-function twoFieldSignUpCallback(data){
-    if (data != null) {
-        //handle the new signup
-        if (data.SessionKey != null) {
-            var SessionKey = data.SessionKey;
-            var PersonID = data.PersonID;
-            var wsurlsamelocation = '<?=URL::base();?>confirmationbasic' + '?s=' + SessionKey + '&firstrun=true&pid=' + PersonID;
-            window.location = wsurlsamelocation;
-        }
-    }
 }

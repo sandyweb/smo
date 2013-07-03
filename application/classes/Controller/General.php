@@ -21,5 +21,4 @@ class Controller_General extends Controller_Template {
         
         $this->template->title = "ZipTask";
     }
-
 }

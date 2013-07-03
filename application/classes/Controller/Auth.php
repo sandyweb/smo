@@ -48,21 +48,17 @@ class Controller_Auth extends Controller_General {
         $this->template->content = view::factory('frontend/auth/login')->set('form', $_POST)->bind('errors', $errors);
     }
 
-    public function action_register() {
-        if ($this->request->post()) {
+    public function action_register()
+    {
+        $form = array('email' => '', 'password' => '', 'password_confirm' => '', 'username' => '', 'lastname' => '');
+        $errors = array();
+        if($this->request->post()){
             try {
                 $email = $this->request->post('email');
                 $password = $this->request->post('password');
                 $password_confirm = $this->request->post('password_confirm');
                 $username = $this->request->post('username');
                 $lastname = $this->request->post('lastname');
-                
-                // Add avatar
-//                $image = $_POST['avatar'];
-//                // Check avatar
-//                if (empty($image['name'])) {
-//                    $image = NULL;
-//                }
                 
                 $image = NULL;
                 
@@ -72,8 +68,6 @@ class Controller_Auth extends Controller_General {
                     
                     if ($check != FALSE) {
                         $this->auth->login($email, $password);
-                        // Send mail
-                    
                         // Redirect to account
                         $this->redirect('users/index');
                     }
@@ -81,23 +75,30 @@ class Controller_Auth extends Controller_General {
                 } else {
                     $errors['password_confirm'] = "Confirm password not valid";
                 }
-                
-                // Check password
-//                $model = new Model_Users();
-//                $password_array = array('password' => $password, 'password_confirm' => $password_confirm);
-//                $password_validation = $model->get_password_validation($password_array);
-//                $model->check($password_validation);
-                
-                // Register new user
-//                $this->register($email, $password, $username, $lastname, $image);
 
             } catch (ORM_Validation_Exception $e) {
                 $errors = $e->errors('validation');
             }
         }
+        else
+        {
+            $request_token = $this->request->query('token');
+            $session = Session::instance();
+            $session_token = $session->get('register_token');
+            if(!is_null($session_token) && $request_token == $session_token)
+            {
+                $form['email'] = $this->request->query('email');
+                $form['username'] = $this->request->query('name');
+                $session->delete('register_token');
+            }
+            else
+            {
+                $errors[] = 'Invalid request token';
+            }
+        }
         
         $this->template->title .= "Register";
-        $this->template->content = view::factory('frontend/auth/register')->set('form', $_POST)->bind('errors', $errors);
+        $this->template->content = view::factory('frontend/auth/register')->set('form', $form)->bind('errors', $errors);
     }
     
     public function register($email, $password, $username, $lastname, $image = NULL) {

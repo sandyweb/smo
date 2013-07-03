@@ -54,7 +54,8 @@ function account_save() {
 $(document).ready(function() {
     
     $('#accounts').dataTable();
-    
+    $('.order-list-table').dataTable();
+
     $(document).on("click", "#save_account", function() {
         account_save();
     });
@@ -75,6 +76,15 @@ $(document).ready(function() {
             }
         });
     });
+
+    $('#update_account_btn').click(function(){
+        var account = {};
+        account.id = $('input[name="account_id"]').val();
+        account.title = $('input[name="title"]').val();
+        account.type = $('select[name="type"]').val();
+        account.description = $('textarea[name="description"]').val();
+        account_edit(account);
+    });
     
     $('.edit_account').click(function () {
         var account_id = $(this).parent().parent().find("input[name=account_id]").val();
@@ -91,3 +101,22 @@ $(document).ready(function() {
         });
     });
 });
+
+function account_edit(account){
+    $.ajax({
+        url: 'ajax/account_edit',
+        type: 'post',
+        dataType: 'json',
+        data: {id: account.id, title: account.title,
+            description: account.description, account_type: account.type
+        },
+        success: function(response){
+            if(response.status == 200){
+                alert(response.message);
+            }
+            else{
+                alert(response.reason);
+            }
+        }
+    });
+}

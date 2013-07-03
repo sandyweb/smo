@@ -351,3 +351,30 @@ label {
     padding: 4px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 }
+.error{
+    color: red;
+    padding: 10px;
+    width: 200px;
+}
+.order_list{
+    margin: 10px 10px 40px 10px;
+}
+.order_list h4{
+    color: #225485;
+    font-family: 'MyriadPro-SemiBold';
+    font-size: 1em;
+    line-height: 24px;
+    text-shadow: 0 1px #FFFFFF;
+}
+.order_list .dataTables_wrapper{
+    margin-top: 20px;
+}
+.account_view .container{
+    background-color: #D1DBEA;
+    box-shadow: -1px 0 0 #9CB2CD inset;
+    float: left;
+    height: 100%;
+    margin-top: -54px;
+    padding: 60px 20px 20px;
+    width: 360px;
+}

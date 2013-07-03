@@ -6,7 +6,7 @@
 <div class="menu">
     <ul>	
         <li>
-            <span <?php echo ($action == "index" && $controller == "Users") ? "class=\"active\"" : "";?>>
+            <span <?php echo (($action == "index" || $action == "account_edit") && $controller == "Users") ? "class=\"active\"" : "";?>>
                 <?php echo HTML::anchor('users/index', __("Projects"));?>
             </span>
         </li>

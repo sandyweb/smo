@@ -100,6 +100,30 @@ class Controller_Users extends Controller_General {
 
     public function action_orders()
     {
-        $this->template->content = view::factory('frontend/users/orders', array());
+        $auth_user_id = $this->auth->get_user()->id;
+        $order = new Model_Order();
+        $paid_orders = $order->get_paid_orders($auth_user_id);
+        $unpaid_orders = $order->get_unpaid_orders($auth_user_id);
+        $this->template->content = view::factory('frontend/users/orders')
+            ->bind('paid_orders', $paid_orders)
+            ->bind('unpaid_orders', $unpaid_orders)
+        ;
+    }
+
+    public function action_account_edit()
+    {
+        $id = $this->request->param('id');
+        $model = new Model_Accounts($id);
+        if(!$model->loaded())
+        {
+            throw new HTTP_Exception_404("Page not found");
+        }
+        $data['account'] = $model;
+        $model = new Model_AccountsTypes();
+        $data['networks_types'] = $model->find_all();
+        $view['edit_view'] = view::factory('frontend/accounts/edit', $data);
+        $view['inbox_view'] = view::factory('frontend/accounts/inbox');
+
+        $this->template->content = view::factory('frontend/accounts/view', $view);
     }
 }

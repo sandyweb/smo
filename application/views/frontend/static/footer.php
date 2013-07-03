@@ -12,27 +12,27 @@
                 <section id="footer-left">
                     <section class="footer-link">
                         <ul>
-                            <li><a href="/#tab1" onclick="javascript:navToProcess();" title="Process">Process</a></li>
-                            <li><a href="/#tab2" onclick="javascript:navToDifference();" title="Difference">Difference</a></li>
-                            <li><a href="/#tab3" onclick="javascript:navToPrice();" title="Pricing">Pricing</a></li>
-                            <li><a href="/#tab4" onclick="javascript:navToOversight();" title="Oversight">Oversight</a></li>
-                            <li><a href="/#tab6" onclick="javascript:navToTeam();" title="Teams">Teams</a></li>
+                            <li><a href="#tab2" onclick="javascript:navToProcess();" title="Process">Process</a></li>
+                            <li><a href="#tab1" onclick="javascript:navToDifference();" title="Difference">Difference</a></li>
+                            <li><a href="#tab3" onclick="javascript:navToPrice();" title="Pricing">Pricing</a></li>
+                            <li><a href="#tab4" onclick="javascript:navToOversight();" title="Oversight">Oversight</a></li>
+                            <li><a href="#tab6" onclick="javascript:navToTeam();" title="Teams">Teams</a></li>
                         </ul>
                     </section>
                     <section class="footer-link">
                         <ul>
                             <li><a href="<?=URL::base();?>" title="Sign Up" class="modal">Sign Up</a></li>
                             <li><a href="<?=URL::site('auth/login');?>" title="Login">Login</a></li>
-                            <li><a href="<?=URL::site('main/dashboard');?>" id="dashboard" title="Dashboard">Dashboard</a></li>
-                            <li><a href="<?=URL::site('main/testimonials');?>" id="testimonials" title="Testimonials">Testimonials</a></li>
+                            <li><a href="<?=URL::site('dashboard');?>" id="dashboard" title="Dashboard">Dashboard</a></li>
+                            <li><a href="<?=URL::site('testimonials');?>" id="testimonials" title="Testimonials">Testimonials</a></li>
                         </ul>
                     </section>
                     <section class="footer-link">
                         <ul>
-                            <li><a href="<?=URL::site('main/about');?>" id="about" title="About">About</a></li>
+                            <li><a href="<?=URL::site('about');?>" id="about" title="About">About</a></li>
                             <li><a target="_blank" href="http://blog.ziptask.com/" title="Blog">Blog</a></li>
-                            <li><a href="<?=URL::site('main/contact');?>" id="contact" title="Contact Us">Contact</a></li>
-                            <li><a href="<?=URL::site('main/freelance');?>" title="Freelancers Join Us!">Freelancers</a></li>
+                            <li><a href="<?=URL::site('contact');?>" id="contact" title="Contact Us">Contact</a></li>
+                            <li><a href="<?=URL::site('freelance');?>" title="Freelancers Join Us!">Freelancers</a></li>
                         </ul>
                     </section>
                 </section>

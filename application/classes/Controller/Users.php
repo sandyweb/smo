@@ -109,4 +109,21 @@ class Controller_Users extends Controller_General {
             ->bind('unpaid_orders', $unpaid_orders)
         ;
     }
+
+    public function action_account_edit()
+    {
+        $id = $this->request->param('id');
+        $model = new Model_Accounts($id);
+        if(!$model->loaded())
+        {
+            throw new HTTP_Exception_404("Page not found");
+        }
+        $data['account'] = $model;
+        $model = new Model_AccountsTypes();
+        $data['networks_types'] = $model->find_all();
+        $view['edit_view'] = view::factory('frontend/accounts/edit', $data);
+        $view['inbox_view'] = view::factory('frontend/accounts/inbox');
+
+        $this->template->content = view::factory('frontend/accounts/view', $view);
+    }
 }

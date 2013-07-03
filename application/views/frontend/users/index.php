@@ -42,7 +42,7 @@
                             <td><?php echo $item->title;?></td>
                             <td><?php echo $item->description;?></td>
                             <td>
-                                <a href="javascript:;" class="edit_account"><?php echo __("Edit");?></a>
+                                <?php echo HTML::anchor('users/account_edit/'.$item->id, __("Edit"));?>
                                 <?php echo HTML::anchor('accounts/delete/'.$item->id, __("Delete"));?>
                             </td>
                         </tr>

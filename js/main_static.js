@@ -5,6 +5,7 @@ $(document).ready(function(){
         var $email = $('#emailInput');
         var $emailError = $('#emailError');
         var email = $email.val();
+        var name = $('#txtName').val();
         var errorMessage = '';
         if(!verifyEmail(email)){
             errorMessage = "Invalid email format.";
@@ -22,8 +23,8 @@ $(document).ready(function(){
             $emailError.css('visibility', 'hidden');
             $email.removeClass('error2');
         }
-        checkEmail(email, function(){
-
+        checkEmail(email, name, function(data){
+            window.location = data.redirect;
         });
     });
 });
@@ -122,7 +123,7 @@ function verifyEmail(email){
     return true;
 }
 
-function checkEmail(email, callback){
+function checkEmail(email, name, callback){
     var $email = $('#emailInput');
     var $emailError = $('#emailError');
     var errorMessage = '';
@@ -131,7 +132,7 @@ function checkEmail(email, callback){
         type: 'POST',
         cache: false,
         dataType: 'json',
-        data: {email: email},
+        data: {email: email, name: name},
         success: function(response){
             if(response.status == 200){
                 $email.removeClass('error2');
@@ -141,7 +142,7 @@ function checkEmail(email, callback){
                 }
             }
             else{
-                errorMessage = "Email already in use.";
+                errorMessage = response.reason;
                 $emailError.text(errorMessage).css('visibility', 'visible');
                 $email.addClass('error2');
             }

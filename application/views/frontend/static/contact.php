@@ -4,7 +4,7 @@
         <h2 class="title blue">Contact Us</h2>
         <!-- start grid_9 -->
         <section class="grid_9">
-            <?=Form::open(URL::site('main/contact'), array('method' => 'post', 'id' => 'signupform', 'class' => 'fillform blue2'));?>
+            <?=Form::open(URL::site('contact'), array('method' => 'post', 'id' => 'signupform', 'class' => 'fillform blue2'));?>
                 <?php if($errors):?>
                     <p class="message">Some errors were encountered, please check the details you entered.</p>
                     <ul class="error">

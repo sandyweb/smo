@@ -369,3 +369,12 @@ label {
 .order_list .dataTables_wrapper{
     margin-top: 20px;
 }
+.account_view .container{
+    background-color: #D1DBEA;
+    box-shadow: -1px 0 0 #9CB2CD inset;
+    float: left;
+    height: 100%;
+    margin-top: -54px;
+    padding: 60px 20px 20px;
+    width: 360px;
+}

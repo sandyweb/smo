@@ -8,12 +8,16 @@ class Controller_Ajax extends Kohana_Controller{
     const STATUS_NOT_FOUND = 404;
     const STATUS_APPLICATION_ERROR = 500;
 
-    public function action_check_email()
+    public function before()
     {
         if(!$this->request->is_ajax())
         {
             $this->_permission_denied();
         }
+    }
+
+    public function action_check_email()
+    {
         $email = $this->request->post('email');
         if(!$email)
         {
@@ -34,6 +38,33 @@ class Controller_Ajax extends Kohana_Controller{
             ));
             Model_Users::send_register_message($email, $data);
             $result = array('status' => self::STATUS_SUCCESS, 'data' => array('redirect' => URL::site('confirmation')));
+        }
+        echo $this->_response_json($result);
+    }
+
+    public function action_account_edit()
+    {
+        $id = $this->request->post('id');
+        if(empty($id))
+        {
+            $this->_invalid_request();
+        }
+        $account = new Model_Accounts($id);
+        if(!$account->loaded())
+        {
+            $result = array('status' => self::STATUS_BAD_REQUEST, 'reason' => 'Account was not found');
+            $this->_response_json($result);
+        }
+        $account->title = $this->request->post('title');
+        $account->accounts_types_id = $this->request->post('account_type');
+        $account->description = $this->request->post('description');
+        if($account->save())
+        {
+            $result = array('status' => self::STATUS_SUCCESS, 'message' => 'Account was saved successfully');
+        }
+        else
+        {
+            $result = array('status' => self::STATUS_BAD_REQUEST, 'reason' => 'Account was no saved');
         }
         echo $this->_response_json($result);
     }

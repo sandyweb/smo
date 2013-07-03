@@ -1,5 +1,13 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
+/**
+ * Class Model_Accounts
+ * @property int $id
+ * @property int $accounts_types_id
+ * @property int $users_id
+ * @property string $title
+ * @property string $description
+ */
 class Model_Accounts extends ORM {
     protected $_table_name = 'accounts';
     

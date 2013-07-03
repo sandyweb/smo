@@ -21,4 +21,23 @@ class Model_Accounts extends ORM {
             'title' => array(array('trim'), array('strip_tags')),
         );
     }
+
+    /**
+     * Method send registration message
+     *
+     * @access public
+     * @static
+     * @param $email
+     * @param $data
+     * @return int
+     */
+    public static function send_register_message($email, $data)
+    {
+        $config = Kohana::$config->load('config');
+        $to = $config->get('admin_email');
+        $template = View::factory('mails/frontend/register', $data);
+        $email_config = Kohana::$config->load('email');
+        Email::connect($email_config);
+        return Email::send($email, $to, 'Registration', $template, TRUE);
+    }
 }

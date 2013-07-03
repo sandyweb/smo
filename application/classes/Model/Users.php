@@ -38,6 +38,24 @@ class Model_Users extends Model_User {
             'email' => array(array('trim'), array('strip_tags'))
         );
     }
+
+    /**
+     * Method check exits email or not
+     *
+     * @access public
+     * @param $email
+     * @return bool
+     */
+    public function is_email_exists($email)
+    {
+        $query = DB::select('id')
+            ->from($this->_table_name)
+            ->where('email', '=', $email)
+            ->limit(1)
+        ;
+        $id = $query->execute()->get('id', 0);
+        return (!empty($id)) ? TRUE : FALSE;
+    }
     
     public static function get_password_validation($values) {
         return Validation::factory($values)

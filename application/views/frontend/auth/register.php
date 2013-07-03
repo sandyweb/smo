@@ -2,6 +2,13 @@
     <div class="logo"><?php // echo HTML::image("files/template/frontend/logo.png");?></div>
     <div class="login_wrapper">
         <?php echo Form::open();?>
+            <?php if($errors):?>
+                <ul class="error">
+                    <?php foreach($errors as $message):?>
+                        <li><?=$message;?></li>
+                    <?php endforeach;?>
+                </ul>
+            <?php endif;?>
             <?php echo Form::input("email", arr::get($form, 'email'), array("placeholder"=>"Email", "class"=>"input"));?>
             <?php // if (isset(arr::get($errors, 'email'))):?>
                 <span class="redmessage"><?php echo arr::get($errors, 'email');?></span>

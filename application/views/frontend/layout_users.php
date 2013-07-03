@@ -23,6 +23,6 @@
             
             <div class='clear'></div>
         </div>
-        <?php echo View::factory('profiler/stats') ?>
+
     </body>
 </html>

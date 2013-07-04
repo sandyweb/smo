@@ -87,6 +87,9 @@ class Controller_Users extends Controller_General {
                 $model->lastname = $this->request->post('lastname');
                 $model->email = $this->request->post('email');
                 $password = $this->request->post('password');
+                $model->mobile_phone = $this->request->post('mobile_phone');
+                $model->provider_id = $this->request->post('mobile_provider');
+                $model->email_format = $this->request->post('email_format');
                 $model->password = $this->auth->hash($password);
                 $model->save();
             } catch (ORM_Validation_Exception $e) {
@@ -122,7 +125,6 @@ class Controller_Users extends Controller_General {
         $model = new Model_AccountsTypes();
         $data['networks_types'] = $model->find_all();
         $view['edit_view'] = view::factory('frontend/accounts/edit', $data);
-        $view['inbox_view'] = view::factory('frontend/accounts/inbox');
 
         $this->template->content = view::factory('frontend/accounts/view', $view);
     }

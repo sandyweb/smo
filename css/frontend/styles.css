@@ -378,3 +378,6 @@ label {
     padding: 60px 20px 20px;
     width: 360px;
 }
+em{
+    color: #ccc;
+}

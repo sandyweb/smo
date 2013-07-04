@@ -125,7 +125,6 @@ class Controller_Users extends Controller_General {
         $model = new Model_AccountsTypes();
         $data['networks_types'] = $model->find_all();
         $view['edit_view'] = view::factory('frontend/accounts/edit', $data);
-        $view['inbox_view'] = view::factory('frontend/accounts/inbox');
 
         $this->template->content = view::factory('frontend/accounts/view', $view);
     }

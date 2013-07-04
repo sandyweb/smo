@@ -10,7 +10,10 @@
                 <?php echo HTML::anchor('users/index', __("Projects"));?>
             </span>
         </li>
-        <li><span><a href="#">Inbox</a></span></li>
+        <li><span <?php echo ($controller == "Inbox") ? "class=\"active\"" : "";?>>
+                <?php echo HTML::anchor('inbox/index', __("inbox"));?>
+            </span>
+        </li>
         <li>
             <span <?php echo ($action == "settings" && $controller == "Users") ? "class=\"active\"" : "";?>>
                 <?php echo HTML::anchor('users/settings', __("Settings"));?>

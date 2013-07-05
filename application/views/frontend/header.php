@@ -12,6 +12,7 @@
         </li>
         <li><span <?php echo ($controller == "Inbox") ? "class=\"active\"" : "";?>>
                 <?php echo HTML::anchor('inbox/index', __("inbox"));?>
+                (<?=$unread_messages_count;?>)
             </span>
         </li>
         <li>

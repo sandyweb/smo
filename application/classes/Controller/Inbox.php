@@ -18,6 +18,9 @@ class Controller_Inbox extends Controller_General{
         $data_header['controller'] = $this->request->controller();
         $data_header['action'] = $this->request->action();
 
+        $message_model = ORM::factory('message');
+        $data_header['unread_messages_count'] = $message_model->get_unread_messages_count($this->auth->get_user()->id);
+
         $model_types = new Model_AccountsTypes();
         $data_left_bar['social_networks'] = $model_types->find_all();
 

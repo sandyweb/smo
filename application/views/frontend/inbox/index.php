@@ -1,8 +1,16 @@
-<?php
-/**
- * Created by JetBrains PhpStorm.
- * User: jonik
- * Date: 04.07.13
- * Time: 14:35
- * To change this template use File | Settings | File Templates.
- */
+<div class="inbox-container">
+    <div class="header">
+        <div class="menu">
+            <ul>
+                <li>
+                    <span class="active"><?=HTML::anchor('#', __("Inbox"), array('class' => 'all-messages'));?></span>
+                    <span><?=HTML::anchor('#', __("Unread"), array('class' => 'unread-messages'));?></span>
+                    <span><?=HTML::anchor('#', __("Read"), array('class' => 'read-messages'));?> </span>
+                    <span><?=HTML::anchor('#', __("Archived"), array('class' => 'archived-messages'));?> </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="messages-container"></div>
+</div>
+<?=HTML::script(URL::base().'js/frontend/inbox.js');?>

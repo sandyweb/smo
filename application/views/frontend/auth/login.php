@@ -23,7 +23,7 @@
             
             <div class="actions_login">
                 <?php echo HTML::anchor('auth/restorePassword', __("Forgot password ?"), array("title"=>"Forgot password"));?>
-                <?php echo HTML::anchor('main/index', __("Home page"), array("title"=>"Learn More..."));?>
+                <?php echo HTML::anchor('main', __("Home page"), array("title"=>"Learn More..."));?>
                 <?php echo HTML::anchor('auth/register', __("Register"), array("title"=>"Register"));?>
             </div>
 

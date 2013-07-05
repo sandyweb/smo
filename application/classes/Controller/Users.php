@@ -17,7 +17,7 @@ class Controller_Users extends Controller_General {
         $data_header['user'] = $this->auth->get_user();
         $data_header['controller'] = $this->request->controller();
         $data_header['action'] = $this->request->action();
-        $message_model = ORM::factory('message');
+        $message_model = ORM::factory('Message');
         $data_header['unread_messages_count'] = $message_model->get_unread_messages_count($this->auth->get_user()->id);
         
         $model_types = new Model_AccountsTypes();

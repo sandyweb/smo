@@ -39,4 +39,16 @@ class Model_Message extends ORM{
             ->and_where('status', '=', self::STATUS_UNREAD)
             ->find_all();
     }
+
+    /**
+     * Method get unread messages count
+     *
+     * @access public
+     * @param $receiver_id
+     * @return int
+     */
+    public function get_unread_messages_count($receiver_id)
+    {
+        return sizeof($this->get_unread_messages($receiver_id));
+    }
 }

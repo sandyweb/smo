@@ -265,6 +265,7 @@ h1 {
 
 .content {
     float:left;
+    height: 100%;
 }
 
 .personal_data {

@@ -8,8 +8,11 @@ class Controller_Ajax extends Kohana_Controller{
     const STATUS_NOT_FOUND = 404;
     const STATUS_APPLICATION_ERROR = 500;
 
+    protected $auth;
+
     public function before()
     {
+        $this->auth = Auth::instance();
         if(!$this->request->is_ajax())
         {
             $this->_permission_denied();
@@ -67,6 +70,13 @@ class Controller_Ajax extends Kohana_Controller{
             $result = array('status' => self::STATUS_BAD_REQUEST, 'reason' => 'Account was no saved');
         }
         echo $this->_response_json($result);
+    }
+
+    public function action_all_messages()
+    {
+        $user_id = $this->auth->get_user()->id;
+        $messages = ORM::factory('message')->get_messages($user_id);
+        echo View::factory('frontend/inbox/all_messages')->bind('messages', $messages);
     }
 
     protected function _permission_denied()

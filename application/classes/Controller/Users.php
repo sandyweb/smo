@@ -82,9 +82,10 @@ class Controller_Users extends Controller_General {
         $user_id = $this->auth->get_user()->id;
         $model = new Model_Users($user_id);
                 
-        if ($this->request->post()) {
-            
-            try {
+        if($this->request->post())
+        {
+            try
+            {
                 $model->username = $this->request->post('username');
                 $model->lastname = $this->request->post('lastname');
                 $model->email = $this->request->post('email');
@@ -93,8 +94,21 @@ class Controller_Users extends Controller_General {
                 $model->provider_id = $this->request->post('mobile_provider');
                 $model->email_format = $this->request->post('email_format');
                 $model->password = $this->auth->hash($password);
+                if(isset($_FILES['profile_photo']))
+                {
+                    $filename = $this->_save_image($_FILES['profile_photo']);
+                    if(!$filename)
+                    {
+                        throw new Exception('There was a problem while uploading the image.
+                                Make sure it is uploaded and must be JPG/PNG/GIF file.'
+                        );
+                        exit();
+                    }
+                    $model->image = $filename;
+                }
                 $model->save();
-            } catch (ORM_Validation_Exception $e) {
+            }
+            catch(ORM_Validation_Exception $e) {
                 $errors = $e->errors('validation');
             }
         }
@@ -129,5 +143,34 @@ class Controller_Users extends Controller_General {
         $view['edit_view'] = view::factory('frontend/accounts/edit', $data);
 
         $this->template->content = view::factory('frontend/accounts/view', $view);
+    }
+
+    protected function _save_image($image)
+    {
+        if(
+            ! Upload::valid($image) OR
+            ! Upload::not_empty($image) OR
+            ! Upload::type($image, array('jpg', 'jpeg', 'png', 'gif')))
+        {
+            return FALSE;
+        }
+
+        $directory = DOCROOT.'files/media/avatars/';
+
+        if($file = Upload::save($image, NULL, $directory))
+        {
+            $filename = strtolower(Text::random('alnum', 20)).'.jpg';
+
+            Image::factory($file)
+                ->resize(200, 200, Image::AUTO)
+                ->save($directory.$filename);
+
+            // Delete the temporary file
+            unlink($file);
+
+            return $filename;
+        }
+
+        return FALSE;
     }
 }

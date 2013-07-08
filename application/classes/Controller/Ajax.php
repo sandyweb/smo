@@ -75,9 +75,33 @@ class Controller_Ajax extends Kohana_Controller{
     public function action_all_messages()
     {
         $user_id = $this->auth->get_user()->id;
-        $messages = ORM::factory('Message')->get_messages($user_id);
-        echo View::factory('frontend/inbox/all_messages')->bind('messages', $messages);
+        $message = ORM::factory('Message');
+        $messages = $message->get_messages($user_id);
+        $statuses = $message->get_statuses();
+        echo View::factory('frontend/inbox/all_messages')->bind('messages', $messages)->bind('statuses', $statuses);
     }
+
+    public function action_unread_messages()
+    {
+        $user_id = $this->auth->get_user()->id;
+        $messages = ORM::factory('Message')->get_unread_messages($user_id);
+        echo View::factory('frontend/inbox/unread_messages')->bind('messages', $messages);
+    }
+
+    public function action_read_messages()
+    {
+        $user_id = $this->auth->get_user()->id;
+        $messages = ORM::factory('Message')->get_read_messages($user_id);
+        echo View::factory('frontend/inbox/read_messages')->bind('messages', $messages);
+    }
+
+    public function action_archived_messages()
+    {
+        $user_id = $this->auth->get_user()->id;
+        $messages = ORM::factory('Message')->get_archived_messages($user_id);
+        echo View::factory('frontend/inbox/archived_messages')->bind('messages', $messages);
+    }
+
 
     protected function _permission_denied()
     {

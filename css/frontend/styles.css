@@ -379,6 +379,7 @@ label {
     padding: 60px 20px 20px;
     width: 360px;
 }
-em{
-    color: #ccc;
-}
+em{color: #ccc;}
+.message-details-container{ padding:30px 20px 20px 20px;}
+.message-details-container label{width: 100px;}
+.message-details-container span{line-height: 21px;}

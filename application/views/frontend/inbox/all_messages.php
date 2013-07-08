@@ -4,7 +4,7 @@
             <td>Date</td>
             <td>Sender</td>
             <td>Subject</td>
-            <td></td>
+            <td>Status</td>
             <td></td>
         </tr>
     </thead>

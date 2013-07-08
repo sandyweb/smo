@@ -4,7 +4,7 @@ class Controller_Inbox extends Controller_General{
 
     public $template = "frontend/layout_users";
 
-    public function before() {
+    public function before(){
         parent::before();
         if (!$this->auth->logged_in()) {
             $this->redirect('auth/login');
@@ -36,5 +36,37 @@ class Controller_Inbox extends Controller_General{
     public function action_index()
     {
         $this->template->content = View::factory('frontend/inbox/index');
+    }
+
+    public function action_view()
+    {
+        $id = $this->request->param('id');
+        $model = ORM::factory('Message', $id);
+        if(!$model->loaded())
+        {
+            throw new HTTP_Exception_404("Page not found");
+        }
+        if($model->status == Model_Message::STATUS_UNREAD)
+        {
+            $model->status = Model_Message::STATUS_READ;
+            $model->save();
+        }
+        $statuses = $model->get_statuses();
+        $this->template->content = View::factory('frontend/inbox/view')
+            ->bind('message', $model)
+            ->bind('statuses', $statuses)
+        ;
+    }
+
+    public function action_create()
+    {
+        if($this->request->post())
+        {
+            $message = $this->request->post('message');
+            $message['created'] = time();
+            $message['status'] = Model_Message::STATUS_UNREAD;
+            ORM::factory('Message')->values($message)->save();
+        }
+        $this->redirect('inbox/index');
     }
 }

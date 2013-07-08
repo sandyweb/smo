@@ -32,6 +32,10 @@ $(document).ready(function(){
         $(this).parent().addClass('active');
         getArchivedMessages();
     });
+
+    $('#answer-message-btn').click(function(){
+        $('#answer-container').toggle();
+    });
 });
 
 function getAllMessages(){

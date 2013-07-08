@@ -3,6 +3,7 @@
 class Controller_Inbox extends Controller_General{
 
     public $template = "frontend/layout_users";
+    private $_user;
 
     public function before(){
         parent::before();
@@ -14,7 +15,8 @@ class Controller_Inbox extends Controller_General{
         $data_left_bar = array();
         $data_header = array();
 
-        $data_header['user'] = $this->auth->get_user();
+        $this->_user = $this->auth->get_user();
+        $data_header['user'] = $this->_user;
         $data_header['controller'] = $this->request->controller();
         $data_header['action'] = $this->request->action();
 

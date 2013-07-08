@@ -43,6 +43,30 @@ function getAllMessages(){
         }
     });
 }
-function getReadMessages(){}
-function getUnreadMessages(){}
-function getArchivedMessages(){}
+function getReadMessages(){
+    $.ajax({
+        url: 'ajax/read_messages/',
+        dataType: 'html',
+        success: function(response){
+            $('.messages-container').html(response);
+        }
+    });
+}
+function getUnreadMessages(){
+    $.ajax({
+        url: 'ajax/unread_messages/',
+        dataType: 'html',
+        success: function(response){
+            $('.messages-container').html(response);
+        }
+    });
+}
+function getArchivedMessages(){
+    $.ajax({
+        url: 'ajax/archived_messages/',
+        dataType: 'html',
+        success: function(response){
+            $('.messages-container').html(response);
+        }
+    });
+}

@@ -79,6 +79,28 @@ class Controller_Ajax extends Kohana_Controller{
         echo View::factory('frontend/inbox/all_messages')->bind('messages', $messages);
     }
 
+    public function action_unread_messages()
+    {
+        $user_id = $this->auth->get_user()->id;
+        $messages = ORM::factory('Message')->get_unread_messages($user_id);
+        echo View::factory('frontend/inbox/unread_messages')->bind('messages', $messages);
+    }
+
+    public function action_read_messages()
+    {
+        $user_id = $this->auth->get_user()->id;
+        $messages = ORM::factory('Message')->get_read_messages($user_id);
+        echo View::factory('frontend/inbox/read_messages')->bind('messages', $messages);
+    }
+
+    public function action_archived_messages()
+    {
+        $user_id = $this->auth->get_user()->id;
+        $messages = ORM::factory('Message')->get_archived_messages($user_id);
+        echo View::factory('frontend/inbox/archived_messages')->bind('messages', $messages);
+    }
+
+
     protected function _permission_denied()
     {
         $result = array('status' => self::STATUS_UNAUTHORIZED, 'reason' => 'You don\'t have permission for this method.');

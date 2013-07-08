@@ -91,5 +91,5 @@ body.login {
     padding: 0;
 }
 .inbox-container{height: 100%; border-right: 1px solid #225485;;}
-.inbox-container .header{width: 450px; border-top: none;}
+.inbox-container .header{width: 480px; border-top: none;}
 .hide{display: none;}

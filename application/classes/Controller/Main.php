@@ -79,4 +79,16 @@ class Controller_Main extends Controller_General {
     {
         $this->template->content = View::factory('frontend/static/confirmation');
     }
+
+    public function action_termsofservice()
+    {
+        $this->auto_render = FALSE;
+        echo View::factory('frontend/static/termsofservice');
+    }
+
+    public function action_privacypolicy()
+    {
+        $this->auto_render = FALSE;
+        echo View::factory('frontend/static/privacypolicy');
+    }
 }

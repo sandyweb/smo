@@ -94,7 +94,7 @@ class Controller_Users extends Controller_General {
                 $model->provider_id = $this->request->post('mobile_provider');
                 $model->email_format = $this->request->post('email_format');
                 $model->password = $this->auth->hash($password);
-                if(isset($_FILES['profile_photo']))
+                if(isset($_FILES['profile_photo']) && $_FILES['profile_photo']['size'] > 0)
                 {
                     $filename = $this->_save_image($_FILES['profile_photo']);
                     if(!$filename)
@@ -102,7 +102,6 @@ class Controller_Users extends Controller_General {
                         throw new Exception('There was a problem while uploading the image.
                                 Make sure it is uploaded and must be JPG/PNG/GIF file.'
                         );
-                        exit();
                     }
                     $model->image = $filename;
                 }

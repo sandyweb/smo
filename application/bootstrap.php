@@ -105,7 +105,6 @@ Kohana::$log->attach(new Log_File(APPPATH.'logs'));
  * Attach a file reader to config. Multiple readers are supported.
  */
 Kohana::$config->attach(new Config_File);
-
 /**
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
@@ -122,7 +121,7 @@ Kohana::modules(array(
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 	));
 
-Route::set('main', '<action>(/<id>)', array('action' => 'home|about|testimonials|dashboard|contact|freelance|confirmation'))
+Route::set('main', '<action>(/<id>)', array('action' => 'home|about|testimonials|dashboard|contact|freelance|confirmation|termsofservice|privacypolicy'))
     ->defaults(array(
         'controller' => 'main'
     ))

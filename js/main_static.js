@@ -1,8 +1,8 @@
 $(document).ready(function(){
     if(window.location.pathname == '/'){
         //update counters
-        updateCounters();
-        setInterval(updateCounters, 10000);
+        initCounters();
+        setInterval(updateCounters, 2000);
     }
     $('.by_zopim widget_ui icon_zopim').remove();
 
@@ -160,18 +160,44 @@ function closeModal(){
     $.modal.close();
 }
 
-function updateCounters(){
+function initCounters(){
     $.ajax({
         url: 'ajax/get_counters/',
         type: 'get',
         dataType: 'json',
+        async: false,
         success: function(response){
             if(response.status == 200){
                 $('.pr-co-like').text(response.data.likes);
                 $('.pr-co-letter').text(response.data.messages);
                 $('.pr-co-twitter').text(response.data.twits);
-                $('.pr-co-dollar').text(response.data.dollars);
             }
         }
+    });
+}
+
+function updateCounters(){
+    var counter = Math.floor(Math.random() * 3) + 1;
+    var $selector;
+    switch(counter){
+        case 1:
+            $selector = $('.pr-co-like');
+            break;
+        case 2:
+            $selector = $('.pr-co-letter');
+            break;
+        case 3:
+            $selector = $('.pr-co-twitter');
+            break;
+    }
+    var value = $selector.text().replace(",", "");
+    value = parseFloat(value.replace(",", ""));
+    value += Math.floor(Math.random() * 2) + 1;
+    $selector.text(numberFormat(value));
+}
+
+function numberFormat(number){
+    return number.toFixed(0).replace(/./g, function(c, i, a) {
+        return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
     });
 }

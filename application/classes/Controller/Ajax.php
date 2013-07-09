@@ -104,58 +104,18 @@ class Controller_Ajax extends Kohana_Controller{
 
     public function action_get_counters()
     {
-        $session = Session::instance();
         $like_ratio = 1127.13;
         $message_ratio = 64799.71;
         $twits_ratio = 2931.14;
-        $dollar_ratio = 1615623.73;
         $time = time();
         $likes = round($time / $like_ratio, 0);
         $messages = round($time / $message_ratio, 0);
         $twits = round($time / $twits_ratio, 0);
-        $dollars = round($time / $dollar_ratio, 0);
-        $session_likes = (double)$session->get('likes');
-        $session_messages = (double)$session->get('messages');
-        $session_twits = (double)$session->get('twits');
-        $session_dollars = (double)$session->get('dollars');
-        if($session_likes > $likes){
-            $likes = $session_likes + rand(1, 2);
-        }
-        else
-        {
-            $likes += rand(1, 2);
-        }
-        if($session_messages > $messages){
-            $messages = $session_messages + rand(1, 2);
-        }
-        else
-        {
-            $messages += rand(1, 2);
-        }
-        if($session_twits > $twits){
-            $twits = $session_twits + rand(1, 2);
-        }
-        else
-        {
-            $twits += rand(1, 2);
-        }
-        if($session_dollars > $dollars){
-            $dollars = $session_dollars + rand(1, 2);
-        }
-        else
-        {
-            $dollars += rand(1, 2);
-        }
-        $session->set('likes', $likes);
-        $session->set('messages', $messages);
-        $session->set('twits', $twits);
-        $session->set('dollars', $dollars);
         $likes = number_format($likes);
         $messages = number_format($messages);
         $twits = number_format($twits);
-        $dollars = number_format($dollars);
         $result = array('status' => 200, 'data' => array(
-            'likes' => $likes, 'messages' => $messages, 'twits' => $twits, 'dollars' => $dollars
+            'likes' => $likes, 'messages' => $messages, 'twits' => $twits
         ));
         echo json_encode($result);
     }

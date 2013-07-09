@@ -1,23 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript" language="javascript">
-        //google analytics starts
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19502378-1']);
-        _gaq.push(['_setDomainName', '.ziptask.com']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
     <!-- Google Site Verification -->
-    <meta name="google-site-verification" content="F6U0jOp1b7yTpUajNRnHggfGL0zKZ3bNTgfcjn1YsxY" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Ziptask - Fully Managed Outsourcing - Home</title>
+    <title>Smoook - Fully Managed Outsourcing - Home</title>
     <script src="<?=URL::base();?>js/jquery-1.10.1.min.js"  type="text/javascript"></script>
     <script src="<?=URL::base();?>js/jquery-ui-1.10.0.custom.min.js"  type="text/javascript"></script>
     <script src="<?=URL::base();?>js/slides.min.jquery.js"  type="text/javascript"></script>
@@ -59,8 +45,8 @@
         <?=$content;?>
         <section class="container_12">
             <section class="footer-tagline">
-                <h2>Stop Hiring Freelancers. Use Ziptask.</h2>
-                <p>Ziptask is a fully managed work platform with experienced project managers who will guide you through your project, oversee freelancers, and ensure high quality work every time. </p>
+                <h2>Stop Hiring Freelancers. Use Smoook.</h2>
+                <p>Smoook is a fully managed work platform with experienced project managers who will guide you through your project, oversee freelancers, and ensure high quality work every time. </p>
             </section>
         </section>
 

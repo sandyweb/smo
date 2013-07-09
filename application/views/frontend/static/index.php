@@ -7,7 +7,7 @@
             <!-- start slide -->
             <section class="slide" id="slide1" style="display:block;">
                 <span class="title">Outsource work to expert project managers, who guide you through the process</span>
-                <section class="imgb"><img id="ContentPlaceHolder1_sliderimage1" alt="slide" src="<?=URL::base();?>images/img_slide_videochat.png" style="height:357px;width:708px;" /></section>
+                <section class="imgb"><img id="ContentPlaceHolder1_sliderimage1" alt="slide" src="<?=URL::base();?>images/slide1.png" style="height:357px;width:708px;" /></section>
                 <section class="clear"></section>
                 <section class="slider-shadow">&nbsp;</section>
                 <section class="clear"></section>
@@ -16,7 +16,7 @@
             <!-- start slide -->
             <section class="slide" id="slide2" style="display:none;">
                 <span class="title">Your PM will hire, manage, and oversee the entire project for you</span>
-                <section class="imgb"><img id="ContentPlaceHolder1_sliderimage2" alt="slide" src="<?=URL::base();?>images/img_slide_tilezoom.png" style="height:357px;width:708px;" /></section>
+                <section class="imgb"><img id="ContentPlaceHolder1_sliderimage2" alt="slide" src="<?=URL::base();?>images/slide2.png" style="height:357px;width:708px;" /></section>
                 <section class="clear"></section>
                 <section class="slider-shadow">&nbsp;</section>
                 <section class="clear"></section>
@@ -25,7 +25,7 @@
             <!-- start slide -->
             <section class="slide" id="slide3" style="display:none;">
                 <span class="title">No interviews, no setup time, no negotiations. Instant freelancer work system.</span>
-                <section class="imgb"><img id="ContentPlaceHolder1_sliderimage3" alt="slide" src="<?=URL::base();?>images/img_slide_newproject.png" style="height:357px;width:708px;" /></section>
+                <section class="imgb"><img id="ContentPlaceHolder1_sliderimage3" alt="slide" src="<?=URL::base();?>images/slide3.png" style="height:357px;width:708px;" /></section>
                 <section class="clear"></section>
                 <section class="slider-shadow">&nbsp;</section>
                 <section class="clear"></section>
@@ -34,7 +34,7 @@
             <!-- start slide -->
             <section class="slide" id="slide4" style="display:none;">
                 <span class="title">Full visibility to all aspects of the project. Never miss a beat.</span>
-                <section class="imgb"><img id="ContentPlaceHolder1_sliderimage4" alt="slide" src="<?=URL::base();?>images/img_slide_msgtilezoom.png" style="height:357px;width:708px;" /></section>
+                <section class="imgb"><img id="ContentPlaceHolder1_sliderimage4" alt="slide" src="<?=URL::base();?>images/slide4.png" style="height:357px;width:708px;" /></section>
                 <section class="clear"></section>
                 <section class="slider-shadow">&nbsp;</section>
                 <section class="clear"></section>

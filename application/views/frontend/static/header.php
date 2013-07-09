@@ -2,7 +2,7 @@
 <section class="container_12">
     <!-- start logo -->
     <section id="logo" class="grid_6">
-        <h1><a href="<?=URL::base();?>" title="ziptask">ziptask</a></h1>
+        <h1><a href="<?=URL::base();?>" title="smoook">smoook</a></h1>
     </section>
     <!-- end logo -->
     <!-- start header right -->
@@ -26,8 +26,8 @@
             <section class = "row" style="margin-left:15px;">
                 <p style="font-size: 11px;"><input type="radio" name="read" id="Read" value="0" style="float:left; margin-right:10px; margin-top:3px;" />
                     <span for="Read" style=" width:250px; float:left;">Yes, I have read and I accept the
-                        <a class="blueTxtLink" href='pages/termsofservice.aspx.html'> Ziptask Terms of Service</a> and the
-                        <a class="blueTxtLink" href='pages/privacypolicy.aspx.html'>Ziptask Privacy Statement</a>.
+                        <a class="blueTxtLink" href='pages/termsofservice.aspx.html'> Smoook Terms of Service</a> and the
+                        <a class="blueTxtLink" href='pages/privacypolicy.aspx.html'>Smoook Privacy Statement</a>.
                     </span>
                 </p>
             </section>

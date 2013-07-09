@@ -26,7 +26,6 @@
             <table id='accounts' style='width:100%;'>
                 <thead>
                     <tr>
-                        <th><?php echo __("ID");?></th>
                         <th><?php echo __("Title");?></th>
                         <th><?php echo __("Description");?></th>
                         <th><?php echo __("Actions");?></th>
@@ -36,10 +35,8 @@
                     <?php foreach ($accounts as $item):?>
                         <tr>
                             <td>
-                                <input type="hidden" name="account_id" value="<?php echo $item->id;?>" />
-                                <?php echo $item->id;?>
+                                <?php echo $item->title;?>
                             </td>
-                            <td><?php echo $item->title;?></td>
                             <td><?php echo $item->description;?></td>
                             <td>
                                 <?php echo HTML::anchor('users/account_edit/'.$item->id, __("Edit"));?>

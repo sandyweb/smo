@@ -53,7 +53,13 @@ function account_save() {
 
 $(document).ready(function() {
     
-    $('#accounts').dataTable();
+    $('#accounts').dataTable({
+        iDisplayLength: 20,
+        bFilter: false,
+        bInfo: false,
+        bLengthChange: false,
+        bPaginate: false
+    });
     $('.order-list-table').dataTable();
 
     $(document).on("click", "#save_account", function() {

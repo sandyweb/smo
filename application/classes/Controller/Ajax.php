@@ -121,14 +121,30 @@ class Controller_Ajax extends Kohana_Controller{
         if($session_likes > $likes){
             $likes = $session_likes + rand(1, 2);
         }
+        else
+        {
+            $likes += rand(1, 2);
+        }
         if($session_messages > $messages){
             $messages = $session_messages + rand(1, 2);
+        }
+        else
+        {
+            $messages += rand(1, 2);
         }
         if($session_twits > $twits){
             $twits = $session_twits + rand(1, 2);
         }
+        else
+        {
+            $twits += rand(1, 2);
+        }
         if($session_dollars > $dollars){
             $dollars = $session_dollars + rand(1, 2);
+        }
+        else
+        {
+            $dollars += rand(1, 2);
         }
         $session->set('likes', $likes);
         $session->set('messages', $messages);

@@ -6,7 +6,7 @@
                 <img src="<?=URL::base();?>images/footer_logo.png" class="footer-logo">
                 <!-- start footer top -->
                 <section id="footer-top">
-                    <a href="<?=URL::base();?>" title="ziptask" class="logo-footer">ziptask</a>
+                    <a href="<?=URL::base();?>" title="Smoook" class="logo-footer">Smoook</a>
                 </section>
                 <section class="clear"></section>
                 <!-- start left -->
@@ -43,11 +43,11 @@
                         <p>Connect with us</p>
                         <section class="clear"></section>
                         <ul>
-                            <li class="pinterest"><a target="_blank" href="http://pinterest.com/search/?q=ziptask" title="Pinterest">Pinterest</a></li>
-                            <li class="twitter"><a target="_blank" href="https://twitter.com/ziptask" title="Twitter">Twitter</a></li>
-                            <li class="facebook"><a target="_blank" href="http://www.facebook.com/pages/Ziptask/149086885141893" title="Facebook">Facebook</a></li>
+                            <li class="pinterest"><a target="_blank" href="http://pinterest.com/search/?q=Smoook" title="Pinterest">Pinterest</a></li>
+                            <li class="twitter"><a target="_blank" href="https://twitter.com/Smoook" title="Twitter">Twitter</a></li>
+                            <li class="facebook"><a target="_blank" href="http://www.facebook.com/pages/Smoook/149086885141893" title="Facebook">Facebook</a></li>
                             <li class="google_plus"><a target="_blank" href="https://plus.google.com/104108914473352594750/posts" title="Google Plus">Google Plus</a></li>
-                            <li class="blog"><a target="_blank" href="http://blog.ziptask.com/" title="Blog">Blog</a></li>
+                            <li class="blog"><a target="_blank" href="http://blog.Smoook.com/" title="Blog">Blog</a></li>
                         </ul>
                     </section>
                 </section>

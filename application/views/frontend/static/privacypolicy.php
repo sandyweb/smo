@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head><title>
-        Ziptask - Fully Managed Outsourcing - Privacy Policy
-    </title><meta name="keywords" content="ziptask,outsource,freelance,work,job" /><meta name="description" content="The official ziptask privacy statement" />
+        Smoook - Fully Managed Outsourcing - Privacy Policy
+    </title><meta name="keywords" content="Smoook,outsource,freelance,work,job" /><meta name="description" content="The official Smoook privacy statement" />
     <style type="text/css">
         html, body, div, span, applet, object, iframe,
         h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -59,7 +59,7 @@
         <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE3ODg2MTQ2NmRkOvMS0dVovopnW3s2GXuo2A4Z2Bz2HI05ZFx2av+5ygo=" />
     </div>
     <div id="divParrentTop">
-        <h1><span style="margin: 5px;">Ziptask Privacy Statement</span></h1>
+        <h1><span style="margin: 5px;">Smoook Privacy Statement</span></h1>
         <h2>What information do we collect? </h2>
         <p>
             We collect information from you when you register on our site, place an order or fill out a form.
@@ -76,11 +76,11 @@
             3. To improve customer service (your information helps us to more effectively respond to your customer service requests and support needs)<br />
             4. To process tasks and handle task related transactions. (this includes the communication, coordination, and collaboration of task work with our privately approved virtual workforce). <br />
             <br />
-            Your personal contact information, (email, phone, address), whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason without your consent, other than for the express purpose of delivering the purchased product or service requested. This policy includes the ability for Ziptask to share 'attachments' with workers. Attachments are the digital task files (word documents, excel spreadsheets, or any file you upload), to virtual task workers for the exclusive goal of completing work on your behalf, according to your specific instructions. <br />
+            Your personal contact information, (email, phone, address), whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason without your consent, other than for the express purpose of delivering the purchased product or service requested. This policy includes the ability for Smoook to share 'attachments' with workers. Attachments are the digital task files (word documents, excel spreadsheets, or any file you upload), to virtual task workers for the exclusive goal of completing work on your behalf, according to your specific instructions. <br />
         </p>
         <h2>How do we protect your information? </h2>
         <p>
-            We use PayPal (registered trademark not affiliated with Ziptask Inc.) for the secure storage of all customer credit card data. Ziptask employees never see a customer's credit card. Before, during, and after a transaction, your private information (credit card data) was not, nor ever, stored on our servers or in our database.
+            We use PayPal (registered trademark not affiliated with Smoook Inc.) for the secure storage of all customer credit card data. Smoook employees never see a customer's credit card. Before, during, and after a transaction, your private information (credit card data) was not, nor ever, stored on our servers or in our database.
         </p>
         <p>
             We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information.
@@ -123,7 +123,7 @@
             Terms and Conditions
         </h2>
         <p>
-            Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at www.ziptask.com/pages/zTermsofService.aspx
+            Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at www.Smoook.com/pages/zTermsofService.aspx
         </p>
         <h2>
             Your Consent
@@ -147,9 +147,9 @@
             If there are any questions regarding this privacy policy you may contact us using the information below.
         </p>
         <p>
-            http://www.ziptask.com/contact <br /><br />
-            Ziptask.com<br />
-            160 S Old Springs Rd., <br />Suite 110<br />Anaheim, CA, <br />USA<br /><br />cs@ziptask.com
+            http://www.Smoook.com/contact <br /><br />
+            Smoook.com<br />
+            160 S Old Springs Rd., <br />Suite 110<br />Anaheim, CA, <br />USA<br /><br />cs@Smoook.com
             <br /><br />END
             <br /><br />
         </p>

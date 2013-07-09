@@ -19,20 +19,6 @@
     <![endif]-->
 <!-- on-page feedback script -->
 <script type='text/javascript'> (function () { function loadWebreep() { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://api.webreep.com/Feedback/Get/b379f663-8415-4070-9dc1-9e37a3292caf'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (window.attachEvent) { window.attachEvent('onload', loadWebreep); } else { window.addEventListener('load', loadWebreep, false); } })();</script>
-<!--Start of Zopim Live Chat Script-->
-<script type="text/javascript">
-    window.$zopim || (function (d, s) {
-        var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
-            d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
-            z.set.
-                _.push(o)
-        }; z._ = []; z.set._ = []; $.async = !0; $.setAttribute('charset', 'utf-8');
-        $.src = '//cdn.zopim.com/?113um81bEzRtnzNk3YPE1F66KkNCXeHh'; z.t = +new Date; $.
-            type = 'text/javascript'; e.parentNode.insertBefore($, e)
-    })(document, 'script');
-</script>
-<!--End of Zopim Live Chat Script-->
-</head>
 <body>
 <!-- start wrapper -->
 <section id="wrapper">

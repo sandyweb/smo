@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1"><title>
-        Ziptask - Fully Managed Outsourcing - Terms of Service
-    </title><meta name="description" content="The official ziptask terms of service" /><meta name="keywords" content="ziptask,outsource,freelance,word,excel,powerpoint,project,work,job,task" />
+        Smoook - Fully Managed Outsourcing - Terms of Service
+    </title><meta name="description" content="The official Smoook terms of service" /><meta name="keywords" content="Smoook,outsource,freelance,word,excel,powerpoint,project,work,job,task" />
     <style type="text/css">
         html, body, div, span, applet, object, iframe,
         h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -59,13 +59,13 @@
 </div>
 
 <div id="divParrentTop">
-<h1><span style="margin: 5px;">Ziptask Terms of Service</span></h1>
+<h1><span style="margin: 5px;">Smoook Terms of Service</span></h1>
 
 <h2>Service and Website Terms and Conditions of Use</h2>
 
 <h2>1. User's Acknowledgment and Acceptance of Terms</h2>
 
-<p>Ziptask, Inc. (&quot;Us&quot; or &quot;We&quot;) provides the Ziptask.com site, mobile application(s), desktop application(s) and various related services (collectively, the &quot;site&quot;) to you, the user, subject to your compliance with all the terms, conditions, and notices contained or referenced herein (the &quot;Terms of Use&quot;), as well as any other written agreement between us and you. In addition, when using particular services or materials on this site, users shall be subject to any posted rules applicable to such services or materials that may contain terms and conditions in addition to those in these Terms of Use. All such guidelines or rules are hereby incorporated by reference into these Terms of Use.</p>
+<p>Smoook, Inc. (&quot;Us&quot; or &quot;We&quot;) provides the Smoook.com site, mobile application(s), desktop application(s) and various related services (collectively, the &quot;site&quot;) to you, the user, subject to your compliance with all the terms, conditions, and notices contained or referenced herein (the &quot;Terms of Use&quot;), as well as any other written agreement between us and you. In addition, when using particular services or materials on this site, users shall be subject to any posted rules applicable to such services or materials that may contain terms and conditions in addition to those in these Terms of Use. All such guidelines or rules are hereby incorporated by reference into these Terms of Use.</p>
 
 <p>BY USING THIS SITE, YOU AGREE TO BE BOUND BY THESE TERMS OF USE. IF YOU DO NOT WISH TO BE BOUND BY THE THESE TERMS OF USE, PLEASE EXIT THE SITE NOW. YOUR REMEDY FOR DISSATISFACTION WITH THIS SITE, OR ANY PRODUCTS, SERVICES, CONTENT, OR OTHER INFORMATION AVAILABLE ON OR THROUGH THIS SITE, IS TO STOP USING THE SITE AND/OR THOSE PARTICULAR PRODUCTS OR SERVICES. YOUR AGREEMENT WITH US REGARDING COMPLIANCE WITH THESE TERMS OF USE BECOMES EFFECTIVE IMMEDIATELY UPON COMMENCEMENT OF YOUR USE OF THIS SITE.</p>
 
@@ -73,7 +73,7 @@
 
 <p>As used in these Terms of Use, references to our &quot;Affiliates&quot; include our owners, subsidiaries, affiliated companies, officers, directors, suppliers, partners, sponsors, and advertisers, and includes (without limitation) all parties involved in creating, producing, and/or delivering this site and/or its contents.</p>
 
-<p>If you are signing up as a business customer, you must be a valid management employee of the business who is able to legally bind the business to this agreement and all others which apply. By joining from this form, you are hereby invoking your authority to bind the business entity (for-profit, corporation, partnership, non-profit, educational, or governmental organization) to the ziptask terms of service and are commiting such organization to financial obligations to ziptask for services rendered. </p>
+<p>If you are signing up as a business customer, you must be a valid management employee of the business who is able to legally bind the business to this agreement and all others which apply. By joining from this form, you are hereby invoking your authority to bind the business entity (for-profit, corporation, partnership, non-profit, educational, or governmental organization) to the Smoook terms of service and are commiting such organization to financial obligations to Smoook for services rendered. </p>
 
 <h2>2. Description of Services</h2>
 
@@ -115,15 +115,15 @@
 
 <h2>6. Intellectual Property Information</h2>
 
-<p>Copyright (c) June 1, 2011 Ziptask, Inc. All Rights Reserved.</p>
+<p>Copyright (c) June 1, 2011 Smoook, Inc. All Rights Reserved.</p>
 
 <p>For purposes of these Terms of Use, &quot;content&quot; is defined as any information, data, communications, software, photos, video, graphics, music, sounds, and other material and services that can be viewed by users on our site. This includes message boards, chat, and other original content.</p>
 
-<p>By accepting these Terms of Use, you acknowledge and agree that all content presented to you on this site is protected by copyrights, trademarks, service marks, patents or other proprietary rights and laws, and is the sole property of Ziptask, Inc. and/or its Affiliates. You are only permitted to use the content as expressly authorized by us or the specific content provider. Except for a single copy made for personal use only, you may not copy, reproduce, modify, republish, upload, post, transmit, or distribute any documents or information from this site in any form or by any means without prior written permission from us or the specific content provider, and you are solely responsible for obtaining permission before reusing any copyrighted material that is available on this site. Any unauthorized use of the materials appearing on this site may violate copyright, trademark and other applicable laws and could result in criminal or civil penalties.</p>
+<p>By accepting these Terms of Use, you acknowledge and agree that all content presented to you on this site is protected by copyrights, trademarks, service marks, patents or other proprietary rights and laws, and is the sole property of Smoook, Inc. and/or its Affiliates. You are only permitted to use the content as expressly authorized by us or the specific content provider. Except for a single copy made for personal use only, you may not copy, reproduce, modify, republish, upload, post, transmit, or distribute any documents or information from this site in any form or by any means without prior written permission from us or the specific content provider, and you are solely responsible for obtaining permission before reusing any copyrighted material that is available on this site. Any unauthorized use of the materials appearing on this site may violate copyright, trademark and other applicable laws and could result in criminal or civil penalties.</p>
 
 <p>Neither we or our Affiliates warrant or represent that your use of materials displayed on, or obtained through, this site will not infringe the rights of third parties. See &quot;UserВ’s Materials&quot; below for a description of the procedures to be followed in the event that any party believes that content posted on this site infringes on any patent, trademark, trade secret, copyright, right of publicity, or other proprietary right of any party.</p>
 
-<p>The following are registered trademarks, trademarks or service marks of Ziptask, Inc. or its Affiliates: Ziptask, Outsourcing Made Easy!. All custom graphics, icons, logos and service names are registered trademarks, trademarks or service marks of Ziptask, Inc. or its Affiliates. All other trademarks or service marks are property of their respective owners. Nothing in these Terms of Use grants you any right to use any trademark, service mark, logo, and/or the name of Ziptask, Inc. or its Affiliates.</p>
+<p>The following are registered trademarks, trademarks or service marks of Smoook, Inc. or its Affiliates: Smoook, Outsourcing Made Easy!. All custom graphics, icons, logos and service names are registered trademarks, trademarks or service marks of Smoook, Inc. or its Affiliates. All other trademarks or service marks are property of their respective owners. Nothing in these Terms of Use grants you any right to use any trademark, service mark, logo, and/or the name of Smoook, Inc. or its Affiliates.</p>
 
 <h2>7. Unauthorized Use of Materials</h2>
 
@@ -160,7 +160,7 @@
 
 <p>Designated Agent for Claimed Infringement:</p>
 
-<p>Contact: Ziptask Customer Support<br />Address: 160 S Old Springs Rd., Suite 110, Anaheim, CA, USA <br />Phone: 866-699-4782</p>
+<p>Contact: Smoook Customer Support<br />Address: 160 S Old Springs Rd., Suite 110, Anaheim, CA, USA <br />Phone: 866-699-4782</p>
 
 <p>You acknowledge and agree that upon receipt of a notice of a claim of copyright infringement, we may immediately remove the identified materials from our site without liability to you or any other party and that the claims of the complaining party and the party that originally posted the materials will be referred to the United States Copyright Office for adjudication as provided in the Digital Millennium Copyright Act.</p>
 
@@ -174,7 +174,7 @@
 
 <p>Through your use of the site, you may have the opportunities to engage in commercial transactions with other users and vendors. You acknowledge that all transactions relating to any merchandise or services offered by any party, including, but not limited to the purchase terms, payment terms, warranties, guarantees, maintenance and delivery terms relating to such transactions, are agreed to solely between the seller or purchaser of such merchandize and services and you. WE MAKE NO WARRANTY REGARDING ANY TRANSACTIONS EXECUTED THROUGH, OR IN CONNECTION WITH THIS SITE, AND YOU UNDERSTAND AND AGREE THAT SUCH TRANSACTIONS ARE CONDUCTED ENTIRELY AT YOUR OWN RISK. ANY WARRANTY THAT IS PROVIDED IN CONNECTION WITH ANY PRODUCTS, SERVICES, MATERIALS, OR INFORMATION AVAILABLE ON OR THROUGH THIS SITE FROM A THIRD PARTY IS PROVIDED SOLELY BY SUCH THIRD PARTY, AND NOT BY US OR ANY OTHER OF OUR AFFILIATES.</p>
 
-<p>Content available through this site often represents the opinions and judgments of an information provider, site user, or other person or entity not connected with us. We do not endorse, nor are we responsible for the accuracy or reliability of, any opinion, advice, or statement made by anyone other than an authorized Ziptask, Inc. spokesperson speaking in his/her official capacity. Please refer to the specific editorial policies posted on various sections of this site for further information, which policies are incorporated by reference into these Terms of Use.</p>
+<p>Content available through this site often represents the opinions and judgments of an information provider, site user, or other person or entity not connected with us. We do not endorse, nor are we responsible for the accuracy or reliability of, any opinion, advice, or statement made by anyone other than an authorized Smoook, Inc. spokesperson speaking in his/her official capacity. Please refer to the specific editorial policies posted on various sections of this site for further information, which policies are incorporated by reference into these Terms of Use.</p>
 
 <p>You understand and agree that temporary interruptions of the services available through this site may occur as normal events. You further understand and agree that we have no control over third party networks you may access in the course of the use of this site, and therefore, delays and disruption of other network transmissions are completely beyond our control.</p>
 
@@ -242,7 +242,7 @@
     Each of us agrees and hereby submits to the exclusive personal jurisdiction and venue any court of competent
     jurisdiction within the State of California with respect to such matters.</p>
 <h2>17. Notices</h2>
-<p>All notices to a party shall be in writing and shall be made either via email or conventional mail. Notices to us must be sent to the attention of Customer Service at cs@ziptask.com, if by email, or at Ziptask, Inc. PO BOX 78424 if by conventional mail. Notices to you may be sent to the address supplied by you as part of your Registration Data. In addition, we may broadcast notices or messages through the site to inform you of changes to the site or other matters of importance,
+<p>All notices to a party shall be in writing and shall be made either via email or conventional mail. Notices to us must be sent to the attention of Customer Service at cs@Smoook.com, if by email, or at Smoook, Inc. PO BOX 78424 if by conventional mail. Notices to you may be sent to the address supplied by you as part of your Registration Data. In addition, we may broadcast notices or messages through the site to inform you of changes to the site or other matters of importance,
     and such broadcasts shall constitute notice to you at the time of sending.</p>
 <h2>18. Entire Agreement</h2>
 <p>These terms and conditions constitute the entire agreement and understanding
@@ -271,9 +271,9 @@
 <p>Any failure by us to enforce or exercise any provision of these Terms of Use
     or related rights shall not constitute a waiver of that right or provision.</p>
 <h2>20. Contact Information</h2>
-<p>Except as explicitly noted on this site, the services available through this site are offered by Ziptask, Inc., an Corporation, located at PO BOX 78424. Our telephone number is 866-699-4782. If you notice that any user is violating these Terms of Use, please contact us at cs@ziptask.com.</p><h2>Terms and Conditions of Sale</h2>
+<p>Except as explicitly noted on this site, the services available through this site are offered by Smoook, Inc., an Corporation, located at PO BOX 78424. Our telephone number is 866-699-4782. If you notice that any user is violating these Terms of Use, please contact us at cs@Smoook.com.</p><h2>Terms and Conditions of Sale</h2>
 <h2>1. Sale and Purchase of Goods</h2>
-<p>Ziptask, Inc. (&quot;Seller&quot;) hereby agrees to sell, and You (&quot;Buyer&quot;) hereby agree to purchase, goods of the description and quantity described on the checkout window (&quot;Checkout&quot;) and incorporated herein by this reference (&quot;Goods&quot;)
+<p>Smoook, Inc. (&quot;Seller&quot;) hereby agrees to sell, and You (&quot;Buyer&quot;) hereby agree to purchase, goods of the description and quantity described on the checkout window (&quot;Checkout&quot;) and incorporated herein by this reference (&quot;Goods&quot;)
     on the terms and conditions set forth in this Agreement.</p>
 <h2>2. Purchase Price</h2>
 <p>Buyer agrees to pay the Purchase Price of the Goods as posted on this website attached hereto.</p>

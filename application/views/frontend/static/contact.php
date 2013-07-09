@@ -65,14 +65,14 @@
             <!-- start address-block -->
             <section class="tweets address-block">
                 <h2>Address</h2>
-                <address><p>160 S Old Springs Rd. Suite 110<br>Anaheim, CA 92808<br>Phone: 1.951.389.4014<br>Email: cs@ziptask.com</p></address>
+                <address><p>160 S Old Springs Rd. Suite 110<br>Anaheim, CA 92808<br>Phone: 1.951.389.4014<br>Email: cs@Smoook.com</p></address>
                 <h2>Socialize</h2>
                 <ul>
-                    <li class="facebook"><a target="_blank" href="http://www.facebook.com/pages/Ziptask/149086885141893" title="Facebook">Facebook</a></li>
-                    <li class="twitter"><a target="_blank" href="http://www.twitter.com/ziptask" title="Twitter">Twitter</a></li>
-                    <li class="youtube"><a target="_blank" href="http://www.youtube.com/user/ziptask" title="Youtube">Youtube</a></li>
-                    <li class="tumblr"><a target="_blank" href="http://blog.ziptask.com/" title="Blog">Blog</a></li>
-                    <li class="rss"><a target="_blank" href="http://blog.ziptask.com/rss" title="Rss">Rss</a></li>
+                    <li class="facebook"><a target="_blank" href="http://www.facebook.com/pages/Smoook/149086885141893" title="Facebook">Facebook</a></li>
+                    <li class="twitter"><a target="_blank" href="http://www.twitter.com/Smoook" title="Twitter">Twitter</a></li>
+                    <li class="youtube"><a target="_blank" href="http://www.youtube.com/user/Smoook" title="Youtube">Youtube</a></li>
+                    <li class="tumblr"><a target="_blank" href="http://blog.Smoook.com/" title="Blog">Blog</a></li>
+                    <li class="rss"><a target="_blank" href="http://blog.Smoook.com/rss" title="Rss">Rss</a></li>
                 </ul>
                 <section class="clear"></section>
                 <section class="clear"></section>

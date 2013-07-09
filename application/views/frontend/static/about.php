@@ -3,19 +3,19 @@
         <!-- start grid_9 -->
         <section class="grid_9 blue2 light-shadow">
             <!-- start commoncol2 -->
-            <h2 class="title blue">About Ziptask</h2>
+            <h2 class="title blue">About Smoook</h2>
             <ul class="commoncol2 gap1">
                 <li>
                     <h2>Our History</h2>
-                    <p>Ziptask was founded in 2010 by Shawn Livermore, a software architect and an author of multiple software development books. Shawn was managing remote development teams, and recognized the need for a refined platform for outsourcing. None of the tools in existence really made sense or fully met the needs of the market, so he decided to build one.</p>
-                    <p>In March of 2011, Jeff Sherwood, a branding and marketing expert, joined forces to help brand the platform and bring Ziptask to market.</p>
+                    <p>Smoook was founded in 2010 by Shawn Livermore, a software architect and an author of multiple software development books. Shawn was managing remote development teams, and recognized the need for a refined platform for outsourcing. None of the tools in existence really made sense or fully met the needs of the market, so he decided to build one.</p>
+                    <p>In March of 2011, Jeff Sherwood, a branding and marketing expert, joined forces to help brand the platform and bring Smoook to market.</p>
                     <p>In April of 2012, Stan Miroshnik, a corporate finance executive joined the team, and led an angel investment round to gain traction.</p>
-                    <p>In December of 2012, Ziptask was accepted into TechStars Cloud, an accelerator program, and has since refined and relaunched it's core offering. </p>
+                    <p>In December of 2012, Smoook was accepted into TechStars Cloud, an accelerator program, and has since refined and relaunched it's core offering. </p>
                 </li>
                 <li>
                     <h2>What Drives Us</h2>
                     <p>Hiring virtual/remote freelancers online is tricky, risky, and can be a painful process. After hundreds of interviews with customers, the essential need that continues to surface is <b>project oversight</b> by cloud-based project managers that have the seasoned and experienced backgrounds specific to the types of work being performed. This oversight consists of guidance in the initial project setup process, (finding, hiring, and positioning the team, then clarifying and validating the project requirements and materials), as well as the daily management of the freelancers as the project moves forward.
-                    <p>Ziptask is committed to providing a seamless work management system that solves the core challenges of finding, hiring, and managing freelancers. </p>
+                    <p>Smoook is committed to providing a seamless work management system that solves the core challenges of finding, hiring, and managing freelancers. </p>
                 </li>
             </ul>
             <!-- end commoncol2 -->
@@ -31,7 +31,7 @@
                             <section class="clear"></section>
                             <a target="_blank" href="https://twitter.com/shawnypants" title="Twitter" class="icon twitter">Twitter</a>
                             <a target="_blank" href="http://www.linkedin.com/in/shawnlivermore" title="Linkedin" class="icon linkedin">Linkedin</a>
-                            <a target="_blank" href="mailto:shawn@ziptask.com" title="Email" class="icon email">Email</a>
+                            <a target="_blank" href="mailto:shawn@Smoook.com" title="Email" class="icon email">Email</a>
                         </section>
                         <section class="txtb">
                             <h3>Shawn Livermore - Founder/CEO</h3>
@@ -45,7 +45,7 @@
                             <section class="clear"></section>
                             <a href="https://twitter.com/Stan_AM" title="Twitter" class="icon twitter">Twitter</a>
                             <a href="www.linkedin.com/pub/stan-miroshnik/0/190/814/814.html" title="Linkedin" class="icon linkedin">Linkedin</a>
-                            <a target="_blank" href="mailto:stan@ziptask.com" title="Email" class="icon email">Email</a>
+                            <a target="_blank" href="mailto:stan@Smoook.com" title="Email" class="icon email">Email</a>
                         </section>
                         <section class="txtb">
                             <h3>Stan Miroshnik - COO</h3>
@@ -59,11 +59,11 @@
                             <section class="clear"></section>
                             <a href="https://twitter.com/doc_lee20" title="Twitter" class="icon twitter">Twitter</a>
                             <a target="_blank" href="http://www.linkedin.com/in/mattleedesigns" title="Linkedin" class="icon linkedin">Linkedin</a>
-                            <a target="_blank" href="mailto:matt@ziptask.com" title="Email" class="icon email">Email</a>
+                            <a target="_blank" href="mailto:matt@Smoook.com" title="Email" class="icon email">Email</a>
                         </section>
                         <section class="txtb">
                             <h3>Matt Lee - Designer</h3>
-                            <p>Matt joined in October of 2012, and has been an instrumental part of Ziptask's repositioning effort. Prior to joining Ziptask, Matt spent four years designing user interfaces for the U.S. Department of Defense. He has a deep skill set in graphic design, branding, and precision marketing. Matt holds a bachelors degree in Multimedia Arts.</p>
+                            <p>Matt joined in October of 2012, and has been an instrumental part of Smoook's repositioning effort. Prior to joining Smoook, Matt spent four years designing user interfaces for the U.S. Department of Defense. He has a deep skill set in graphic design, branding, and precision marketing. Matt holds a bachelors degree in Multimedia Arts.</p>
                         </section>
                         <section class="clear"></section>
                     </li>
@@ -72,11 +72,11 @@
                             <img src="<?=URL::base();?>images/img_man_jacob.jpg" width="121" height="100" alt="man" />
                             <section class="clear"></section>
                             <a target="_blank" href="http://www.linkedin.com/pub/jacob-buczarski/54/860/6b8" title="Linkedin" class="icon linkedin">Linkedin</a>
-                            <a target="_blank" href="mailto:jacob@ziptask.com" title="Email" class="icon email">Email</a>
+                            <a target="_blank" href="mailto:jacob@Smoook.com" title="Email" class="icon email">Email</a>
                         </section>
                         <section class="txtb">
                             <h3>Jacob Buczarski - Developer</h3>
-                            <p>Jacob has a solid understanding of software development, and has helped to build out much of Ziptask's codebase. Jacob is a key player on the team, leading the development effort and solving some very complex challenges we've faced. His keyboard-finger-speeds are lightning fast, mainly due to his mad guitar skills.</p>
+                            <p>Jacob has a solid understanding of software development, and has helped to build out much of Smoook's codebase. Jacob is a key player on the team, leading the development effort and solving some very complex challenges we've faced. His keyboard-finger-speeds are lightning fast, mainly due to his mad guitar skills.</p>
                         </section>
                         <section class="clear"></section>
                     </li>
@@ -89,7 +89,7 @@
                         </section>
                         <section class="txtb">
                             <h3>Jeff Sherwood - Co-Founder</h3>
-                            <p>Jeff is a branding and marketing expert, and has helped position Ziptask in its early days. Jeff has deep experience in product design and product development for large online brands.</p>
+                            <p>Jeff is a branding and marketing expert, and has helped position Smoook in its early days. Jeff has deep experience in product design and product development for large online brands.</p>
                         </section>
                         <section class="clear"></section>
                     </li>
@@ -122,7 +122,7 @@
                         </section>
                         <section class="txtb">
                             <h3>Dean McCall</h3>
-                            <p>Dean McCall is a well-known catalyst in the Texas technology community and a recent transplant in Canada where he is a mentor to the top Canadian incubator Extreme Startups based in Toronto. Currently the CEO of Appficient Inc.; a mobile application development company, Dean is an advisor to the following privately held companies: ShopLocket, Cloudability, Mercury Fund, Keen IO, Appsembler, Epic Playground, Vidmaker, Conspire, Emergent One, Drifty, Ziptask, Grapevine, TechStars Cloud, and SXSW.</p>
+                            <p>Dean McCall is a well-known catalyst in the Texas technology community and a recent transplant in Canada where he is a mentor to the top Canadian incubator Extreme Startups based in Toronto. Currently the CEO of Appficient Inc.; a mobile application development company, Dean is an advisor to the following privately held companies: ShopLocket, Cloudability, Mercury Fund, Keen IO, Appsembler, Epic Playground, Vidmaker, Conspire, Emergent One, Drifty, Smoook, Grapevine, TechStars Cloud, and SXSW.</p>
                         </section>
                         <section class="clear"></section>
                     </li>
@@ -162,7 +162,7 @@
 
     $(document).ready(function () {
 
-    $('#ReplaceWithRSSFeedData').rssfeed('http://blog.ziptask.com//rss?randomvalue=' + $.now(), {
+    $('#ReplaceWithRSSFeedData').rssfeed('http://blog.Smoook.com//rss?randomvalue=' + $.now(), {
     limit: 4,
     header: false,
     date: true,
@@ -177,7 +177,7 @@
     count: 3,
     fetch: 10,
     filter: function (t) { return !/^@\w+/.test(t.tweet_raw_text); },
-    username: "ziptask"
+    username: "Smoook"
     });
 
     });

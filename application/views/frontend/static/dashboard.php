@@ -2,7 +2,7 @@
     <section class="splash-box blue">
         <section class="clear"></section>
 
-        <h2 class="f-face5 blue">The Ziptask Dashboard - Finally, an App for Outsourcing </h2>
+        <h2 class="f-face5 blue">The Smoook Dashboard - Finally, an App for Outsourcing </h2>
         <div class="backofficeComing">
             <div class="bo_image1"></div>
             <p>View all of your managed projects in one place.</p>
@@ -16,7 +16,7 @@
         <br />
         <br />
         <center>
-            <a href="<?=URL::base();?>" class="bt-blue2 f-face4 modal" title="Get Started">Get Started With Ziptask</a>
+            <a href="<?=URL::base();?>" class="bt-blue2 f-face4 modal" title="Get Started">Get Started With Smoook</a>
         </center>
         <br />
         <br />

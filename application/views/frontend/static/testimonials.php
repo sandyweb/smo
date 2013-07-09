@@ -3,7 +3,7 @@
         <section class="testimony-big blue">
             <img src="<?=URL::base();?>images/img-testimony-big.png" width="460" height="300" alt="Sarah" />
             <h2 class="blue f-face5">Testimonials</h2>
-            <p>Working with Ziptask has been a terrific experience. They not only provided fully transparent visibility, but delivered much higher quality results than our local talent. Ziptask is positioned to disrupt the professinal and freelance marketplace.<span class="f-face2">Marshall Cook, Vice President, Simpluris Inc.</span></p>
+            <p>Working with Smoook has been a terrific experience. They not only provided fully transparent visibility, but delivered much higher quality results than our local talent. Smoook is positioned to disrupt the professinal and freelance marketplace.<span class="f-face2">Marshall Cook, Vice President, Simpluris Inc.</span></p>
             <div class="clear"></div>
         </section>
     </section>
@@ -13,31 +13,31 @@
                 <li>
                     <img src="<?=URL::base();?>images/img-testimony-Jaspreet.png" width="220" height="147" alt="" />
                     <h4 class="blue f-face2">Tisha Sharma, Least Budget</h4>
-                    <p>I have made over $4,000 USD as a freealancer on the Ziptask platform, creating SquareSpace sites. This system is fine-tuned for what makes sense to both a customer and a freelancer, and I am excited to be on the platform.</p>
+                    <p>I have made over $4,000 USD as a freealancer on the Smoook platform, creating SquareSpace sites. This system is fine-tuned for what makes sense to both a customer and a freelancer, and I am excited to be on the platform.</p>
                     <div class="clear"></div>
                 </li>
                 <li>
                     <img src="<?=URL::base();?>images/img-testimony-sarah.png" width="220" height="147" alt="" />
                     <h4 class="blue f-face2">Sarah Jones, CEO/Founder, ChristianSpeedMatch</h4>
-                    <p>Ziptask is awesome. It simplifies the outsourcing process to something more manageable and predictable. I love the service, love the dashboard online tools, and would never go back to the old way of doing things.</p>
+                    <p>Smoook is awesome. It simplifies the outsourcing process to something more manageable and predictable. I love the service, love the dashboard online tools, and would never go back to the old way of doing things.</p>
                     <div class="clear"></div>
                 </li>
                 <li>
                     <img src="<?=URL::base();?>images/img-testimony-kevin.png" width="220" height="147" alt="" />
                     <h4 class="blue f-face2">Kevin Dombek, CEO, Krellium</h4>
-                    <p>Ziptask is an operational masterpiece. They somehow found a way to put together a mixture of Basecamp and ODesk into a seamless experience. I'm sold.</p>
+                    <p>Smoook is an operational masterpiece. They somehow found a way to put together a mixture of Basecamp and ODesk into a seamless experience. I'm sold.</p>
                     <div class="clear"></div>
                 </li>
                 <li>
                     <img src="<?=URL::base();?>images/img-testimony-james.png" width="220" height="147" alt="" />
                     <h4 class="blue f-face2">James Mitchell, CEO/Founder, Strategic-Blue</h4>
-                    <p>I've sent numerous projects into Ziptask and they've delivered each time brilliantly. This platform is a great combination of talent and tools.</p>
+                    <p>I've sent numerous projects into Smoook and they've delivered each time brilliantly. This platform is a great combination of talent and tools.</p>
                     <div class="clear"></div>
                 </li>
                 <li>
                     <img src="<?=URL::base();?>images/img-testimony-jamesL.png" width="220" height="147" alt="" />
                     <h4 class="blue f-face2">James Lenhart, Owner, Web Gravity</h4>
-                    <p>Ziptask brings new functionality and innovation to outsourcing while eliminating a majority of problems found on other platforms. Highly recommend this service. </p>
+                    <p>Smoook brings new functionality and innovation to outsourcing while eliminating a majority of problems found on other platforms. Highly recommend this service. </p>
                     <div class="clear"></div>
                 </li>
                 <li>
@@ -49,7 +49,7 @@
                 <li>
                     <img src="<?=URL::base();?>images/img-testimony-tony.png" width="220" height="147" alt="" />
                     <h4 class="blue f-face2">Tony Ferreira, Independent Consultant</h4>
-                    <p>Ziptask has figured out how to make outsourcing work as easy as checking email or posting on a blog. It's making my consulting workflow as streamlined as humanly possible. Love it. Will continue to use it. </p>
+                    <p>Smoook has figured out how to make outsourcing work as easy as checking email or posting on a blog. It's making my consulting workflow as streamlined as humanly possible. Love it. Will continue to use it. </p>
                     <div class="clear"></div>
                 </li>
             </ul>

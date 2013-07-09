@@ -2,7 +2,8 @@
 <footer id="footer">
     <section class="wide100-footer">
         <section class="container_12">
-            <section class="grid_12">
+            <section class="grid_12 footer-container">
+                <img src="<?=URL::base();?>images/footer_logo.png" class="footer-logo">
                 <!-- start footer top -->
                 <section id="footer-top">
                     <a href="<?=URL::base();?>" title="ziptask" class="logo-footer">ziptask</a>
@@ -15,8 +16,6 @@
                             <li><a href="#tab2" onclick="javascript:navToProcess();" title="Process">Process</a></li>
                             <li><a href="#tab1" onclick="javascript:navToDifference();" title="Difference">Difference</a></li>
                             <li><a href="#tab3" onclick="javascript:navToPrice();" title="Pricing">Pricing</a></li>
-                            <li><a href="#tab4" onclick="javascript:navToOversight();" title="Oversight">Oversight</a></li>
-                            <li><a href="#tab6" onclick="javascript:navToTeam();" title="Teams">Teams</a></li>
                         </ul>
                     </section>
                     <section class="footer-link">
@@ -30,16 +29,17 @@
                     <section class="footer-link">
                         <ul>
                             <li><a href="<?=URL::site('about');?>" id="about" title="About">About</a></li>
-                            <li><a target="_blank" href="http://blog.ziptask.com/" title="Blog">Blog</a></li>
                             <li><a href="<?=URL::site('contact');?>" id="contact" title="Contact Us">Contact</a></li>
-                            <li><a href="<?=URL::site('freelance');?>" title="Freelancers Join Us!">Freelancers</a></li>
                         </ul>
                     </section>
                 </section>
                 <!-- end left -->
                 <!-- start mid -->
-                <section id="footer-mid">
-                    <section class="social">
+                <section id="footer-mid"></section>
+                <!-- end mid -->
+                <!-- start right -->
+                <section id="footer-right">
+                    <section class="social social-footer">
                         <p>Connect with us</p>
                         <section class="clear"></section>
                         <ul>
@@ -50,32 +50,6 @@
                             <li class="blog"><a target="_blank" href="http://blog.ziptask.com/" title="Blog">Blog</a></li>
                         </ul>
                     </section>
-                    <section class="techstars">
-                        <a target="_blank" href="http://www.techstars.com/cloud/" title="Techstars">Techstars</a>
-                    </section>
-                    <section class="clear"></section>
-                    <section class="techBox">Ziptask is a Techstars Company</section>
-                </section>
-                <!-- end mid -->
-                <!-- start right -->
-                <section id="footer-right">
-                    <section class="category-link">
-                        <p>Industry Sample Projects</p>
-                        <ul>
-                            <li><a href="browse/cat/mainstream-programming.html">Programming & Software</a></li>
-                            <li><a href="browse/cat/graphic-design.html">Graphic Design</a></li>
-                            <li><a href="browse/cat/website-development.html">Website Development</a></li>
-                            <li><a href="browse/cat/business-strategy.html">Business & Strategy</a></li>
-                            <li><a href="browse/cat/mobile-apps.html">Mobile Apps</a></li>
-                        </ul>
-                        <ul class="second">
-                            <li><a href="browse/cat/e-commerce.html">E-Commerce</a></li>
-                            <li><a href="browse/cat/database.html">Databases</a></li>
-                            <li><a href="browse/cat/social-media-web.html">Social Media</a></li>
-                            <li><a href="browse/cat/legal.html">Legal</a></li>
-                            <li><a href="browse/cat/financial.html">Financial</a></li>
-                        </ul>
-                    </section>
                 </section>
             </section>
         </section>
@@ -84,7 +58,7 @@
         <section class="container_12">
             <section id="footer-bottom">
                 <a class="donate" href="https://www.fundraise.com/technology-supports-victims-of-boston-marathon-bombing" target="_blank">&nbsp;</a>
-                <p class="privacy">&copy; 2012 Ziptask Inc.  All right are reserved <a href="pages/termsofservice.aspx.html" id="A1" class="nyroModal" title="Terms &amp; Conditions">Terms &amp; Conditions</a> | <a href="pages/privacypolicy.aspx.html" id="A2" class="nyroModal" title="Privacy Policy">Privacy Policy</a></p>
+                <p class="privacy">&copy; <?=date('Y');?> Inc.  All right are reserved <a href="<?=URL::site('termsofservice');?>" id="A1" class="nyroModal" title="Terms &amp; Conditions">Terms &amp; Conditions</a> | <a href="<?=URL::site('privacypolicy');?>" id="A2" class="nyroModal" title="Privacy Policy">Privacy Policy</a></p>
             </section>
         </section>
     </section>

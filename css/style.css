@@ -2962,3 +2962,16 @@ position:relative;*/
     height:11px;
     background:url('../images/loading.gif') no-repeat;
 }
+.footer-container{
+    position: relative;
+}
+.footer-logo{
+    position: absolute;
+    left: 75%;
+}
+.social-footer{
+    margin-top: 60px;
+}
+.social-footer p{
+    padding-left: 25px;
+}

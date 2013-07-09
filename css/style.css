@@ -2975,3 +2975,34 @@ position:relative;*/
 .social-footer p{
     padding-left: 25px;
 }
+
+.co-wrap span{
+    display: block;
+    float: left;
+    height: 28px;
+    margin: 15px 60px 0 0;
+    width: 120px;
+}
+.pr-co-like{
+    background: url("../images/hand_logo.png") no-repeat scroll transparent;
+    margin-right: 60px !important;
+    width: 160px !important;
+}
+.pr-co-letter{
+    background: url("../images/letter_logo.png") no-repeat transparent;
+}
+.pr-co-twitter{
+    background: url("../images/twitter_logo.png") no-repeat transparent;
+}
+.pr-co-dollar{
+    background: url("../images/dollar_logo.png") no-repeat  transparent;
+}
+.pr-co-font{
+    font-weight: bold;
+    padding-left: 30px;
+    font-size: 34px;
+    font-style: italic;
+}
+.pr-co-font:hover{
+    color: #ffffff;
+}

@@ -51,11 +51,10 @@
 <section class="pr-box">
     <section class="container_12">
         <div class="co-wrap">
-            <a onmouseover="javascript:ShowQuote(1);" href="http://techcrunch.com/2013/04/17/ziptask-launches-its-end-to-end-outsourcing-platform-for-small-to-medium-sized-enterprises/" target="_blank"><span class="pr-co-techcrunch"></span></a>
-            <a onmouseover="javascript:ShowQuote(2);" href="http://www.forbes.com/sites/reuvencohen/2013/03/20/outsourcing-the-outsourced-new-ziptask-platform-looks-to-disrupt-outsourcing-industry/" target="_blank"><span class="pr-co-forbes"></span></a>
-            <a onmouseover="javascript:ShowQuote(3);" href="http://thenextweb.com/insider/2013/04/17/ziptask-opens-in-beta-to-be-the-project-management-layer-on-top-of-elance-99designs-and-others/?fromcat=all" target="_blank"><span class="pr-co-tnw"></span></a>
-            <a onmouseover="javascript:ShowQuote(4);" href="http://www.crowdsourcing.org/editorial/ziptask-pivots-to-fully-managed-crowd-based-outsourcing/25354" target="_blank"><span class="pr-co-crowdsource"></span></a>
-            <!--<span class="pr-co-zdnet"></span>-->
+            <a onmouseover="javascript:ShowQuote(1);" href="#" onclick="javascript:void(0);"><span class="pr-co-like pr-co-font">1,218,453</span></a>
+            <a onmouseover="javascript:ShowQuote(2);" href="#" onclick="javascript:void(0);"><span class="pr-co-letter pr-co-font">21,194</span></a>
+            <a onmouseover="javascript:ShowQuote(3);" href="#" onclick="javascript:void(0);"><span class="pr-co-twitter pr-co-font">465,543</span></a>
+            <a onmouseover="javascript:ShowQuote(4);" href="#" onclick="javascript:void(0);"><span class="pr-co-dollar pr-co-font">850</span></a>
         </div>
         <div class="pr-quote-box">
             <div class="pr-quote-arrow"></div>

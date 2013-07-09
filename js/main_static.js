@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    if(window.location.pathname == '/'){
+        //update counters
+        updateCounters();
+        setInterval(updateCounters, 10000);
+    }
     $('.by_zopim widget_ui icon_zopim').remove();
 
     $('input[name="btnCreateMyAccount"]').click(function(){
@@ -153,4 +158,20 @@ function checkEmail(email, name, callback){
 
 function closeModal(){
     $.modal.close();
+}
+
+function updateCounters(){
+    $.ajax({
+        url: 'ajax/get_counters/',
+        type: 'get',
+        dataType: 'json',
+        success: function(response){
+            if(response.status == 200){
+                $('.pr-co-like').text(response.data.likes);
+                $('.pr-co-letter').text(response.data.messages);
+                $('.pr-co-twitter').text(response.data.twits);
+                $('.pr-co-dollar').text(response.data.dollars);
+            }
+        }
+    });
 }

@@ -2,8 +2,7 @@
 <head></head>
 <body>
     <div>
-        <h3>This is registration confirmation message</h3>
-        <p>Please, click <?=HTML::anchor($url, 'link');?> to finish registration process</p>
+        <h3>Thank you, registration was finished successfully</h3>
     </div>
 </body>
 </html>

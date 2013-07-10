@@ -64,23 +64,4 @@ class Model_Users extends Model_User {
             ->rule('password', 'min_length', array(':value', 4))
             ->rule('password_confirm', 'matches', array(':validation', 'password', 'password_confirm'));
     }
-
-    /**
-     * Method send registration message
-     *
-     * @access public
-     * @static
-     * @param $email
-     * @param $data
-     * @return int
-     */
-    public static function send_register_message($email, $data)
-    {
-        $config = Kohana::$config->load('config');
-        $to = $config->get('admin_email');
-        $template = View::factory('mails/frontend/register', $data);
-        $email_config = Kohana::$config->load('email');
-        Email::connect($email_config);
-        return Email::send($email, $to, 'Registration', $template, TRUE);
-    }
 }

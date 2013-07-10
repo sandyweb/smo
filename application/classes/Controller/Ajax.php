@@ -39,7 +39,7 @@ class Controller_Ajax extends Kohana_Controller{
             $data['url'] = URL::site('auth/register').URL::query(array(
                     'email' => $email, 'token' => $token, 'name' => $this->request->post('name')
             ));
-            Model_Users::send_register_message($email, $data);
+            Notification::send_validation_message($email, $data);
             $result = array('status' => self::STATUS_SUCCESS, 'data' => array('redirect' => URL::site('confirmation')));
         }
         echo $this->_response_json($result);
@@ -131,6 +131,8 @@ class Controller_Ajax extends Kohana_Controller{
         try
         {
             $order->save();
+            $data = $order->as_array();
+            Notification::send_order_message($this->auth->get_user()->email, $data);
             $result = array('status' => self::STATUS_SUCCESS, 'message' => 'Order was added successfully');
         }
         catch(ORM_Validation_Exception $e)

@@ -67,6 +67,7 @@ class Controller_Auth extends Controller_General {
                     $check = $this->register($email, $password, $username, $lastname, $image);
                     
                     if ($check != FALSE) {
+                        Notification::send_registration_message($email);
                         $this->auth->login($email, $password);
                         // Redirect to account
                         $this->redirect('users/index');

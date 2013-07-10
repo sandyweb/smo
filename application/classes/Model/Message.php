@@ -33,6 +33,12 @@ class Model_Message extends ORM{
         );
     }
 
+    public function save(Validation $validation = NULL)
+    {
+        Notification::send_notification_message($this->sender_id, $this->receiver_id);
+        parent::save($validation);
+    }
+
     public function get_messages($receiver_id)
     {
         return $this->where('receiver_id', '=', $receiver_id)->find_all();

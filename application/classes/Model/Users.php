@@ -3,6 +3,17 @@
 class Model_Users extends Model_User {
     
     protected $_table_name = 'users';
+
+    protected $_has_many = array(
+        'user_tokens' => array('model' => 'User_Token'),
+        'roles'       => array('model' => 'Role', 'through' => 'roles_users', 'foreign_key' => 'user_id'),
+        'accounts'    => array('model' => 'Accounts', 'foreign_key' => 'users_id'),
+        'orders' => array('model' => 'Orders', 'foreign_key' => 'user_id')
+    );
+
+    protected $_has_one = array(
+        'manager' => array('model' => 'Manager', 'foreign_key' => 'manager_id')
+    );
     
     public function labels()
     {
@@ -13,13 +24,6 @@ class Model_Users extends Model_User {
             'lastname' => 'Lastname'
         );
     }
-        
-    protected $_has_many = array(
-        'user_tokens' => array('model' => 'User_Token'),
-        'roles'       => array('model' => 'Role', 'through' => 'roles_users', 'foreign_key' => 'user_id'),
-        'accounts'    => array('model' => 'Accounts', 'foreign_key' => 'users_id'),
-        'orders' => array('model' => 'Orders', 'foreign_key' => 'user_id')
-    );
     
     public function rules() {
         return array(

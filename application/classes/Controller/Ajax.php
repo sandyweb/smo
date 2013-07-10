@@ -120,6 +120,52 @@ class Controller_Ajax extends Kohana_Controller{
         echo json_encode($result);
     }
 
+    public function action_add_to_order_list()
+    {
+        $account_id = $this->request->post('account_id');
+        $order = new Model_Order();
+        $order->account_id = $account_id;
+        $order->user_id = $this->auth->get_user()->id;
+        $order->created = time();
+        $order->status = Model_Order::STATUS_UNPAID;
+        try
+        {
+            $order->save();
+            $result = array('status' => self::STATUS_SUCCESS, 'message' => 'Order was added successfully');
+        }
+        catch(ORM_Validation_Exception $e)
+        {
+            $result = array('status' => self::STATUS_APPLICATION_ERROR, 'reason' =>  $e->errors('validation'));
+        }
+        echo $this->_response_json($result);
+    }
+
+    public function action_purchase_account()
+    {
+        $account_id = $this->request->post('account_id');
+        $order = new Model_Order();
+        $order->account_id = $account_id;
+        $order->user_id = $this->auth->get_user()->id;
+        $order->created = time();
+        $order->status = Model_Order::STATUS_UNPAID;
+        try
+        {
+            $model = $order->save();
+            if($model)
+            {
+                /**
+                 * @TODO payment process
+                 */
+            }
+
+        }
+        catch(ORM_Validation_Exception $e)
+        {
+            $result = array('status' => self::STATUS_APPLICATION_ERROR, 'reason' =>  $e->errors('validation'));
+        }
+        echo $this->_response_json($result);
+    }
+
     protected function _permission_denied()
     {
         $result = array('status' => self::STATUS_UNAUTHORIZED, 'reason' => 'You don\'t have permission for this method.');

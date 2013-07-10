@@ -1,56 +1,3 @@
-function shakeLogin() {
-    setTimeout(function () {
-        $('.login_wrapper').effect("shake", { distance: 10, times: 1 }, 250);
-    }, 100);
-}
-
-function account_update() {
-    var account_id = $("input[name=account_id]").val();
-    var title = $("input[name=title]").val();
-    var type = $("select[name=type]").val();
-    var description = $("textarea[name=description]").val();
-    
-    console.log(account_id);
-    
-    $.ajax({
-        url: location.protocol + "//" + location.host + "/accounts/edit/" + account_id,
-        type: "POST",
-        data: {type:type, title:title, description:description},
-        dataType: "HTML",
-        success: function(data) {
-            if (data === "") {
-//                $("#actions").hide();
-                location.reload();
-            } else {
-                $("#actions").empty();
-                $("#actions").append(data);
-            }
-        }
-    });
-}
-
-function account_save() {
-    var title = $("input[name=title]").val();
-    var type = $("select[name=type]").val();
-    var description = $("textarea[name=description]").val();
-
-    $.ajax({
-        url: location.protocol + "//" + location.host + "/accounts/add",
-        type: "POST",
-        data: {type:type, title:title, description:description},
-        dataType: "HTML",
-        success: function(data) {
-            if (data === "") {
-//                $("#actions").hide();
-                location.reload();
-            } else {
-                $("#actions").empty();
-                $("#actions").append(data);
-            }
-        }
-    });
-}
-
 $(document).ready(function() {
     
     $('#accounts').dataTable({
@@ -63,7 +10,9 @@ $(document).ready(function() {
     $('.order-list-table').dataTable();
 
     $(document).on("click", "#save_account", function() {
-        account_save();
+        account_save(function(){
+            location.reload(true);
+        });
     });
     
     $(document).on("click", "#update_account", function() {
@@ -72,7 +21,7 @@ $(document).ready(function() {
     
     $('#add_account').click(function () {
         $.ajax({
-            url: location.protocol + "//" + location.host + "/accounts/add",
+            url: location.protocol + "//" + location.host + "/accounts/get",
             type: "GET",
             dataType: "HTML",
             success: function(data) {
@@ -106,7 +55,38 @@ $(document).ready(function() {
             }
         });
     });
+
+    var $content_wrapper = $('.content_wrapper');
+    //add to order list
+    $content_wrapper.on('click', '#add_to_order_btn', function(){
+        if(validate_account()){
+            account_save(function(data){
+                add_to_order_list(data.id, function(){
+                    location.reload(true);
+                });
+            });
+        }
+    });
+
+    //purchase account
+    $content_wrapper.on('click', '#purchase_btn', function(){
+        if(validate_account()){
+            account_save(function(data){
+                purchase_account(data.id, function(){
+                    location.reload(true);
+                });
+            });
+        }
+    });
 });
+
+function validate_account(){
+    if($('input[name="title"]').val() == ''){
+        $('.redmessage').text('Account title should not be empty');
+        return false;
+    }
+    return true;
+}
 
 function account_edit(account){
     $.ajax({
@@ -122,6 +102,93 @@ function account_edit(account){
             }
             else{
                 alert(response.reason);
+            }
+        }
+    });
+}
+
+function purchase_account(account_id, callback){
+    $.ajax({
+        url: 'ajax/purchase_account/',
+        type: 'post',
+        dataType: 'json',
+        data: {account_id: account_id},
+        success: function(response){
+            if(response.status == 200){
+                if(callback && typeof callback == 'function'){
+                    callback();
+                }
+            }else{
+                alert(response.reason);
+            }
+        }
+    });
+}
+
+function add_to_order_list(account_id, callback){
+    $.ajax({
+        url: 'ajax/add_to_order_list/',
+        type: 'post',
+        dataType: 'json',
+        data: {account_id: account_id},
+        success: function(response){
+            if(response.status == 200){
+                if(callback && typeof callback == 'function'){
+                    callback();
+                }
+            }else{
+                alert(response.reason);
+            }
+        }
+    });
+}
+
+function shakeLogin() {
+    setTimeout(function () {
+        $('.login_wrapper').effect("shake", { distance: 10, times: 1 }, 250);
+    }, 100);
+}
+
+function account_update() {
+    var account_id = $("input[name=account_id]").val();
+    var title = $("input[name=title]").val();
+    var type = $("select[name=type]").val();
+    var description = $("textarea[name=description]").val();
+
+    $.ajax({
+        url: location.protocol + "//" + location.host + "/accounts/edit/" + account_id,
+        type: "POST",
+        data: {type:type, title:title, description:description},
+        dataType: "HTML",
+        success: function(data) {
+            if (data === "") {
+//                $("#actions").hide();
+                location.reload();
+            } else {
+                $("#actions").empty();
+                $("#actions").append(data);
+            }
+        }
+    });
+}
+
+function account_save(callback){
+    var title = $("input[name=title]").val();
+    var type = $("select[name=type]").val();
+    var description = $("textarea[name=description]").val();
+
+    $.ajax({
+        url: 'accounts/add',
+        type: "POST",
+        data: {type:type, title:title, description:description},
+        dataType: 'json',
+        success: function(response){
+            if(response.status == 200){
+                if(callback && typeof callback === 'function'){
+                    callback(response.data);
+                }
+            }else{
+                $("#actions").empty().append(response.reason);
             }
         }
     });

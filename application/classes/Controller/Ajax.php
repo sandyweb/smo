@@ -158,6 +158,10 @@ class Controller_Ajax extends Kohana_Controller{
                 /**
                  * @TODO payment process
                  */
+                require_once(APPPATH.'vendor/Twocheckout.php');
+                $config = Kohana::$config->load('config');
+                Twocheckout::setCredentials($config['api_username'], $config['api_password']);
+                $result = array('status' => self::STATUS_SUCCESS, 'message' => 'Account was saved');
             }
 
         }

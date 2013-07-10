@@ -34,9 +34,12 @@ class Controller_Auth extends Controller_General {
                 $email = $this->request->post('email');
                 $password = $this->request->post('password');
                 
-                if ($this->login($email, $password)) {
-                    $this->redirect('users/index');
-                } else {
+                if($this->login($email, $password))
+                {
+                    (!$this->auth->get_user()->is_manager) ? $this->redirect('users/index') : $this->redirect('manager/index');
+                }
+                else
+                {
                     $errors['auth'] = "Not valid email/password, please try again";
                 }
             } catch (ORM_Validation_Exception $e) {

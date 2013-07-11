@@ -251,6 +251,24 @@
                 </section>
                 <section class="clear"></section>
             </li>
+            <li class="nineth">
+                <section class="column alignright">
+                    <section class="txtb">
+                        <h2>Check progress at any time</h2>
+                        <p>
+                            <span>
+                                Our team start optimize your social networks, so now you can focus
+                                on your company/services and check your optimized pages at any time
+                            </span>
+                        </p>
+                    </section>
+                </section>
+                <section class="step-number aligncenter"><section class="txtb"><span>4</span></section></section>
+                <section class="column alignleft">
+                    <section class="txtb"></section>
+                </section>
+                <section class="clear"></section>
+            </li>
         </ul>
     </section>
 </section>

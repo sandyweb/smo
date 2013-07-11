@@ -5,7 +5,6 @@
         <h3><?=$subject;?></h3>
     </div>
     <div>
-        <p>Type: <?=$type;?></p>
         <p>Name: <?=$name;?></p>
         <p>Email: <?=$email;?></p>
         <p>Project#: <?=$project;?></p>

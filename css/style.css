@@ -588,8 +588,8 @@ body {
     display:inline-block;
 }
 #footer .logo-footer {
-	background:url(../images/sprite_icons.png) no-repeat left -53px;
-	width:106px;
+	background:url(../images/logosmall.png) no-repeat;
+	width:115px;
 	height:34px;
 	display:block;
 	text-indent:-9999px;

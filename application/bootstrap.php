@@ -90,7 +90,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 Kohana::init(array(
-	'base_url'   => 'http://ziptask/',
+	'base_url'   => 'http://smoook.com/',
         'index_file' => FALSE
 ));
 

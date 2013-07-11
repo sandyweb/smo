@@ -1,8 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1"><title>
-        Smoook - Fully Managed Outsourcing - Terms of Service
-    </title><meta name="description" content="The official Smoook terms of service" /><meta name="keywords" content="Smoook,outsource,freelance,word,excel,powerpoint,project,work,job,task" />
+<head id="Head1">
+    <title> Smoook - Fully Managed Outsourcing - Terms of Service</title>
+    <meta name="description" content="The official Smoook terms of service" />
+    <meta name="keywords" content="Smoook,outsource,facebook,twitter,social networks" />
     <style type="text/css">
         html, body, div, span, applet, object, iframe,
         h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -53,11 +54,6 @@
     </style>
 </head>
 <body>
-<form method="post" id="form1">
-<div class="aspNetHidden">
-    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE3ODg2MTQ2NmRk+WIUNDtnTRh3RJqQObC7cXM08sgkg8c9gg1oyhuvn7c=" />
-</div>
-
 <div id="divParrentTop">
 <h1><span style="margin: 5px;">Smoook Terms of Service</span></h1>
 
@@ -156,11 +152,11 @@
 
 <p>7. Sign the paper.</p>
 
-<p>8. Send the written communication to the following address:</p>
+<p>8. Send the written communication to the following email:</p>
 
 <p>Designated Agent for Claimed Infringement:</p>
 
-<p>Contact: Smoook Customer Support<br />Address: 160 S Old Springs Rd., Suite 110, Anaheim, CA, USA <br />Phone: 866-699-4782</p>
+<p>Contact: Smoook Customer Support<br />info@smoook.com</p>
 
 <p>You acknowledge and agree that upon receipt of a notice of a claim of copyright infringement, we may immediately remove the identified materials from our site without liability to you or any other party and that the claims of the complaining party and the party that originally posted the materials will be referred to the United States Copyright Office for adjudication as provided in the Digital Millennium Copyright Act.</p>
 
@@ -233,14 +229,7 @@
     files or this site. We shall not be liable to you or any third party for any claims or damages
     arising out of any termination or suspension or any other actions taken by us in connection with such termination or suspension.</p>
 <h2>16. Governing Law</h2>
-<p>This site (excluding any linked sites) is controlled by us from our offices within the
-    California, United States of America. It can be accessed from all 50 states, as well as from other countries
-    around the world. As each of these places has laws that may differ from those of California, by accessing this
-    site both of us agree that the statutes and laws of the State of California, without regard to the conflicts of
-    laws principles thereof and the United Nations Convention on the International Sales of Goods, will apply to
-    all matters relating to the use of this site and the purchase of products and services available through this site.
-    Each of us agrees and hereby submits to the exclusive personal jurisdiction and venue any court of competent
-    jurisdiction within the State of California with respect to such matters.</p>
+<p>This site (excluding any linked sites) is controlled by us from our office.</p>
 <h2>17. Notices</h2>
 <p>All notices to a party shall be in writing and shall be made either via email or conventional mail. Notices to us must be sent to the attention of Customer Service at cs@Smoook.com, if by email, or at Smoook, Inc. PO BOX 78424 if by conventional mail. Notices to you may be sent to the address supplied by you as part of your Registration Data. In addition, we may broadcast notices or messages through the site to inform you of changes to the site or other matters of importance,
     and such broadcasts shall constitute notice to you at the time of sending.</p>
@@ -270,8 +259,7 @@
     that portion shall be construed in a manner consistent with applicable law to reflect, as nearly as possible, the original intentions of the parties, and the remaining portions shall remain in full force and effect.</p>
 <p>Any failure by us to enforce or exercise any provision of these Terms of Use
     or related rights shall not constitute a waiver of that right or provision.</p>
-<h2>20. Contact Information</h2>
-<p>Except as explicitly noted on this site, the services available through this site are offered by Smoook, Inc., an Corporation, located at PO BOX 78424. Our telephone number is 866-699-4782. If you notice that any user is violating these Terms of Use, please contact us at cs@Smoook.com.</p><h2>Terms and Conditions of Sale</h2>
+<h2>Terms and Conditions of Sale</h2>
 <h2>1. Sale and Purchase of Goods</h2>
 <p>Smoook, Inc. (&quot;Seller&quot;) hereby agrees to sell, and You (&quot;Buyer&quot;) hereby agree to purchase, goods of the description and quantity described on the checkout window (&quot;Checkout&quot;) and incorporated herein by this reference (&quot;Goods&quot;)
     on the terms and conditions set forth in this Agreement.</p>
@@ -308,6 +296,5 @@
 <br />
 <p>(End of Terms of Service)</p>
 </div>
-</form>
 </body>
 </html>

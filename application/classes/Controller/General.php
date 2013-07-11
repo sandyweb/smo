@@ -19,6 +19,6 @@ class Controller_General extends Controller_Template {
         $this->template->scripts[] = "js/jquery.dataTables.js";
         $this->template->styles[] = "css/dataTables/jquery.dataTables.css";
         
-        $this->template->title = "ZipTask";
+        $this->template->title = "Smoook";
     }
 }

@@ -22,8 +22,6 @@
                         <ul>
                             <li><a href="<?=URL::base();?>" title="Sign Up" class="modal">Sign Up</a></li>
                             <li><a href="<?=URL::site('auth/login');?>" title="Login">Login</a></li>
-                            <li><a href="<?=URL::site('dashboard');?>" id="dashboard" title="Dashboard">Dashboard</a></li>
-                            <li><a href="<?=URL::site('testimonials');?>" id="testimonials" title="Testimonials">Testimonials</a></li>
                         </ul>
                     </section>
                     <section class="footer-link">

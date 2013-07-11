@@ -121,7 +121,7 @@ Kohana::modules(array(
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 	));
 
-Route::set('main', '<action>(/<id>)', array('action' => 'home|about|testimonials|dashboard|contact|freelance|confirmation|termsofservice|privacypolicy'))
+Route::set('main', '<action>(/<id>)', array('action' => 'home|about|contact|freelance|confirmation|termsofservice|privacypolicy'))
     ->defaults(array(
         'controller' => 'main'
     ))

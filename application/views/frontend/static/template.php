@@ -13,7 +13,7 @@
     <script src="<?=URL::base();?>js/main_static.js" type="text/javascript"></script>
     <link href="<?=URL::base();?>images/favicon.ico" rel="shortcut icon" type="image/x-icon"  >
     <link href="<?=URL::base();?>css/style.css" rel="stylesheet" type="text/css" />
-    <link href="<?=URL::base();?>css/ziptask-theme-1/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" />
+    <link href="<?=URL::base();?>css/smoook-theme-1/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->

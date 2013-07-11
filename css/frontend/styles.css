@@ -3,19 +3,16 @@
     float: left;
     margin-top: 6px;
 }
-
 .menu ul li {
     display: block;
     float: left;
     padding-left: 23px;
 }
-
 .menu ul li span {
     border-radius: 5px 5px 5px 5px;
     display: inline-block;
     padding: 4px 6px;
 }
-
 .menu ul li span.active {
     background-color: #DBE1EC;
     border: 1px solid #6F90B6;
@@ -25,7 +22,6 @@
     display: inline-block;
     padding: 3px 5px;
 }
-
 .login-btn {
     background: linear-gradient(#477AAC, #225485) repeat scroll 0 0 transparent;
     border: 1px solid #1B4772;
@@ -40,29 +36,25 @@
     margin-right: 10px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 }
-
 /* Login */
 body.login div.content_wrapper {
     background: url("../../files/template/frontend/background_wrapper.png") repeat-x scroll 0 0 transparent;
     height: 100%;
     width: 100%;
 }
-
 div.login {
     height: 195px;
     margin: 0 auto;
     padding-top: 200px;
     width: 192px;
 }
-
 div.login .logo {
     background: url("../../files/template/frontend/logo_login.png") no-repeat scroll 0 0 transparent;
     height: 42px;
     margin: 0 auto 10px;
     text-indent: -9999px;
-    width: 135px;
+    width: 160px;
 }
-
 .input, .textarea {
     border: 1px solid #AEB8D0;
     border-radius: 3px 3px 3px 3px;
@@ -75,7 +67,6 @@ div.login .logo {
     padding: 5px 8px;
     width: 172px;
 }
-
 .login a {
     color: #2F6FAE;
     display: block;
@@ -85,16 +76,13 @@ div.login .logo {
     padding-bottom: 4px;
     text-decoration: none;
 }
-
 .login .actions_login {
     float:left;
 }
-
 .login a:hover {
     color:#fff;
     text-decoration: none;
 }
-
 .redmessage {
     color: #2F6FAE;
     display: block;
@@ -103,24 +91,20 @@ div.login .logo {
     display: block;
     padding: 8px;
 }
-
 .logo_wrapper .logo {
     margin: 0 auto;
     width: 77px;
     height: 26px;
 }
-
 .logo_wrapper {
     float:left;
     width:200px;
     padding: 5px 0 0 0;
 }
-
 .logo img {
     width:77px;
     height:26px;
 }
-
 .left_bar {
     background: url("../../files/template/frontend/left_panel_background.jpg") repeat scroll left top transparent;
     width:200px;
@@ -128,7 +112,6 @@ div.login .logo {
     height: 100%;
     float:left;
 }
-
 .left_bar .bar_tab {
     border-bottom: 1px solid #225485;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
@@ -137,7 +120,6 @@ div.login .logo {
     background: linear-gradient(#CBD9F0, #A8BBDA) repeat scroll 0 0 transparent;
     position: relative;
 }
-
 .bar_tab .bar_tab_head span {
     color: #225485;
     display: inline-block;
@@ -149,7 +131,6 @@ div.login .logo {
     padding: 0 0 0 4%;
     text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-
 .bar_tab .bar_tab_head a {
     display: block;
     float: left;
@@ -158,7 +139,6 @@ div.login .logo {
     width: 15%;
     text-align: center;
 }
-
 .bar_tab .bar_tab_head a img {
     margin: 0;
     padding: 12px 0 0;
@@ -174,22 +154,18 @@ div.login .logo {
     padding: 0 0 0 10%;
     text-shadow: 0 1px #FFFFFF;
 }
-
 .bar_tab ul.filter_box {
     display: block;
     float: left;
     padding: 0 0 0 16%;
     list-style: none outside none;
 }
-
 ul.filter_box li {
     display: block;
 }
-
 ul.filter_box li.active a {
     background: url("../../files/template/frontend/filter_left_hover.png") no-repeat scroll left top transparent;
 }
-
 ul.filter_box li a {
     color: #2F6FAE;
     display: inline-block;
@@ -200,33 +176,27 @@ ul.filter_box li a {
     text-decoration: none;
     text-shadow: 0 1px #FFFFFF;
 }
-
 ul.filter_box li.active a span {
     background: url("../../files/template/frontend/filter_right_hover.png") no-repeat scroll right top transparent;
 }
-
 ul.filter_box li a span {
     cursor: pointer;
     display: inline-block;
     padding: 0 6px 0 0;
 }
-
 ul.filter_box span {
     font-size: 1em;
 }
-
 .user_info {
     float:right;
     padding:8px 10px 0 10px;
 }
-
 /* Menu */
 .menu ul {
     display: block;
     float: left;
     margin-top: 5px;
 }
-
 .menu ul li a {
     color: #225485;
     font-family: 'MyriadPro-Regular';
@@ -234,7 +204,6 @@ ul.filter_box span {
     text-decoration: none;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
-
 .menu ul li span.active {
     background-color: #DBE1EC;
     border: 1px solid #6F90B6;
@@ -245,8 +214,6 @@ ul.filter_box span {
     padding: 3px 5px;
 }
 /* END Menu */
-
-
 .personal_data .personal_info p {
     color: #2F6FAE;
     display: block;
@@ -255,36 +222,29 @@ ul.filter_box span {
     line-height: 14px;
     padding: 0 0 3px;
 }
-
 h1 {
     color: #225485;
     font-family: 'MyriadPro-Semibold';
     font-size: 18px;
     padding-top: 15px;
 }
-
 .content {
     float:left;
     height: 100%;
 }
-
 .personal_data {
     padding:20px;
 }
-
 .personal_data .avatar {
     float:left;
 }
-
 .personal_data .personal_info {
     float:left;
     padding: 0 10px 0 20px;
 }
-
 .social_data {
     padding: 20px;
 }
-
 .content_wrapper .actions {
     background-color: #D1DBEA;
     box-shadow: -1px 0 0 #9CB2CD inset;
@@ -294,8 +254,6 @@ h1 {
     padding: 60px 20px 20px 20px;
     margin-top:-54px;
 }
-
-
 h2 {
     color: #2F6FAE;
     font-family: 'MyriadPro-Semibold';
@@ -305,8 +263,6 @@ h2 {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
     width: 380px;
 }
-
-
 h5 {
     color: #2F6FAE;
     font-family: 'MyriadPro-Regular';
@@ -316,7 +272,6 @@ h5 {
     padding: 5px 0;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 }
-
 label {
     color: #2F6FAE;
     display: block;
@@ -326,11 +281,9 @@ label {
     line-height: 21px;
     width: 235px;
 }
-
 .user_prof {
     padding: 20px 0 0 0;
 }
-
 .user_prof h4 {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;

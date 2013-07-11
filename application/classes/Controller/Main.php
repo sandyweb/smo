@@ -39,7 +39,6 @@ class Controller_Main extends Controller_General {
                 ->rule('email', 'not_empty')
                 ->rule('email', 'email')
                 ->rule('subject', 'not_empty')
-                ->rule('type', 'not_empty')
             ;
             if($validation->check())
             {

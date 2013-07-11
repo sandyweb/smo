@@ -17,13 +17,6 @@
                 <?php endif;?>
                 <!-- start fillform -->
                 <div id="ContentPlaceHolder1_signupformDIV">
-                    <section class="row" style="text-align:left">
-                        <label>Type:</label>
-                        <label class="second"><?=Form::radio('message[type]', 'Customer');?>Customer</label>
-                        <label class="second"><?=Form::radio('message[type]', 'Freelancer');?>Freelancer</label>
-                        <label class="second"><?=Form::radio('message[type]', 'Other');?>Other</label>
-                        <section class="clear"></section>
-                    </section>
                     <section class="row">
                         <label>Name:</label>
                         <?=Form::input('message[name]', $data['name'], array('class' => 'input1'));?>
@@ -60,26 +53,6 @@
             <section class="clear"></section>
         </section>
         <!-- end grid_9 -->
-        <!-- start grid_3 -->
-        <section class="grid_3">
-            <!-- start address-block -->
-            <section class="tweets address-block">
-                <h2>Address</h2>
-                <address><p>160 S Old Springs Rd. Suite 110<br>Anaheim, CA 92808<br>Phone: 1.951.389.4014<br>Email: cs@Smoook.com</p></address>
-                <h2>Socialize</h2>
-                <ul>
-                    <li class="facebook"><a target="_blank" href="http://www.facebook.com/pages/Smoook/149086885141893" title="Facebook">Facebook</a></li>
-                    <li class="twitter"><a target="_blank" href="http://www.twitter.com/Smoook" title="Twitter">Twitter</a></li>
-                    <li class="youtube"><a target="_blank" href="http://www.youtube.com/user/Smoook" title="Youtube">Youtube</a></li>
-                    <li class="tumblr"><a target="_blank" href="http://blog.Smoook.com/" title="Blog">Blog</a></li>
-                    <li class="rss"><a target="_blank" href="http://blog.Smoook.com/rss" title="Rss">Rss</a></li>
-                </ul>
-                <section class="clear"></section>
-                <section class="clear"></section>
-            </section>
-            <!-- end address-block -->
-        </section>
-        <!-- end grid_3 -->
     </section>
 </section>
 <!-- end container -->

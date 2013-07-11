@@ -57,7 +57,6 @@
     <section class="wide100-footerBottom">
         <section class="container_12">
             <section id="footer-bottom">
-                <a class="donate" href="https://www.fundraise.com/technology-supports-victims-of-boston-marathon-bombing" target="_blank">&nbsp;</a>
                 <p class="privacy">&copy; <?=date('Y');?> Inc.  All right are reserved <a href="<?=URL::site('termsofservice');?>" id="A1" class="nyroModal" title="Terms &amp; Conditions">Terms &amp; Conditions</a> | <a href="<?=URL::site('privacypolicy');?>" id="A2" class="nyroModal" title="Privacy Policy">Privacy Policy</a></p>
             </section>
         </section>

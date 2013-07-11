@@ -2,7 +2,9 @@ $(document).ready(function(){
     if(window.location.pathname == '/'){
         //update counters
         initCounters();
-        setInterval(updateCounters, 2000);
+        setInterval(updateLikeCounter, 1000);
+        setInterval(updateMessageCounter, 2000);
+        setInterval(updateTwitsCounter, 1000);
     }
     $('.by_zopim widget_ui icon_zopim').remove();
 
@@ -176,23 +178,28 @@ function initCounters(){
     });
 }
 
-function updateCounters(){
-    var counter = Math.floor(Math.random() * 3) + 1;
-    var $selector;
-    switch(counter){
-        case 1:
-            $selector = $('.pr-co-like');
-            break;
-        case 2:
-            $selector = $('.pr-co-letter');
-            break;
-        case 3:
-            $selector = $('.pr-co-twitter');
-            break;
-    }
+function updateLikeCounter(){
+    var $selector = $('.pr-co-like');
     var value = $selector.text().replace(",", "");
     value = parseFloat(value.replace(",", ""));
-    value += Math.floor(Math.random() * 2) + 1;
+    value += Math.floor(Math.random() * 6) + 5;
+    $selector.text(numberFormat(value));
+}
+
+function updateMessageCounter()
+{
+    var $selector = $('.pr-co-letter');
+    var value = $selector.text().replace(",", "");
+    value = parseFloat(value.replace(",", ""));
+    value += Math.floor(Math.random() * 3) + 1;
+    $selector.text(numberFormat(value));
+}
+
+function updateTwitsCounter(){
+    var $selector = $('.pr-co-twitter');
+    var value = $selector.text().replace(",", "");
+    value = parseFloat(value.replace(",", ""));
+    value += Math.floor(Math.random() * 6) + 5;
     $selector.text(numberFormat(value));
 }
 

@@ -811,7 +811,6 @@ body {
 	width:640px;
 }
 .how-diff-tab{
-    height:1205px;
     margin-bottom:50px;
 }
 .img_oversight{
@@ -935,14 +934,14 @@ body {
 	font-size:18px;
 }
 .table .row .td1 {
-	width:86px;
-	padding-left:228px;
+	width:130px;
+	padding-left:245px;
 }
 .table .row .td2 {
-	width:62px;
+	width:130px;
 }
 .table .row .td3 {
-	width:65px;
+	width:130px;
 }
 .table .row .td4 {
 	width:85px;
@@ -992,24 +991,24 @@ body {
 	height:30px;
 }
 .table .row2 .td1 {
-	width:216px;
+	width:230px;
 	padding-left:11px;
 	text-align:left
 }
 .table .row2 .td2 {
-	width:85px;
+	width:130px;
 }
 .table .row2 .td3 {
-	width:62px;
+	width:130px;
 }
 .table .row2 .td4 {
-	width:64px;
+	width:130px;
 }
 .table .row2 .td5 {
 	width:84px;
 }
 .table .row2 .td6 {
-	width:84px;
+	width:130px;
 }
 .table .row2.odd {
 	background:url(../images/bg_table_row.png) repeat;
@@ -1078,7 +1077,7 @@ body {
     width:260px;
     margin-left:40px;
 }
-.pricing table.right{
+.pricing table.right, section.right{
     float:left;
     width:250px;
     margin-left:50px;
@@ -1088,6 +1087,12 @@ body {
     width:156px;
     height:148px;
     margin:0 0 20px 60px;
+}
+.pricing .flat_img{
+    background:url(../images/img_flat.png) no-repeat;
+    width:210px;
+    height:140px;
+    margin:0 auto;
 }
 .pricing .transbox{
     display:block;
@@ -2393,6 +2398,8 @@ body {
 	padding:24px 0 0 0;
 	height:30px;
 	position:relative;
+    width: 350px;
+    margin: 0 auto;
 }
 .popup label {
 	width:88px;
@@ -2432,7 +2439,7 @@ body {
 	width:78px;
 }
 .signup .bt-blue {
-	margin:20px 0 0 100px;
+	margin:20px 0 0 160px;
 	width:169px;
 }
 
@@ -2968,9 +2975,10 @@ position:relative;*/
 .footer-logo{
     position: absolute;
     left: 75%;
+    top: 5%;
 }
 .social-footer{
-    margin-top: 60px;
+    margin-top: 70px;
 }
 .social-footer p{
     padding-left: 25px;
@@ -2999,9 +3007,8 @@ position:relative;*/
 }
 .pr-co-font{
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 35px;
     font-size: 34px;
-    font-style: italic;
 }
 .pr-co-font:hover{
     color: #ffffff;

@@ -23,7 +23,7 @@
                 <section class="clear"></section>
                 <small id="emailError" style="visibility:hidden;">Sorry this email is not valid</small>
             </section>
-            <section class = "row" style="margin-left:15px;">
+            <section class="row" style="margin-left:110px;">
                 <p style="font-size: 11px;"><input type="radio" name="read" id="Read" value="0" style="float:left; margin-right:10px; margin-top:3px;" />
                     <span for="Read" style=" width:250px; float:left;">Yes, I have read and I accept the
                         <a class="blueTxtLink" href="<?=URL::site('termsofservice');?>"> Smoook Terms of Service</a> and the
@@ -33,14 +33,6 @@
             </section>
             <section class="clear"></section>
             <input name="btnCreateMyAccount" value="Create My Account" class="bt-blue"/>
-            <!-- start ribbon -->
-            <section class="ribbon">
-                <p><span>Fully Managed</span><span>Oversight Built-In</span>
-                    <span>No Interviews</span><span>No Negotiations</span>
-                    <span>No Language Barriers</span>
-                </p>
-            </section>
-            <!-- end ribbon -->
         </form>
         <!-- end signup -->
     </section>

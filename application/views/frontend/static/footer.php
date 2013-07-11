@@ -36,19 +36,7 @@
                 <section id="footer-mid"></section>
                 <!-- end mid -->
                 <!-- start right -->
-                <section id="footer-right">
-                    <section class="social social-footer">
-                        <p>Connect with us</p>
-                        <section class="clear"></section>
-                        <ul>
-                            <li class="pinterest"><a target="_blank" href="http://pinterest.com/search/?q=Smoook" title="Pinterest">Pinterest</a></li>
-                            <li class="twitter"><a target="_blank" href="https://twitter.com/Smoook" title="Twitter">Twitter</a></li>
-                            <li class="facebook"><a target="_blank" href="http://www.facebook.com/pages/Smoook/149086885141893" title="Facebook">Facebook</a></li>
-                            <li class="google_plus"><a target="_blank" href="https://plus.google.com/104108914473352594750/posts" title="Google Plus">Google Plus</a></li>
-                            <li class="blog"><a target="_blank" href="http://blog.Smoook.com/" title="Blog">Blog</a></li>
-                        </ul>
-                    </section>
-                </section>
+                <section id="footer-right"></section>
             </section>
         </section>
     </section>

@@ -30,9 +30,8 @@
                 <p>Earn 7% on every job your website or blog refers into our system!
                     This is completely separate from the freelancer work process,
                     and means you can earn without lifting a finger on the projects you refer.
-                    Smoook is a fully managed work platform with
-                    experienced project managers who will guide customers through their projects,
-                    oversee freelancers, and ensure high quality work every time.
+                    Smoook is a fully managed outsourcing platform for social media projects.
+                    It's a new web app for outsourcing your SMO works, with a built-in cloud-based project manager.
                     This means typically that customers come to us with larger-than-normal pieces of work,
                     and so that would allow you to earn a higher commission as a result.</p>
                 <div class="img-affiliate-blog"></div>

@@ -31,8 +31,11 @@
         <?=$content;?>
         <section class="container_12">
             <section class="footer-tagline">
-                <h2>Stop Hiring Freelancers. Use Smoook.</h2>
-                <p>Smoook is a fully managed work platform with experienced project managers who will guide you through your project, oversee freelancers, and ensure high quality work every time. </p>
+                <h2>Outsource your Social Media Optimization. Use Smoook.</h2>
+                <p>
+                    Smoook is a fully managed outsourcing platform for social media projects.
+                    It's a new web app for outsourcing your SMO works, with a built-in cloud-based project manager.
+                </p>
             </section>
         </section>
 

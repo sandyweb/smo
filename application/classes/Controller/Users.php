@@ -9,6 +9,10 @@ class Controller_Users extends Controller_General {
         if (!$this->auth->logged_in()) {
             $this->redirect('auth/login');
         }
+        if($this->auth->get_user()->is_manager)
+        {
+            $this->redirect('auth/login');
+        }
 
         // Init arrays
         $data_left_bar = array();

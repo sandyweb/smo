@@ -179,6 +179,19 @@ class Controller_Ajax extends Kohana_Controller{
                 $config = Kohana::$config->load('config');
                 Twocheckout::setCredentials($config['api_username'], $config['api_password']);
                 $result = array('status' => self::STATUS_SUCCESS, 'message' => 'Account was saved');
+                $product = array();
+                $product['currency_code'] = 'USD';
+                $product['mode'] = '2CO';
+                $product['li_0_price'] = '0.00';
+                $product['merchant_order_id'] = $model->id;
+                $product['li_0_name'] = '';
+                $product['li_0_quantity'] = 1;
+                $product['sid'] = $config['vendor_id'];
+                $product['li_0_type'] = 'product';
+                $product['li_0_tangible'] = 'N';
+                $product['li_0_product_id'] = $model->account_id;
+                //remove this on production
+//                    Twocheckout_Charge::redirect($product);
             }
 
         }

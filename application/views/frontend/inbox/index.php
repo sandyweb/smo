@@ -1,3 +1,4 @@
+<?=Form::hidden('action_url', $action_url);?>
 <div class="inbox-container">
     <div class="header">
         <div class="menu">

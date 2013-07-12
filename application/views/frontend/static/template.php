@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="icon" href="<?=URL::base();?>images/favicon.ico" type="image/x-icon" />
     <!-- Google Site Verification -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Smoook - Fully Managed Outsourcing - Home</title>

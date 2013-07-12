@@ -1,12 +1,13 @@
 $(document).ready(function(){
-    getAllMessages();
+    var actionUrl = $('input[name="action_url"]').val();
+    getAllMessages(actionUrl);
 
     //get all messages
     $('.all-messages').click(function(e){
         e.preventDefault();
         $(this).parent().parent().children('span').removeClass('active');
         $(this).parent().addClass('active');
-        getAllMessages();
+        getAllMessages(actionUrl);
     });
 
     //get unread messages
@@ -14,7 +15,7 @@ $(document).ready(function(){
         e.preventDefault();
         $(this).parent().parent().children('span').removeClass('active');
         $(this).parent().addClass('active');
-        getUnreadMessages();
+        getUnreadMessages(actionUrl);
     });
 
     //get read messages
@@ -22,7 +23,7 @@ $(document).ready(function(){
         e.preventDefault();
         $(this).parent().parent().children('span').removeClass('active');
         $(this).parent().addClass('active');
-        getReadMessages();
+        getReadMessages(actionUrl);
     });
 
     //get archived messages
@@ -30,7 +31,7 @@ $(document).ready(function(){
         e.preventDefault();
         $(this).parent().parent().children('span').removeClass('active');
         $(this).parent().addClass('active');
-        getArchivedMessages();
+        getArchivedMessages(actionUrl);
     });
 
     $('#answer-message-btn').click(function(){
@@ -38,37 +39,45 @@ $(document).ready(function(){
     });
 });
 
-function getAllMessages(){
+function getAllMessages(actionUrl){
     $.ajax({
         url: 'ajax/all_messages/',
+        type: 'post',
         dataType: 'html',
+        data: {action_url: actionUrl},
         success: function(response){
             $('.messages-container').html(response);
         }
     });
 }
-function getReadMessages(){
+function getReadMessages(actionUrl){
     $.ajax({
         url: 'ajax/read_messages/',
+        type: 'post',
         dataType: 'html',
+        data: {action_url: actionUrl},
         success: function(response){
             $('.messages-container').html(response);
         }
     });
 }
-function getUnreadMessages(){
+function getUnreadMessages(actionUrl){
     $.ajax({
         url: 'ajax/unread_messages/',
+        type: 'post',
         dataType: 'html',
+        data:{action_url: actionUrl},
         success: function(response){
             $('.messages-container').html(response);
         }
     });
 }
-function getArchivedMessages(){
+function getArchivedMessages(actionUrl){
     $.ajax({
         url: 'ajax/archived_messages/',
+        type: 'post',
         dataType: 'html',
+        data:{action_url: actionUrl},
         success: function(response){
             $('.messages-container').html(response);
         }

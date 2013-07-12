@@ -37,7 +37,7 @@
 <div id="answer-container" class="user_prof hide">
     <h4><span>Answer to <?=$message->sender->email;?></span></h4>
     <div class="clear"></div>
-    <?=Form::open(URL::site('inbox/create', array('method' => 'post')));?>
+    <?=Form::open(URL::site($action, array('method' => 'post')));?>
         <?=Form::hidden('message[sender_id]', $message->receiver_id);?>
         <?=Form::hidden('message[receiver_id]', $message->sender_id);?>
         <div class="message-details-container">

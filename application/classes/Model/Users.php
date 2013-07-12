@@ -12,7 +12,8 @@ class Model_Users extends Model_User {
     );
 
     protected $_has_one = array(
-        'manager' => array('model' => 'Manager', 'foreign_key' => 'manager_id')
+        'manager' => array('model' => 'Manager', 'foreign_key' => 'manager_id'),
+        'client' => array('model' => 'Client', 'foreign_key' => 'client_id'),
     );
     
     public function labels()

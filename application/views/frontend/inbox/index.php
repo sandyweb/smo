@@ -1,3 +1,4 @@
+<?=Form::hidden('action_url', $action_url);?>
 <div class="inbox-container">
     <div class="header">
         <div class="menu">
@@ -11,6 +12,7 @@
             </ul>
         </div>
     </div>
+    <div class="additional"><?=$additional;?></div>
     <div class="messages-container"></div>
 </div>
 <?=HTML::script(URL::base().'js/frontend/inbox.js');?>

@@ -78,28 +78,45 @@ class Controller_Ajax extends Kohana_Controller{
         $message = ORM::factory('Message');
         $messages = $message->get_messages($user_id);
         $statuses = $message->get_statuses();
-        echo View::factory('frontend/inbox/all_messages')->bind('messages', $messages)->bind('statuses', $statuses);
+        $action_url = $this->request->post('action_url');
+        echo View::factory('frontend/inbox/all_messages')
+            ->bind('messages', $messages)
+            ->bind('statuses', $statuses)
+            ->bind('action_url', $action_url)
+        ;
     }
 
     public function action_unread_messages()
     {
         $user_id = $this->auth->get_user()->id;
         $messages = ORM::factory('Message')->get_unread_messages($user_id);
-        echo View::factory('frontend/inbox/unread_messages')->bind('messages', $messages);
+        $action_url = $this->request->post('action_url');
+        echo View::factory('frontend/inbox/unread_messages')
+            ->bind('messages', $messages)
+            ->bind('action_url', $action_url)
+        ;
     }
 
     public function action_read_messages()
     {
         $user_id = $this->auth->get_user()->id;
         $messages = ORM::factory('Message')->get_read_messages($user_id);
-        echo View::factory('frontend/inbox/read_messages')->bind('messages', $messages);
+        $action_url = $this->request->post('action_url');
+        echo View::factory('frontend/inbox/read_messages')
+            ->bind('messages', $messages)
+            ->bind('action_url', $action_url)
+        ;
     }
 
     public function action_archived_messages()
     {
         $user_id = $this->auth->get_user()->id;
         $messages = ORM::factory('Message')->get_archived_messages($user_id);
-        echo View::factory('frontend/inbox/archived_messages')->bind('messages', $messages);
+        $action_url = $this->request->post('action_url');
+        echo View::factory('frontend/inbox/archived_messages')
+            ->bind('messages', $messages)
+            ->bind('action_url', $action_url)
+        ;
     }
 
     public function action_get_counters()
@@ -162,6 +179,19 @@ class Controller_Ajax extends Kohana_Controller{
                 $config = Kohana::$config->load('config');
                 Twocheckout::setCredentials($config['api_username'], $config['api_password']);
                 $result = array('status' => self::STATUS_SUCCESS, 'message' => 'Account was saved');
+                $product = array();
+                $product['currency_code'] = 'USD';
+                $product['mode'] = '2CO';
+                $product['li_0_price'] = '0.00';
+                $product['merchant_order_id'] = $model->id;
+                $product['li_0_name'] = '';
+                $product['li_0_quantity'] = 1;
+                $product['sid'] = $config['vendor_id'];
+                $product['li_0_type'] = 'product';
+                $product['li_0_tangible'] = 'N';
+                $product['li_0_product_id'] = $model->account_id;
+                //remove this on production
+//                    Twocheckout_Charge::redirect($product);
             }
 
         }

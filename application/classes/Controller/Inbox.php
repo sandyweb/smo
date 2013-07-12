@@ -37,7 +37,15 @@ class Controller_Inbox extends Controller_General{
 
     public function action_index()
     {
-        $this->template->content = View::factory('frontend/inbox/index');
+        /**
+         * @TODO add ability to send message for manager
+         */
+        $additional = '';
+        $url = strtolower($this->request->controller()).'/view/';
+        $this->template->content = View::factory('frontend/inbox/index')
+            ->bind('action_url', $url)
+            ->bind('additional', $additional)
+        ;
     }
 
     public function action_view()
@@ -54,9 +62,11 @@ class Controller_Inbox extends Controller_General{
             $model->save();
         }
         $statuses = $model->get_statuses();
+        $action = strtolower($this->request->controller()).'/create';
         $this->template->content = View::factory('frontend/inbox/view')
             ->bind('message', $model)
             ->bind('statuses', $statuses)
+            ->bind('action', $action)
         ;
     }
 
@@ -69,6 +79,6 @@ class Controller_Inbox extends Controller_General{
             $message['status'] = Model_Message::STATUS_UNREAD;
             ORM::factory('Message')->values($message)->save();
         }
-        $this->redirect('inbox/index');
+        $this->redirect(strtolower($this->request->controller()).'/index');
     }
 }

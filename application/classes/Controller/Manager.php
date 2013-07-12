@@ -37,8 +37,16 @@ class Controller_Manager extends Controller_General{
 
     public function action_inbox()
     {
-        $url = strtolower($this->request->controller()).'/inbox_view/';
-        $this->template->content = View::factory('frontend/inbox/index')->bind('action_url', $url);
+        $controller = strtolower($this->request->controller());
+        $url = $controller.'/inbox_view/';
+        $data['clients'] = ORM::factory('Manager')->get_clients_as_array($this->_user->id);
+        $data['message'] = array('sender_id' => $this->_user->id);
+        $data['action'] = $controller.'/inbox_create';
+        $additional = View::factory('frontend/inbox/to_client_form', $data);
+        $this->template->content = View::factory('frontend/inbox/index')
+            ->bind('action_url', $url)
+            ->bind('additional', $additional)
+        ;
     }
 
     public function action_inbox_view()
@@ -72,7 +80,7 @@ class Controller_Manager extends Controller_General{
             $message['status'] = Model_Message::STATUS_UNREAD;
             ORM::factory('Message')->values($message)->save();
         }
-        $this->redirect(strtolower($this->request->controller()).'/index');
+        $this->redirect(strtolower($this->request->controller()).'/inbox');
     }
 
     public function action_settings()

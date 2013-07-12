@@ -37,8 +37,15 @@ class Controller_Inbox extends Controller_General{
 
     public function action_index()
     {
+        /**
+         * @TODO add ability to send message for manager
+         */
+        $additional = '';
         $url = strtolower($this->request->controller()).'/view/';
-        $this->template->content = View::factory('frontend/inbox/index')->bind('action_url', $url);
+        $this->template->content = View::factory('frontend/inbox/index')
+            ->bind('action_url', $url)
+            ->bind('additional', $additional)
+        ;
     }
 
     public function action_view()

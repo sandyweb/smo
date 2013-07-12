@@ -19,4 +19,16 @@ class Model_Manager extends ORM{
     protected $_has_many = array(
         'clients' => array('model' => 'Client', 'foreign_key' => 'manager_id')
     );
+
+    public function get_clients_as_array($manager_id)
+    {
+        $clients_arr = array();
+        $manager = ORM::factory('Manager', $manager_id);
+        $clients = $manager->clients->find_all();
+        foreach($clients as $client)
+        {
+            $clients_arr[$client->user->id] = $client->user->email;
+        }
+        return $clients_arr;
+    }
 }

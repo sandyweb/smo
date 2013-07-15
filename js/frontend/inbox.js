@@ -1,13 +1,29 @@
 $(document).ready(function(){
     var actionUrl = $('input[name="action_url"]').val();
-    getAllMessages(actionUrl);
+    var $client = $('select[name="client"]');
+    if($client.is(':visible')){
+        getMessageHistory($client.val());
+    }
+    else{
+        getAllMessages(actionUrl);
+    }
+
+    //client change
+    $client.change(function(){
+        getMessageHistory($(this).val());
+    });
 
     //get all messages
     $('.all-messages').click(function(e){
         e.preventDefault();
         $(this).parent().parent().children('span').removeClass('active');
         $(this).parent().addClass('active');
-        getAllMessages(actionUrl);
+        if($client.is(':visible')){
+            getMessageHistory($client.val());
+        }
+        else{
+            getAllMessages(actionUrl);
+        }
     });
 
     //get unread messages
@@ -78,6 +94,17 @@ function getArchivedMessages(actionUrl){
         type: 'post',
         dataType: 'html',
         data:{action_url: actionUrl},
+        success: function(response){
+            $('.messages-container').html(response);
+        }
+    });
+}
+function getMessageHistory(clientId){
+    $.ajax({
+        url: 'ajax/message_history/',
+        type: 'post',
+        dataType: 'html',
+        data:{client_id: clientId},
         success: function(response){
             $('.messages-container').html(response);
         }

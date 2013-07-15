@@ -43,9 +43,10 @@ class Controller_Manager extends Controller_General{
         $data['message'] = array('sender_id' => $this->_user->id);
         $data['action'] = $controller.'/inbox_create';
         $additional = View::factory('frontend/inbox/to_client_form', $data);
-        $this->template->content = View::factory('frontend/inbox/index')
+        $this->template->content = View::factory('frontend/manager/messages')
             ->bind('action_url', $url)
             ->bind('additional', $additional)
+            ->bind('clients', $data['clients'])
         ;
     }
 

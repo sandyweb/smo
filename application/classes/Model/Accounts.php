@@ -13,11 +13,15 @@ class Model_Accounts extends ORM {
     
     protected $_belongs_to = array(
         'users' => array('model' => 'Users', 'foreign_key' => 'users_id'),
-        'accountsTypes' => array('model' => 'AccountsTypes', 'foreign_key' => 'accounts_types_id')
+        'accountsTypes' => array('model' => 'AccountsTypes', 'foreign_key' => 'accounts_types_id'),
+        'information_source' => array('model' => 'InformationSource', 'foreign_key' => 'information_source_id'),
+        'posting_range' => array('model' => 'PostingRange', 'foreign_key' => 'posting_range_id'),
+        'comments_range' => array('model' => 'CommentsRange', 'foreign_key' => 'comments_range_id')
     );
 
     protected $_has_many = array(
-        'orders' => array('model' => 'Orders', 'foreign_key' => 'account_id')
+        'orders' => array('model' => 'Orders', 'foreign_key' => 'account_id'),
+        'messages' => array('model' => 'Message', 'foreign_key' => 'account_id')
     );
 
     public function rules() {

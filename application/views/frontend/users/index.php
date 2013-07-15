@@ -18,7 +18,7 @@
 <div class="social_data">
     <div class="function">
         <?php // echo HTML::anchor('accounts/add', __("Add account"));?>
-        <span id="add_account"><?php echo __("Add account");?></span>
+        <button type="button" id="add_account" class="login-btn"><?php echo __("Add account");?></button>
     </div>
 
     <div class="social_accounts">

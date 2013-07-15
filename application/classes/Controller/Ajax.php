@@ -202,6 +202,17 @@ class Controller_Ajax extends Kohana_Controller{
         echo $this->_response_json($result);
     }
 
+    public function action_message_history()
+    {
+        $sender_id = $this->auth->get_user()->id;
+        $receiver_id = $this->request->post('client_id');
+        $messages = ORM::factory('Message')->get_history($sender_id, $receiver_id);
+        echo View::factory('frontend/manager/message_history')
+            ->bind('messages', $messages)
+            ->bind('sender', $sender_id)
+        ;
+    }
+
     protected function _permission_denied()
     {
         $result = array('status' => self::STATUS_UNAUTHORIZED, 'reason' => 'You don\'t have permission for this method.');

@@ -104,4 +104,28 @@ class Model_Message extends ORM{
         return $this->where('sender_id', '=', $sender_id)
             ->find_all();
     }
+
+    /**
+     * Method get message history
+     *
+     * @access public
+     * @param $sender_id
+     * @param $receiver_id
+     * @return Database_Result
+     */
+    public function get_history($sender_id, $receiver_id)
+    {
+        return $this->
+            where_open()
+                ->where('sender_id', '=', $sender_id)
+                ->and_where('receiver_id', '=', $receiver_id)
+            ->where_close()
+            ->or_where_open()
+                ->where('receiver_id', '=', $sender_id)
+                ->and_where('sender_id', '=', $receiver_id)
+            ->or_where_close()
+            ->order_by('created', 'asc')
+            ->find_all()
+        ;
+    }
 }

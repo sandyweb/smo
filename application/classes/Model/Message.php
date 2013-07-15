@@ -91,4 +91,17 @@ class Model_Message extends ORM{
             self::STATUS_ARCHIVED => 'Archived'
         );
     }
+
+    /**
+     * Method get sent messages
+     *
+     * @access public
+     * @param $sender_id
+     * @return Database_Result
+     */
+    public function get_sent_messages($sender_id)
+    {
+        return $this->where('sender_id', '=', $sender_id)
+            ->find_all();
+    }
 }

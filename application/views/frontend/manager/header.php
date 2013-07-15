@@ -10,9 +10,15 @@
                 <?php echo HTML::anchor('manager/index', __("Clients"));?>
             </span>
         </li>
-        <li><span <?php echo ($action == "inbox") ? "class=\"active\"" : "";?>>
-                <?php echo HTML::anchor('manager/inbox', __("inbox"));?>
+        <li>
+            <span <?php echo ($action == "inbox") ? "class=\"active\"" : "";?>>
+                <?php echo HTML::anchor('manager/inbox', __("Inbox"));?>
                 (<?=$unread_messages_count;?>)
+            </span>
+        </li>
+        <li>
+            <span <?php echo ($action == "outbox" || $action == "outbox_view") ? "class=\"active\"" : "";?>>
+                <?php echo HTML::anchor('manager/outbox', __("Outbox"));?>
             </span>
         </li>
         <li>

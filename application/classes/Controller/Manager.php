@@ -83,6 +83,30 @@ class Controller_Manager extends Controller_General{
         $this->redirect(strtolower($this->request->controller()).'/inbox');
     }
 
+    public function action_outbox()
+    {
+        $controller = strtolower($this->request->controller());
+        $url = $controller.'/outbox_view/';
+        $messages = ORM::factory('Message')->get_sent_messages($this->_user->id);
+        $this->template->content = View::factory('frontend/outbox/index')
+            ->bind('messages', $messages)
+            ->bind('action_url', $url)
+        ;
+    }
+
+    public function action_outbox_view()
+    {
+        $id = $this->request->param('id');
+        $model = ORM::factory('Message', $id);
+        if(!$model->loaded())
+        {
+            throw new HTTP_Exception_404("Page not found");
+        }
+        $this->template->content = View::factory('frontend/outbox/view')
+            ->bind('message', $model)
+        ;
+    }
+
     public function action_settings()
     {
         $this->template->content = '';

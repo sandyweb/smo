@@ -1,4 +1,13 @@
-<h2>New Social Network</h2>
+<!--<div class="add-account-container">-->
+<!--    <h2>New Social Network</h2>-->
+<!--    <div class="account-type-container">-->
+<!--        --><?php //foreach($networks_types as $type):?>
+<!--            --><?//=Form::radio('account_type', $type->id, TRUE);?>
+<!--            <span>--><?//=$type->title;?><!--</span>-->
+<!--        --><?php //endforeach;?>
+<!--    </div>-->
+<!--</div>-->
+
 <div>
     <h5>Title : </h5>
     <?php echo Form::input('title', arr::get($form, 'title'), array("class"=>"input", "style"=>"width:340px; margin:5px 0 10px 0;"));?>

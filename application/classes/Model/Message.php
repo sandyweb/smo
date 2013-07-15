@@ -21,7 +21,8 @@ class Model_Message extends ORM{
 
     protected $_belongs_to = array(
         'sender' => array('model' => 'Users', 'foreign_key' => 'sender_id'),
-        'receiver' => array('model' => 'Users', 'foreign_key' => 'receiver_id')
+        'receiver' => array('model' => 'Users', 'foreign_key' => 'receiver_id'),
+        'account' => array('model' => 'Accounts', 'foreign_key' => 'account_id')
     );
 
     public function filters() {

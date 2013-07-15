@@ -144,7 +144,7 @@ div.login .logo {
     padding: 12px 0 0;
 }
 .bar_tab .bar_tab_body{
-    min-height: 100px;
+    min-height: 170px;
 }
 .bar_tab .bar_tab_body h4 {
     color: #225485;
@@ -249,7 +249,7 @@ h1 {
     background-color: #D1DBEA;
     box-shadow: -1px 0 0 #9CB2CD inset;
     height: 100%;
-    width: 360px;
+    width: 450px;
     float:left;
     padding: 60px 20px 20px 20px;
     margin-top:-54px;
@@ -336,3 +336,10 @@ em{color: #ccc;}
 .message-details-container{ padding:30px 20px 20px 20px;}
 .message-details-container label{width: 100px;}
 .message-details-container span{line-height: 21px;}
+.add-account-container span{
+    color: #2F6FAE;
+    font-family: 'MyriadPro-Regular';
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 0 3px;
+}

@@ -9,6 +9,8 @@
  * @property int $custom
  */
 class CommentsRange extends ORM{
+    const FB_DEFAULT_RANGE = 1;
+    const GOOGLE_DEFAULT_RANGE = 4;
 
     protected $_table_name = 'comments_range';
 
@@ -19,4 +21,14 @@ class CommentsRange extends ORM{
     protected $_has_many = array(
         'accounts' => array('model' => 'Accounts', 'foreign_key' => 'comments_range_id')
     );
+
+    public function get_fb_default_range()
+    {
+        return self::FB_DEFAULT_RANGE;
+    }
+
+    public function get_google_default_range()
+    {
+        return self::GOOGLE_DEFAULT_RANGE;
+    }
 }

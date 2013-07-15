@@ -9,6 +9,10 @@
  * @property int $custom
  */
 class Model_PostingRange extends ORM{
+    const FB_DEFAULT_RANGE = 2;
+    const TWITTER_DEFAULT_RANGE = 4;
+    const GOOGLE_DEFAULT_RANGE = 8;
+
     protected $_table_name = 'posting_range';
 
     protected $_belongs_to = array(
@@ -29,5 +33,20 @@ class Model_PostingRange extends ORM{
     public function get_range($account_type_id)
     {
         return $this->where('account_type_id', '=', $account_type_id)->find_all();
+    }
+
+    public function get_fb_default_range()
+    {
+        return self::FB_DEFAULT_RANGE;
+    }
+
+    public function get_twitter_default_range()
+    {
+        return self::TWITTER_DEFAULT_RANGE;
+    }
+
+    public function get_google_default_range()
+    {
+        return self::GOOGLE_DEFAULT_RANGE;
     }
 }

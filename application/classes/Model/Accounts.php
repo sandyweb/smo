@@ -16,7 +16,8 @@ class Model_Accounts extends ORM {
         'accountsTypes' => array('model' => 'AccountsTypes', 'foreign_key' => 'accounts_types_id'),
         'information_source' => array('model' => 'InformationSource', 'foreign_key' => 'information_source_id'),
         'posting_range' => array('model' => 'PostingRange', 'foreign_key' => 'posting_range_id'),
-        'comments_range' => array('model' => 'CommentsRange', 'foreign_key' => 'comments_range_id')
+        'comments_range' => array('model' => 'CommentsRange', 'foreign_key' => 'comments_range_id'),
+        'like_range' => array('model' => 'LikeRange', 'foreign_key' => 'like_range_id')
     );
 
     protected $_has_many = array(

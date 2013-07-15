@@ -6,7 +6,8 @@ class Model_AccountsTypes extends ORM {
     protected $_has_many = array(
         'accounts' => array('model' => 'Accounts', 'foreign_key' => 'accounts_types_id'),
         'posting_range' => array('model' => 'PostingRange', 'foreign_key' => 'account_type_id'),
-        'comments_range' => array('model' => 'CommentsRange', 'foreign_key' => 'account_type_id')
+        'comments_range' => array('model' => 'CommentsRange', 'foreign_key' => 'account_type_id'),
+        'like_range' => array('model' => 'LikeRange', 'foreign_key' => 'account_type_id'),
     );
 
     public function rules() {

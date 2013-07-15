@@ -6,13 +6,14 @@
  * @property string $name
  * @property int $account_type_id
  * @property int $price
+ * @property int $custom
  */
 class CommentsRange extends ORM{
 
     protected $_table_name = 'comments_range';
 
     protected $_belongs_to = array(
-        'account_type' => array('model' => 'AccountTypes', 'foreign_key' => 'account_type_id')
+        'account_type' => array('model' => 'AccountsTypes', 'foreign_key' => 'account_type_id')
     );
 
     protected $_has_many = array(

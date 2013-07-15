@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Model_PostingRange
+ * Class Model_LikeRange
  *
  * @property int $id
  * @property string $name
@@ -8,19 +8,20 @@
  * @property int $price
  * @property int $custom
  */
-class Model_PostingRange extends ORM{
-    protected $_table_name = 'posting_range';
+class Model_LikeRange extends ORM{
+
+    protected $_table_name = 'like_range';
 
     protected $_belongs_to = array(
         'account_type' => array('model' => 'AccountsTypes', 'foreign_key' => 'account_type_id')
     );
 
     protected $_has_many = array(
-        'accounts' => array('model' => 'Accounts', 'foreign_key' => 'posting_range_id')
+        'account' => array('model' => 'Accounts', 'foreign_key' => 'like_range_id')
     );
 
     /**
-     * Method get account type post range
+     * Method get like range
      *
      * @access public
      * @param $account_type_id

@@ -74,10 +74,6 @@
         <br />
         Your personal contact information, (email, phone, address), whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason without your consent, other than for the express purpose of delivering the purchased product or service requested. This policy includes the ability for Smoook to share 'attachments' with workers. Attachments are the digital task files (word documents, excel spreadsheets, or any file you upload), to virtual task workers for the exclusive goal of completing work on your behalf, according to your specific instructions. <br />
     </p>
-    <h2>How do we protect your information? </h2>
-    <p>
-        We use PayPal (registered trademark not affiliated with Smoook Inc.) for the secure storage of all customer credit card data. Smoook employees never see a customer's credit card. Before, during, and after a transaction, your private information (credit card data) was not, nor ever, stored on our servers or in our database.
-    </p>
     <p>
         We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information.
     </p>
@@ -102,18 +98,24 @@
         Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.
     </p>
     <h2>
-        Online Privacy Protection
+        Privacy Policy
     </h2>
     <p>
-        We therefore will not distribute your personal information to outside parties without your consent.
-
-        All users of our site may make any changes to their information at anytime by logging into their control panel and going to the 'Edit Settings' page.
+        This policy covers how we use your personal information. We take your privacy seriously and will take all measures to protect your personal information.
+        <br>
+        Any personal information received will only be used to fill your order. We will not sell or redistribute your information to anyone.
     </p>
     <h2>
         Childrens Online Privacy Protection Act Compliance
     </h2>
     <p>
         We are in compliance with the requirements of COPPA (Children Online Privacy Protection Act), we do not collect any information from anyone under 13 years of age. Our website, products and services are all directed to people who are at least 13 years old or older.
+    </p>
+    <h2>
+        Refund Policy
+    </h2>
+    <p>
+        If you are not 100% satisfied with your purchase, within 120 days from the purchase date, we will fully refund the cost of your order.
     </p>
     <h2>
         Terms and Conditions

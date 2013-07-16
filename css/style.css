@@ -1456,7 +1456,7 @@ body {
     background:url(../images/sprite_icons.png) no-repeat -129px -174px;
 }
 .team-list li .txtb {
-    padding:0 40px 0 160px;
+    /*padding:0 40px 0 160px;*/
 }
 .team-list li h3 {
     font-size:18px;

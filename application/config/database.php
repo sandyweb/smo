@@ -19,9 +19,9 @@ return array
 			 * Ports and sockets may be appended to the hostname.
 			 */
 			'hostname'   => 'localhost',
-			'database'   => 'ziptask',
-			'username'   => 'root',
-			'password'   => 'e041uz33j',
+			'database'   => '',
+			'username'   => '',
+			'password'   => '',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
@@ -39,9 +39,9 @@ return array
 			 * string   password    database password
 			 * boolean  persistent  use persistent connections?
 			 */
-			'dsn'        => 'mysql:host=localhost;dbname=ziptask',
-			'username'   => 'root',
-			'password'   => 'e041uz33j',
+			'dsn'        => 'mysql:host=localhost;dbname=',
+			'username'   => '',
+			'password'   => '',
 			'persistent' => FALSE,
 		),
 		/**

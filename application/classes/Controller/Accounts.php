@@ -78,35 +78,90 @@ class Controller_Accounts extends Controller_General {
     
     public function action_add()
     {
-        if ($this->request->is_ajax())
+        $session = Session::instance();
+        $this->auto_render = FALSE;
+        if($this->request->post())
         {
-            $this->auto_render = FALSE;
-            // If save
-            if ($this->request->post())
+            $data['title'] = $this->request->post('title');
+            $data['description'] = $this->request->post('description');
+            $data['accounts_types_id'] = $this->request->post('account_type');
+            $data['users_id'] = $this->auth->get_user()->id;
+            $account = new Model_Accounts;
+            $account->values($data);
+            try
             {
-                try
+                if($account->save())
                 {
-                    $title = $this->request->post('title');
-                    $description = $this->request->post('description');
-                    $type_id = $this->request->post('type');
-                    $user_id = $this->auth->get_user()->id;
-                    $model = $this->add($user_id, $type_id, $title, $description);
-                    if($model)
+                    $session->set('message', array('type' => 'success', 'message' => 'Account was saved successfully'));
+                    if($this->request->post('add_to_order') || $this->request->post('purchase'))
                     {
-                        $result = array('status' => 200, 'data' => array('id' => $model->id));
-                    }
-                    else
-                    {
-                        $result = array('status' => 400, 'reason' => 'Account was not added');
+                        $price = $this->request->post('price');
+                        $order_id = $this->add_to_order($account->id, $price);
+                        if($order_id)
+                        {
+                            $message = array('type' => 'success', 'message' => 'Order was added successfully');
+                            $session->set('message', $message);
+                            if($this->request->post('purchase'))
+                            {
+                                $this->purchase_order($order_id, $account->id);
+                            }
+                        }
+                        else
+                        {
+                            $message = array('type' => 'alert', 'message' => 'Order was not saved');
+                            $session->set('message', $message);
+                        }
                     }
                 }
-                catch(ORM_Validation_Exception $e)
-                {
-                    $result = array('status' => 500, 'reason' =>  $e->errors('validation'));
-                }
-                echo json_encode($result);
+            }
+            catch(ORM_Validation_Exception $e)
+            {
+                $message = array('type' => 'alert', 'message' => $e->errors('validation'));
+                $session->set('message', $message);
             }
         }
+        $this->redirect('users/index');
+    }
+
+    public function add_to_order($account_id, $price)
+    {
+        $order_id = 0;
+        $order = new Model_Order;
+        $order->account_id = $account_id;
+        $order->user_id = $this->auth->get_user()->id;
+        $order->created = time();
+        $order->status = Model_Order::STATUS_UNPAID;
+        $order->paid = $price;
+        if($order->save())
+        {
+            $data = $order->as_array();
+            Notification::send_order_message($this->auth->get_user()->email, $data);
+            $order_id = $order->id;
+        }
+        return $order_id;
+    }
+
+    public function purchase_order($order_id, $account_id)
+    {
+        /**
+         * @TODO payment process
+         */
+        require_once(APPPATH.'vendor/Twocheckout.php');
+        $config = Kohana::$config->load('config');
+        Twocheckout::setCredentials($config['api_username'], $config['api_password']);
+        $product = array();
+        $product['currency_code'] = 'USD';
+        $product['mode'] = '2CO';
+        $product['li_0_price'] = '0.00';
+        $product['merchant_order_id'] = $order_id;
+        $product['li_0_name'] = '';
+        $product['li_0_quantity'] = 1;
+        $product['sid'] = $config['vendor_id'];
+        $product['li_0_type'] = 'product';
+        $product['li_0_tangible'] = 'N';
+        $product['li_0_product_id'] = $account_id;
+        //remove this on production
+//                    Twocheckout_Charge::redirect($product);
     }
 
     public function action_get(){

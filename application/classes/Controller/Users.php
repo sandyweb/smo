@@ -3,6 +3,7 @@
 class Controller_Users extends Controller_General {
 
     public $template = "frontend/layout_users";
+    public $message = '';
 
     public function before() {
         parent::before();
@@ -31,6 +32,9 @@ class Controller_Users extends Controller_General {
         if (empty($data_left_bar['social_id'])) {
             $data_left_bar['social_id'] = NULL;
         }
+
+        $session = Session::instance();
+        $this->message = $session->get_once('message');
         
         $this->template->header = view::factory('frontend/header', $data_header);
         $this->template->left_bar = view::factory('frontend/left_bar', $data_left_bar);

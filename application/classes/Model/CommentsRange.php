@@ -8,7 +8,7 @@
  * @property int $price
  * @property int $custom
  */
-class CommentsRange extends ORM{
+class Model_CommentsRange extends ORM{
     const FB_DEFAULT_RANGE = 1;
     const GOOGLE_DEFAULT_RANGE = 4;
 
@@ -30,5 +30,17 @@ class CommentsRange extends ORM{
     public function get_google_default_range()
     {
         return self::GOOGLE_DEFAULT_RANGE;
+    }
+
+    /**
+     * Method get comments range
+     *
+     * @access public
+     * @param $account_type_id
+     * @return Database_Result
+     */
+    public function get_range($account_type_id)
+    {
+        return $this->where('account_type_id', '=', $account_type_id)->find_all();
     }
 }

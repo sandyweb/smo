@@ -261,7 +261,6 @@ h2 {
     line-height: 30px;
     padding: 2px 0 5px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
-    width: 380px;
 }
 h5 {
     color: #2F6FAE;
@@ -342,4 +341,22 @@ em{color: #ccc;}
     font-size: 14px;
     line-height: 14px;
     padding: 0 0 3px;
+}
+.add-account-container h5{
+    width: 80px;
+}
+.summary-account-price{
+    width: 100px;
+    float: right;
+    border: 1px solid #225485;
+    color: #2F6FAE;
+    font-family: 'MyriadPro-Regular';
+    font-size: 14px;
+    line-height: 14px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.summary-account-price span{
+    padding-left: 5px;
 }

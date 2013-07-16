@@ -95,7 +95,7 @@ class Controller_Accounts extends Controller_General {
                     $session->set('message', array('type' => 'success', 'message' => 'Account was saved successfully'));
                     if($this->request->post('add_to_order') || $this->request->post('purchase'))
                     {
-                        $price = Inflector::string2cents($this->request->post('price'));
+                        $price = $this->request->post('price');
                         $order_id = $this->add_to_order($account->id, $price);
                         if($order_id)
                         {

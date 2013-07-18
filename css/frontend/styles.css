@@ -360,3 +360,30 @@ em{color: #ccc;}
 .summary-account-price span{
     padding-left: 5px;
 }
+.span2{
+    float: none;
+    width: 40px;
+}
+.account-type-view{
+    margin: 10px auto;
+}
+.options-container{
+    margin: 5px 0;
+    padding: 5px;
+    min-height: 40px;
+    border: #225485 1px solid;
+}
+.options-container label{
+    width: 80px;
+}
+.options-container h4{
+    color: #2F6FAE;
+    font-family: 'MyriadPro-Regular';
+    font-size: 14px;
+    line-height: 14px;
+    padding: 5px;
+    font-weight: bold;
+}
+.options-container .inline{
+    display: inline-block;
+}

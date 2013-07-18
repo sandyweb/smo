@@ -27,12 +27,14 @@
         <?=Form::input('like_range_custom', '', array('class="input span2 hide"'));?>
     </div>
     <div class="options-container">
-        <label><?=__('Follow');?></label>
-        <?=Form::input('followers', '', array('class="input span2"'));?>
-    </div>
-    <div class="options-container">
-        <label><?=__('Circles');?></label>
-        <?=Form::input('friends', '', array('class="input span2"'));?>
+        <div class="inline">
+            <label><?=__('Follow');?></label>
+            <?=Form::input('followers', '', array('class="input span2"'));?>
+        </div>
+        <div class="inline">
+            <label><?=__('Circles');?></label>
+            <?=Form::input('friends', '', array('class="input span2"'));?>
+        </div>
     </div>
     <div class="options-container">
         <h4><?=__('Required input information source');?></h4>

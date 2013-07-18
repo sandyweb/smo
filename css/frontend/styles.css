@@ -387,3 +387,44 @@ em{color: #ccc;}
 .options-container .inline{
     display: inline-block;
 }
+.message-container{
+    margin: 2px;
+    min-height: 50px;
+    width: 450px;
+    padding: 5px;
+    border: #2F6FAE 1px solid;
+    position: relative;
+}
+.message-container.manager{
+    background: linear-gradient(#DBE1EC, #CBD9F0) repeat scroll 0 0 transparent;
+    color: #225485;
+}
+.message-container.client{
+    background: linear-gradient(#6F90B6, #477AAC) repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+.message-container .left-subcontainer{
+    float: left;
+    width: 80px;
+    text-align: center;
+}
+.message-container .right-subcontainer{
+    margin-left: 80px;
+}
+.message-container .right-subcontainer h4{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+
+}
+.message-container .both{
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    width: 80px;
+    text-align: right;
+}
+.message-container .message-user-avatar img{
+    width: 60px;
+    height: 60px;
+}

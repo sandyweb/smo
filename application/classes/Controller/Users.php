@@ -101,7 +101,10 @@ class Controller_Users extends Controller_General {
                 $model->mobile_phone = $this->request->post('mobile_phone');
                 $model->provider_id = $this->request->post('mobile_provider');
                 $model->email_format = $this->request->post('email_format');
-                $model->password = $this->auth->hash($password);
+                if($password)
+                {
+                    $model->password = $this->auth->hash($password);
+                }
                 if(isset($_FILES['profile_photo']) && $_FILES['profile_photo']['size'] > 0)
                 {
                     $filename = $this->_save_image($_FILES['profile_photo']);

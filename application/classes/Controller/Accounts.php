@@ -29,20 +29,6 @@ class Controller_Accounts extends Controller_General {
         $this->redirect($_SERVER['HTTP_REFERER']);
     }
     
-    public function edit() {
-        
-    }
-    
-    public function action_update() {
-        
-    }
-    
-    public function action_save() {
-        if ($this->request->is_ajax()) {
-            
-        }
-    }
-    
     public function action_edit() {
         if ($this->request->is_ajax()) {
             $this->auto_render = FALSE;
@@ -85,6 +71,16 @@ class Controller_Accounts extends Controller_General {
             $data['title'] = $this->request->post('title');
             $data['description'] = $this->request->post('description');
             $data['accounts_types_id'] = $this->request->post('account_type');
+            $data['posting_range_id'] = $this->request->post('posting_range');
+            $data['posting_range_custom'] = ($this->request->post('posting_range_custom')) ? $this->request->post('posting_range_custom') : 0;
+            $data['comments_range_id'] = $this->request->post('comments_range');
+            $data['comments_range_custom'] = ($this->request->post('comments_range_custom')) ? $this->request->post('comments_range_custom') : 0;
+            $data['like_range_id'] = $this->request->post('like_range');
+            $data['like_range_custom'] = ($this->request->post('like_range_custom')) ? $this->request->post('like_range_custom') : 0;
+            $data['information_source_id'] = $this->request->post('information_source');
+            $data['total_likes'] = $this->request->post('total_page_likes');
+            $data['total_followers'] = ($this->request->post('followers')) ? $this->request->post('followers') : 0;
+            $data['total_friends'] = ($this->request->post('friends')) ? $this->request->post('friends') : 0;
             $data['users_id'] = $this->auth->get_user()->id;
             $account = new Model_Accounts;
             $account->values($data);

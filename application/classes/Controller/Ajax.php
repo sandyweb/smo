@@ -148,9 +148,35 @@ class Controller_Ajax extends Kohana_Controller{
         ;
     }
 
-    public function action_fb_view()
+    public function action_account_type_view()
     {
         $account_type_id = $this->request->post('account_type_id');
+        $account_type = ORM::factory('AccountsTypes', $account_type_id);
+        switch($account_type->title)
+        {
+            case 'Facebook':
+                $this->fb_view($account_type_id);
+                break;
+            case 'Twitter':
+                $this->twitter_view($account_type_id);
+                break;
+            case 'LinkedIn':
+                $this->linkedin_view();
+                break;
+            case 'Google+':
+                $this->google_view($account_type_id);
+                break;
+            case 'Blog':
+                $this->blog_view();
+                break;
+            case 'Pinterest':
+                $this->pinterest_view();
+                break;
+        }
+    }
+
+    public function fb_view($account_type_id)
+    {
         $posting_model = ORM::factory('PostingRange');
         $posting_range = $posting_model->get_range($account_type_id);
         $default_posting_range = $posting_model->get_fb_default_range();
@@ -174,6 +200,70 @@ class Controller_Ajax extends Kohana_Controller{
             ->bind('comments_range', $comments_range)
             ->bind('default_comments_range', $default_comments_range)
         ;
+    }
+
+    public function twitter_view($account_type_id)
+    {
+        $posting_model = ORM::factory('PostingRange');
+        $posting_range = $posting_model->get_range($account_type_id);
+        $default_posting_range = $posting_model->get_twitter_default_range();
+        $source_model = ORM::factory('InformationSource');
+        $sources = $source_model->find_all();
+        $default_source = $source_model->get_twitter_default_source();
+        echo View::factory('frontend/account_type/twitter')
+            ->bind('posting_range', $posting_range)
+            ->bind('default_posting_range', $default_posting_range)
+            ->bind('sources', $sources)
+            ->bind('default_source', $default_source)
+        ;
+    }
+
+    public function linkedin_view()
+    {
+        $source_model = ORM::factory('InformationSource');
+        $sources = $source_model->find_all();
+        $default_source = $source_model->get_linkedin_default_source();
+        echo View::factory('frontend/account_type/linkedin')
+            ->bind('sources', $sources)
+            ->bind('default_source', $default_source)
+        ;
+    }
+
+    public function google_view($account_type_id)
+    {
+        $posting_model = ORM::factory('PostingRange');
+        $posting_range = $posting_model->get_range($account_type_id);
+        $default_posting_range = $posting_model->get_google_default_range();
+        $source_model = ORM::factory('InformationSource');
+        $sources = $source_model->find_all();
+        $default_source = $source_model->get_google_default_source();
+        $like_model = ORM::factory('LikeRange');
+        $like_range = $like_model->get_range($account_type_id);
+        $default_like_range = $like_model->get_google_default_range();
+        $comment_model = ORM::factory('CommentsRange');
+        $comments_range = $comment_model->get_range($account_type_id);
+        $default_comments_range = $comment_model->get_google_default_range();
+
+        echo View::factory('frontend/account_type/google')
+            ->bind('posting_range', $posting_range)
+            ->bind('default_posting_range', $default_posting_range)
+            ->bind('like_range', $like_range)
+            ->bind('default_like_range', $default_like_range)
+            ->bind('sources', $sources)
+            ->bind('default_source', $default_source)
+            ->bind('comments_range', $comments_range)
+            ->bind('default_comments_range', $default_comments_range)
+        ;
+    }
+
+    public function blog_view()
+    {
+        echo View::factory('frontend/account_type/blog');
+    }
+
+    public function pinterest_view()
+    {
+        echo View::factory('frontend/account_type/pinterest');
     }
 
     protected function _permission_denied()

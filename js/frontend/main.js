@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
 
     $('#accounts').dataTable({
         iDisplayLength: 20,
@@ -18,14 +18,17 @@ $(document).ready(function() {
                 $("#actions").empty();
                 $("#actions").append(data);
                 $("#actions").show();
+                getAccountTypeView($('input[name="account_type"]:checked').val());
             }
         });
     });
 
     var $content_wrapper = $('.content_wrapper');
     $content_wrapper.on('change', 'input[name="account_type"]', function(){
-        $('.account-price').text('$' + convertCentsDollars(4900));
-        $('input[name="price"]').val(4900);
+        $('.account-price').text('$' + convertCentsDollars(0));
+        $('input[name="price"]').val(0);
+        //get account type view
+        getAccountTypeView($(this).val());
     });
 });
 
@@ -64,4 +67,16 @@ function covertDollars2Cents(value){
     value = value.replace('.', '');
     value = value.replace('$', '');
     return value * 1;
+}
+
+function getAccountTypeView(accountTypeId){
+    $.ajax({
+        url: 'ajax/account_type_view/',
+        type: 'post',
+        dataType: 'html',
+        data: {account_type_id: accountTypeId},
+        success: function(response){
+            $('.account-type-view').html(response);
+        }
+    });
 }

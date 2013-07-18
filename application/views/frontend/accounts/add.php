@@ -23,6 +23,8 @@
             <?=arr::get($form, 'description');?>
         </textarea>
     </div>
+    <div class="clear"></div>
+    <div class="account-type-view"></div>
     <div>
         <?=Form::submit('add_to_order', __('Add to order list'), array("class"=>"login-btn", "style"=>"height: 26px"));?>
         <?=Form::submit('purchase', __('Purchase'), array("class"=>"login-btn", "style"=>"height: 26px"));?>

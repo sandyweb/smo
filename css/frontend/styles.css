@@ -332,7 +332,7 @@ label {
     width: 360px;
 }
 em{color: #ccc;}
-.message-details-container{padding:30px 20px 20px 20px;}
+.message-details-container{padding:30px 20px 20px 20px;width: 450px;}
 .message-details-container label{width: 100px;}
 .message-details-container span{line-height: 21px;}
 .message-details-container textarea, .message-details-container input[type="text"]{width: 350px;}

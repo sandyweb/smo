@@ -38,6 +38,7 @@ class Controller_Users extends Controller_General {
         
         $this->template->header = view::factory('frontend/header', $data_header);
         $this->template->left_bar = view::factory('frontend/left_bar', $data_left_bar);
+        $this->template->additional = '';
     }
 
     public function action_edit() {
@@ -148,10 +149,18 @@ class Controller_Users extends Controller_General {
             throw new HTTP_Exception_404("Page not found");
         }
         $data['account'] = $model;
-        $model = new Model_AccountsTypes();
-        $data['networks_types'] = $model->find_all();
+        $account_type = new Model_AccountsTypes();
+        $data['networks_types'] = $account_type->find_all();
         $view['edit_view'] = view::factory('frontend/accounts/edit', $data);
-
+        $messages = $model->messages->find_all();
+        $message = ORM::factory('Message');
+        $statuses = $message->get_statuses();
+        $action_url = 'inbox/view/';
+        $this->template->additional = View::factory('frontend/inbox/all_messages')
+            ->bind('messages', $messages)
+            ->bind('statuses', $statuses)
+            ->bind('action_url', $action_url)
+        ;
         $this->template->content = view::factory('frontend/accounts/view', $view);
     }
 

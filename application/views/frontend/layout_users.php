@@ -21,7 +21,9 @@
                 <!-- For add or edit accounts -->
             </div>
             <div class="content"><?php echo $content;?></div>
-            
+            <?php if($additional):?>
+                <div class="additional"><?=$additional;?></div>
+            <?php endif;?>
             <div class='clear'></div>
         </div>
 

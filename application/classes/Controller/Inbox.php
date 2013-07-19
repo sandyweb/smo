@@ -33,6 +33,7 @@ class Controller_Inbox extends Controller_General{
 
         $this->template->header = view::factory('frontend/header', $data_header);
         $this->template->left_bar = view::factory('frontend/left_bar', $data_left_bar);
+        $this->template->additional = '';
     }
 
     public function action_index()

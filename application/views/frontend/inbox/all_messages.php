@@ -22,6 +22,10 @@
 </table>
 <script>
     $(document).ready(function(){
-        $('#message-list-table').dataTable();
+        $('#message-list-table').dataTable({
+            bFilter: false,
+            bInfo: false,
+            bLengthChange: false
+        });
     });
 </script>

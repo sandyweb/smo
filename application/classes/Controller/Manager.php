@@ -26,6 +26,7 @@ class Controller_Manager extends Controller_General{
         $data_header['unread_messages_count'] = $message_model->get_unread_messages_count($this->auth->get_user()->id);
         $this->template->header = view::factory('frontend/manager/header', $data_header);
         $this->template->left_bar = '';
+        $this->template->additional = '';
     }
 
     public function action_index()
@@ -43,9 +44,9 @@ class Controller_Manager extends Controller_General{
         $data['message'] = array('sender_id' => $this->_user->id);
         $data['action'] = $controller.'/inbox_create';
         $additional = View::factory('frontend/inbox/to_client_form', $data);
+        $this->template->additional = $additional;
         $this->template->content = View::factory('frontend/manager/messages')
             ->bind('action_url', $url)
-            ->bind('additional', $additional)
             ->bind('clients', $data['clients'])
         ;
     }

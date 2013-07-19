@@ -24,4 +24,5 @@
         </div>
         <div class="clear"></div>
     <?php endforeach;?>
+    <div class="pagination-container"><?=$pagination;?></div>
 </div>

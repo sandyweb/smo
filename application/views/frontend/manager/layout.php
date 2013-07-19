@@ -17,12 +17,11 @@
 <!-- content -->
 <div class="content_wrapper">
     <div class="left_bar"><?php echo $left_bar;?></div>
-    <div class="actions" id="actions" style="display:none;">
-        <!-- For add or edit accounts -->
-    </div>
-    <div class="content"><?php echo $content;?></div>
-
-    <div class='clear'></div>
+    <div class="content"><?=$content;?></div>
+    <?php if($additional):?>
+        <div class="additional"><?=$additional;?></div>
+    <?php endif;?>
+    <div class="clear"></div>
 </div>
 </body>
 </html>

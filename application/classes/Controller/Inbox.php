@@ -40,11 +40,9 @@ class Controller_Inbox extends Controller_General{
         /**
          * @TODO add ability to send message for manager
          */
-        $additional = '';
         $url = strtolower($this->request->controller()).'/view/';
         $this->template->content = View::factory('frontend/inbox/index')
             ->bind('action_url', $url)
-            ->bind('additional', $additional)
         ;
     }
 

@@ -139,12 +139,21 @@ class Controller_Ajax extends Kohana_Controller{
 
     public function action_message_history()
     {
+        $page = ($this->request->post('page')) ? $this->request->post('page') : 0;
+        $items_per_page = 5;
         $sender_id = $this->auth->get_user()->id;
         $receiver_id = $this->request->post('client_id');
-        $messages = ORM::factory('Message')->get_history($sender_id, $receiver_id);
+        $message = ORM::factory('Message');
+        $offset = ($page) ? ($items_per_page * ($page - 1)) : 0;
+        $messages = $message->get_history($sender_id, $receiver_id, $offset, 5);
+        $total_items = $message->get_history_count($sender_id, $receiver_id);
+        $pagination = Pagination::factory(array('total_items' => $total_items, 'current_page' => array(
+            'page' => $page, 'source' => 'query_string', 'key' => 'page'
+        )));
         echo View::factory('frontend/manager/message_history')
             ->bind('messages', $messages)
             ->bind('sender', $sender_id)
+            ->bind('pagination', $pagination)
         ;
     }
 

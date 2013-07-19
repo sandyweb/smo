@@ -332,9 +332,10 @@ label {
     width: 360px;
 }
 em{color: #ccc;}
-.message-details-container{ padding:30px 20px 20px 20px;}
+.message-details-container{padding:30px 20px 20px 20px;}
 .message-details-container label{width: 100px;}
 .message-details-container span{line-height: 21px;}
+.message-details-container textarea, .message-details-container input[type="text"]{width: 350px;}
 .add-account-container span{
     color: #2F6FAE;
     font-family: 'MyriadPro-Regular';
@@ -427,4 +428,17 @@ em{color: #ccc;}
 .message-container .message-user-avatar img{
     width: 60px;
     height: 60px;
+}
+.pagination-container{
+    width: 300px;
+    margin: 5px auto;
+    text-align: center;
+}
+.additional{
+    float: left;
+    width: 400px;
+    border-right: #2F6FAE 1px solid;
+    background-color: #D1DBEA;
+    box-shadow: -1px 0 0 #9CB2CD inset;
+    height: 100%;
 }

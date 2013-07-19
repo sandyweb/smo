@@ -32,7 +32,8 @@ class Model_PostingRange extends ORM{
      */
     public function get_range($account_type_id)
     {
-        return $this->where('account_type_id', '=', $account_type_id)->find_all();
+        $range = $this->where('account_type_id', '=', $account_type_id)->find_all();
+        return $range;
     }
 
     public function get_fb_default_range()

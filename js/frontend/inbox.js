@@ -53,6 +53,20 @@ $(document).ready(function(){
     $('#answer-message-btn').click(function(){
         $('#answer-container').toggle();
     });
+
+    //messages pagination
+    $('.messages-container').on('click', '.pagination a', function(e){
+        e.preventDefault();
+        var page = $(this).attr('href').split('?');
+        if(typeof page[1] != 'undefined'){
+            page = page[1].split('=');
+            page = page[1];
+        }
+        else{
+            page = 0;
+        }
+        getMessageHistory($client.val(), page);
+    });
 });
 
 function getAllMessages(actionUrl){
@@ -99,12 +113,13 @@ function getArchivedMessages(actionUrl){
         }
     });
 }
-function getMessageHistory(clientId){
+function getMessageHistory(clientId, page){
+    page = (page) ? page : 0;
     $.ajax({
         url: 'ajax/message_history/',
         type: 'post',
         dataType: 'html',
-        data:{client_id: clientId},
+        data:{client_id: clientId, page: page},
         success: function(response){
             $('.messages-container').html(response);
         }

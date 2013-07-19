@@ -12,7 +12,6 @@
             </ul>
         </div>
     </div>
-    <div class="additional"><?=$additional;?></div>
     <div class="messages-container"></div>
 </div>
 <?=HTML::script(URL::base().'js/frontend/inbox.js');?>

@@ -67,6 +67,15 @@ $(document).ready(function(){
         }
         getMessageHistory($client.val(), page);
     });
+
+    var $receiver = $('select[name="message[receiver_id]"]');
+    if($receiver.is(':visible')){
+        getClientAccountList($receiver.val());
+    }
+
+    $('.additional').on('change', 'select[name="message[receiver_id]"]', function(){
+        getClientAccountList($(this).val());
+    });
 });
 
 function getAllMessages(actionUrl){
@@ -122,6 +131,17 @@ function getMessageHistory(clientId, page){
         data:{client_id: clientId, page: page},
         success: function(response){
             $('.messages-container').html(response);
+        }
+    });
+}
+function getClientAccountList(clientId){
+    $.ajax({
+        url: 'ajax/client_account_list/',
+        type: 'post',
+        dataType: 'html',
+        data: {client_id: clientId},
+        success: function(response){
+            $('.client-account-container').html(response);
         }
     });
 }

@@ -78,6 +78,10 @@ class Controller_Manager extends Controller_General{
         if($this->request->post())
         {
             $message = $this->request->post('message');
+            if($this->request->post('account_id'))
+            {
+                $message['account_id'] = $this->request->post('account_id');
+            }
             $message['created'] = time();
             $message['status'] = Model_Message::STATUS_UNREAD;
             ORM::factory('Message')->values($message)->save();

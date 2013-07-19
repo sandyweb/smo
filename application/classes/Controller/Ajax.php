@@ -157,6 +157,21 @@ class Controller_Ajax extends Kohana_Controller{
         ;
     }
 
+    public function action_client_account_list()
+    {
+        $client_id = $this->request->post('client_id');
+        if(!$client_id)
+        {
+            $this->_invalid_request();
+        }
+        $client = ORM::factory('Client', $client_id);
+        $account_list = $client->get_account_list();
+        if(!empty($account_list))
+        {
+            echo View::factory('frontend/accounts/list')->bind('account_list', $account_list);
+        }
+    }
+
     public function action_account_type_view()
     {
         $account_type_id = $this->request->post('account_type_id');

@@ -5,6 +5,7 @@
             <h5><?=__('Client');?></h5>
             <span><?=Form::select('message[receiver_id]', $clients);?></span>
         </div>
+        <div class="client-account-container"></div>
         <div>
             <h5><?=__('Subject');?></h5>
             <span><?=Form::input('message[subject]', '', array("class"=>"input"));?></span>

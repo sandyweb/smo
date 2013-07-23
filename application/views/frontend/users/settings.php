@@ -1,4 +1,4 @@
-<?=Form::open(URL::site('users/settings'), array('enctype' => 'multipart/form-data'));?>
+<?=Form::open(URL::site($action), array('enctype' => 'multipart/form-data'));?>
 <div class="user_prof">
     <h4><span>User Profile</span></h4>
     <div class="clear"></div>

@@ -90,6 +90,7 @@ class Controller_Users extends Controller_General {
 
         $user_id = $this->auth->get_user()->id;
         $model = new Model_Users($user_id);
+        $action = 'users/settings';
                 
         if($this->request->post())
         {
@@ -108,7 +109,7 @@ class Controller_Users extends Controller_General {
                 }
                 if(isset($_FILES['profile_photo']) && $_FILES['profile_photo']['size'] > 0)
                 {
-                    $filename = $this->_save_image($_FILES['profile_photo']);
+                    $filename = $model->save_avatar($_FILES['profile_photo']);
                     if(!$filename)
                     {
                         throw new Exception('There was a problem while uploading the image.
@@ -125,7 +126,11 @@ class Controller_Users extends Controller_General {
         }
         
         $data['user'] = $model;
-        $this->template->content = view::factory('frontend/users/settings', $data)->set('form', $_POST)->bind('errors', $errors);
+        $this->template->content = view::factory('frontend/users/settings', $data)
+            ->set('form', $_POST)
+            ->bind('errors', $errors)
+            ->bind('action', $action)
+        ;
     }
 
     public function action_orders()
@@ -162,34 +167,5 @@ class Controller_Users extends Controller_General {
             ->bind('action_url', $action_url)
         ;
         $this->template->content = view::factory('frontend/accounts/view', $view);
-    }
-
-    protected function _save_image($image)
-    {
-        if(
-            ! Upload::valid($image) OR
-            ! Upload::not_empty($image) OR
-            ! Upload::type($image, array('jpg', 'jpeg', 'png', 'gif')))
-        {
-            return FALSE;
-        }
-
-        $directory = DOCROOT.'files/media/avatars/';
-
-        if($file = Upload::save($image, NULL, $directory))
-        {
-            $filename = strtolower(Text::random('alnum', 20)).'.jpg';
-
-            Image::factory($file)
-                ->resize(200, 200, Image::AUTO)
-                ->save($directory.$filename);
-
-            // Delete the temporary file
-            unlink($file);
-
-            return $filename;
-        }
-
-        return FALSE;
     }
 }

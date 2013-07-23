@@ -4,6 +4,9 @@
  */
 class Controller_Manager extends Controller_General{
     public $template = "frontend/manager/layout";
+    /**
+     * @var Model_Users
+     */
     private $_user = NULL;
 
     public function before()
@@ -115,6 +118,45 @@ class Controller_Manager extends Controller_General{
 
     public function action_settings()
     {
-        $this->template->content = '';
+        if($this->request->post())
+        {
+            try
+            {
+                $this->_user->username = $this->request->post('username');
+                $this->_user->lastname = $this->request->post('lastname');
+                $this->_user->email = $this->request->post('email');
+                $password = $this->request->post('password');
+                $this->_user->mobile_phone = $this->request->post('mobile_phone');
+                $this->_user->provider_id = $this->request->post('mobile_provider');
+                $this->_user->email_format = $this->request->post('email_format');
+                if($password)
+                {
+                    $this->_user->password = $this->auth->hash($password);
+                }
+                if(isset($_FILES['profile_photo']) && $_FILES['profile_photo']['size'] > 0)
+                {
+                    $filename = ORM::factory('Users')->save_avatar($_FILES['profile_photo']);
+                    if(!$filename)
+                    {
+                        throw new Exception('There was a problem while uploading the image.
+                                Make sure it is uploaded and must be JPG/PNG/GIF file.'
+                        );
+                    }
+                    $this->_user->image = $filename;
+                }
+                $this->_user->save();
+            }
+            catch(ORM_Validation_Exception $e) {
+                $errors = $e->errors('validation');
+            }
+        }
+
+        $data['user'] = $this->_user;
+        $action = 'manager/settings/';
+        $this->template->content = view::factory('frontend/users/settings', $data)
+            ->set('form', $_POST)
+            ->bind('errors', $errors)
+            ->bind('action', $action)
+        ;
     }
 }

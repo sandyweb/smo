@@ -62,6 +62,42 @@ class Model_Users extends Model_User {
         $id = $query->execute()->get('id', 0);
         return (!empty($id)) ? TRUE : FALSE;
     }
+
+    /**
+     * Save user avatar, if success return file name
+     *
+     * @access public
+     * @param $image
+     * @return bool|string
+     */
+    public function save_avatar($image)
+    {
+        if(
+            ! Upload::valid($image) OR
+            ! Upload::not_empty($image) OR
+            ! Upload::type($image, array('jpg', 'jpeg', 'png', 'gif')))
+        {
+            return FALSE;
+        }
+
+        $directory = DOCROOT.'files/media/avatars/';
+
+        if($file = Upload::save($image, NULL, $directory))
+        {
+            $filename = strtolower(Text::random('alnum', 20)).'.jpg';
+
+            Image::factory($file)
+                ->resize(200, 200, Image::AUTO)
+                ->save($directory.$filename);
+
+            // Delete the temporary file
+            unlink($file);
+
+            return $filename;
+        }
+
+        return FALSE;
+    }
     
     public static function get_password_validation($values) {
         return Validation::factory($values)

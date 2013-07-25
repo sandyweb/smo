@@ -48,6 +48,7 @@ class Model_Accounts extends ORM {
      */
     public function get_expired_accounts($user_id)
     {
-        return self::factory('Accounts')->where('users_id', '=', $user_id)->and_where('expiration', '<=', time())->find_all();
+        $condition = (is_array($user_id)) ? 'IN' : '=';
+        return  self::factory('Accounts')->where('users_id', $condition, $user_id)->and_where('expiration', '<=', time())->find_all();
     }
 }

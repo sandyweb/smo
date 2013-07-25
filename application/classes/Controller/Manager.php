@@ -36,7 +36,15 @@ class Controller_Manager extends Controller_General{
     {
         $manager = ORM::factory('Manager', $this->_user->id);
         $clients = $manager->clients->find_all();
-        $this->template->content = View::factory('frontend/manager/clients')->bind('clients', $clients);
+        foreach($clients as $client)
+        {
+            $client_ids[] = $client->user->id;
+        }
+        $expired_accounts = ORM::factory('Accounts')->get_expired_accounts($client_ids);
+        $this->template->content = View::factory('frontend/manager/clients')
+            ->bind('clients', $clients)
+            ->bind('expired_accounts', $expired_accounts)
+        ;
     }
 
     public function action_inbox()

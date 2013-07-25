@@ -56,34 +56,27 @@ class Controller_Users extends Controller_General {
         $this->template->content = view::factory('frontend/users/edit')->set('form', $_POST)->bind('errors', $errors);
     }
     
-    public function action_index() {
-        
+    public function action_index()
+    {
+        $expired_accounts = ORM::factory('Accounts')->get_expired_accounts($this->auth->get_user()->id);
         $social_id = $this->request->param('id');
-        if (empty($social_id)) {
+        if(empty($social_id))
+        {
             $social_id = NULL;
         }
-        
-//        $data['network_active'] = $social_id;
+
         $data['user'] = $this->auth->get_user();
-        
-//        $model_types = new Model_AccountsTypes();
-//        $data['network_types'] = $model_types->find_all();
-        
-//        $model_types = new Model_AccountsTypes();
-//        $types = $model_types->accounts->where('users_id', '=', $this->auth->get_user()->id);
-//        if ($social_id != NULL) {
-//            $types->and_where('accounts_types_id', '=', $social_id);
-//        }
         
         // Get accounts
         $model_accounts = new Model_Accounts();
         $model_accounts->where('users_id', '=', $this->auth->get_user()->id);
-        if ($social_id != NULL) {
+        if($social_id != NULL)
+        {
             $model_accounts->and_where('accounts_types_id', '=', $social_id);
         }
         $data['accounts'] = $model_accounts->find_all();
         
-        $this->template->content = view::factory('frontend/users/index', $data);
+        $this->template->content = view::factory('frontend/users/index', $data)->bind('expired_accounts', $expired_accounts);
     }
     
     public function action_settings() {

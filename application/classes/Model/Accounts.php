@@ -38,4 +38,16 @@ class Model_Accounts extends ORM {
             'title' => array(array('trim'), array('strip_tags')),
         );
     }
+
+    /**
+     * Get expired user accounts
+     *
+     * @access public
+     * @param $user_id
+     * @return Database_Result
+     */
+    public function get_expired_accounts($user_id)
+    {
+        return self::factory('Accounts')->where('users_id', '=', $user_id)->and_where('expiration', '<=', time())->find_all();
+    }
 }

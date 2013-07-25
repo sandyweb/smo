@@ -81,6 +81,8 @@ class Controller_Accounts extends Controller_General {
             $data['total_likes'] = $this->request->post('total_page_likes');
             $data['total_followers'] = ($this->request->post('followers')) ? $this->request->post('followers') : 0;
             $data['total_friends'] = ($this->request->post('friends')) ? $this->request->post('friends') : 0;
+            $price = $this->request->post('price');
+            $data['cost'] = $price;
             $data['users_id'] = $this->auth->get_user()->id;
             $account = new Model_Accounts;
             $account->values($data);
@@ -91,7 +93,7 @@ class Controller_Accounts extends Controller_General {
                     $session->set('message', array('type' => 'success', 'message' => 'Account was saved successfully'));
                     if($this->request->post('add_to_order') || $this->request->post('purchase'))
                     {
-                        $price = $this->request->post('price');
+
                         $order_id = $this->add_to_order($account->id, $price);
                         if($order_id)
                         {
@@ -141,6 +143,9 @@ class Controller_Accounts extends Controller_General {
     {
         /**
          * @TODO payment process
+         * @TODO need specify details for payment process
+         * @TODO need specify details for tangible
+         * @TODO and develop methods for notification
          */
         require_once(APPPATH.'vendor/Twocheckout.php');
         $config = Kohana::$config->load('config');

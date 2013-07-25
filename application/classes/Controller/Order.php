@@ -34,6 +34,9 @@ class Controller_Order extends Controller{
         $session = Session::instance();
         if($passback['response_code'] == 'Success')
         {
+            /**
+             * @TODO need update account expiration date and cost
+             */
             $session->set('message', 'Payment was proceed successfully');
         }
         else

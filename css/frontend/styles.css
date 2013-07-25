@@ -442,3 +442,13 @@ em{color: #ccc;}
     box-shadow: -1px 0 0 #9CB2CD inset;
     height: 100%;
 }
+.notification{
+    width: 450px;
+    border: #ff0000 1px solid;
+    padding: 5px;
+}
+.notification h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: darkred;
+}

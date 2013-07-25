@@ -1,25 +1,27 @@
-<table id="read-message-list-table">
-    <thead>
-    <tr>
-        <td>Date</td>
-        <td>Sender</td>
-        <td>Subject</td>
-        <td></td>
-    </tr>
-    </thead>
-    <tbody>
+<div class="message-list-container read">
     <?php foreach($messages as $message):?>
-        <tr>
-            <td><?=Date::to_datetime($message->created);?></td>
-            <td><?=$message->sender->email;?></td>
-            <td><?=$message->subject;?></td>
-            <td><?=HTML::anchor(URL::site($action_url.$message->id), __('Read'));?></td>
-        </tr>
+        <div class="message-container client">
+            <div class="left-subcontainer">
+                <div class="message-user-avatar">
+                    <?php $image = $message->sender->image;?>
+                    <?php if(!$image):?>
+                        <?=HTML::image('files/template/frontend/pm-icon.png');?>
+                    <?php else:?>
+                        <?=HTML::image('files/media/avatars/'.$image);?>
+                    <?php endif;?>
+                </div>
+                <p><?=Date::to_datetime($message->created);?></p>
+            </div>
+            <div class="right-subcontainer">
+                <h4><?=$message->subject;?></h4>
+                <p><?=$message->message;?></p>
+            </div>
+            <div class="both">
+                <p><?=HTML::anchor(URL::site($action_url.$message->id), __('Details'));?></p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
     <?php endforeach;?>
-    </tbody>
-</table>
-<script>
-    $(document).ready(function(){
-        $('#read-message-list-table').dataTable();
-    });
-</script>
+    <div class="pagination-container"><?=$pagination;?></div>
+</div>

@@ -40,29 +40,62 @@ class Model_Message extends ORM{
         parent::save($validation);
     }
 
-    public function get_messages($receiver_id)
+    public function get_messages($receiver_id, $offset = 0, $limit = 5)
     {
-        return $this->where('receiver_id', '=', $receiver_id)->find_all();
+        return $this->where('receiver_id', '=', $receiver_id)
+            ->order_by('created', 'desc')
+            ->offset($offset)
+            ->limit($limit)
+            ->find_all();
     }
 
-    public function get_archived_messages($receiver_id)
+    public function get_messages_count($receiver_id)
+    {
+        return $this->where('receiver_id', '=', $receiver_id)
+            ->count_all();
+    }
+
+    public function get_archived_messages($receiver_id, $offset = 0, $limit = 5)
     {
         return $this->where('receiver_id', '=', $receiver_id)
             ->and_where('status', '=', self::STATUS_ARCHIVED)
+            ->order_by('created', 'desc')
+            ->offset($offset)
+            ->limit($limit)
             ->find_all();
     }
 
-    public function get_read_messages($receiver_id)
+    public function get_archived_messages_count($receiver_id)
+    {
+        return $this->where('receiver_id', '=', $receiver_id)
+            ->and_where('status', '=', self::STATUS_ARCHIVED)
+            ->count_all();
+    }
+
+    public function get_read_messages($receiver_id, $offset = 0, $limit = 5)
     {
         return $this->where('receiver_id', '=', $receiver_id)
             ->and_where('status', '=', self::STATUS_READ)
+            ->order_by('created', 'desc')
+            ->offset($offset)
+            ->limit($limit)
             ->find_all();
     }
 
-    public function get_unread_messages($receiver_id)
+    public function get_read_messages_count($receiver_id)
+    {
+        return $this->where('receiver_id', '=', $receiver_id)
+            ->and_where('status', '=', self::STATUS_READ)
+            ->count_all();
+    }
+
+    public function get_unread_messages($receiver_id, $offset = 0, $limit = 5)
     {
         return $this->where('receiver_id', '=', $receiver_id)
             ->and_where('status', '=', self::STATUS_UNREAD)
+            ->order_by('created', 'desc')
+            ->offset($offset)
+            ->limit($limit)
             ->find_all();
     }
 
@@ -75,7 +108,9 @@ class Model_Message extends ORM{
      */
     public function get_unread_messages_count($receiver_id)
     {
-        return sizeof($this->get_unread_messages($receiver_id));
+        return $this->where('receiver_id', '=', $receiver_id)
+            ->and_where('status', '=', self::STATUS_UNREAD)
+            ->count_all();
     }
 
     /**

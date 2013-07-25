@@ -1,4 +1,4 @@
-<div class="message-list-container">
+<div class="message-list-container history">
     <?php foreach($messages as $message):?>
         <?php $class = ($sender == $message->sender_id) ? 'manager' : 'client';?>
         <div class="message-container <?=$class;?>">

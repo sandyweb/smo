@@ -75,47 +75,82 @@ class Controller_Ajax extends Kohana_Controller{
     public function action_all_messages()
     {
         $user_id = $this->auth->get_user()->id;
+        $page = ($this->request->post('page')) ? $this->request->post('page') : 0;
+        $items_per_page = 5;
+        $offset = ($page) ? ($items_per_page * ($page - 1)) : 0;
         $message = ORM::factory('Message');
-        $messages = $message->get_messages($user_id);
+        $messages = $message->get_messages($user_id, $offset, $items_per_page);
+        $total_items = $message->get_messages_count($user_id);
         $statuses = $message->get_statuses();
         $action_url = $this->request->post('action_url');
+        $pagination = Pagination::factory(array('total_items' => $total_items, 'current_page' => array(
+            'page' => $page, 'source' => 'query_string', 'key' => 'page'
+        )));
         echo View::factory('frontend/inbox/all_messages')
             ->bind('messages', $messages)
-            ->bind('statuses', $statuses)
             ->bind('action_url', $action_url)
+            ->bind('statuses', $statuses)
+            ->bind('pagination', $pagination)
         ;
     }
 
     public function action_unread_messages()
     {
         $user_id = $this->auth->get_user()->id;
-        $messages = ORM::factory('Message')->get_unread_messages($user_id);
+        $page = ($this->request->post('page')) ? $this->request->post('page') : 0;
+        $items_per_page = 5;
+        $offset = ($page) ? ($items_per_page * ($page - 1)) : 0;
+        $message = ORM::factory('Message');
+        $messages = $message->get_unread_messages($user_id, $offset, $items_per_page);
+        $total_items = $message->get_unread_messages_count($user_id);
         $action_url = $this->request->post('action_url');
+        $pagination = Pagination::factory(array('total_items' => $total_items, 'current_page' => array(
+            'page' => $page, 'source' => 'query_string', 'key' => 'page'
+        )));
         echo View::factory('frontend/inbox/unread_messages')
             ->bind('messages', $messages)
             ->bind('action_url', $action_url)
+            ->bind('pagination', $pagination)
         ;
     }
 
     public function action_read_messages()
     {
         $user_id = $this->auth->get_user()->id;
-        $messages = ORM::factory('Message')->get_read_messages($user_id);
+        $page = ($this->request->post('page')) ? $this->request->post('page') : 0;
+        $items_per_page = 5;
+        $offset = ($page) ? ($items_per_page * ($page - 1)) : 0;
+        $message = ORM::factory('Message');
+        $messages = $message->get_read_messages($user_id, $offset, $items_per_page);
+        $total_items = $message->get_read_messages_count($user_id);
         $action_url = $this->request->post('action_url');
+        $pagination = Pagination::factory(array('total_items' => $total_items, 'current_page' => array(
+            'page' => $page, 'source' => 'query_string', 'key' => 'page'
+        )));
         echo View::factory('frontend/inbox/read_messages')
             ->bind('messages', $messages)
             ->bind('action_url', $action_url)
+            ->bind('pagination', $pagination)
         ;
     }
 
     public function action_archived_messages()
     {
         $user_id = $this->auth->get_user()->id;
-        $messages = ORM::factory('Message')->get_archived_messages($user_id);
+        $page = ($this->request->post('page')) ? $this->request->post('page') : 0;
+        $items_per_page = 5;
+        $offset = ($page) ? ($items_per_page * ($page - 1)) : 0;
+        $message = ORM::factory('Message');
+        $messages = $message->get_archived_messages($user_id, $offset, $items_per_page);
+        $total_items = $message->get_archived_messages_count($user_id);
         $action_url = $this->request->post('action_url');
+        $pagination = Pagination::factory(array('total_items' => $total_items, 'current_page' => array(
+            'page' => $page, 'source' => 'query_string', 'key' => 'page'
+        )));
         echo View::factory('frontend/inbox/archived_messages')
             ->bind('messages', $messages)
             ->bind('action_url', $action_url)
+            ->bind('pagination', $pagination)
         ;
     }
 
@@ -145,7 +180,7 @@ class Controller_Ajax extends Kohana_Controller{
         $receiver_id = $this->request->post('client_id');
         $message = ORM::factory('Message');
         $offset = ($page) ? ($items_per_page * ($page - 1)) : 0;
-        $messages = $message->get_history($sender_id, $receiver_id, $offset, 5);
+        $messages = $message->get_history($sender_id, $receiver_id, $offset, $items_per_page);
         $total_items = $message->get_history_count($sender_id, $receiver_id);
         $pagination = Pagination::factory(array('total_items' => $total_items, 'current_page' => array(
             'page' => $page, 'source' => 'query_string', 'key' => 'page'

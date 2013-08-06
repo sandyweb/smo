@@ -170,4 +170,12 @@ class Controller_Accounts extends Controller_General {
             echo view::factory('frontend/accounts/add', $data)->set('form', $_POST)->bind('errors', $errors);
         }
     }
+
+    public function action_pay()
+    {
+        $this->auto_render = FALSE;
+        $order_id = $this->request->param('id');
+        $order = ORM::factory('Order', $order_id);
+        $this->purchase_order($order_id, $order->account->id, $order->account->cost, $order->account->title);
+    }
 }

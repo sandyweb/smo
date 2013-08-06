@@ -17,7 +17,7 @@
                     <td><?=$order->description;?></td>
                     <td>$<?=Inflector::cents2dollars($order->paid);?></td>
                     <td><?=__('Unpaid');?></td>
-                    <td><button type="button" class="login-btn"><?=__('Pay');?></button></td>
+                    <td><?=HTML::anchor('accounts/pay/'.$order->id, __("Pay"));?></td>
                 </tr>
             <?php endforeach;?>
         </tbody>

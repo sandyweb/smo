@@ -101,7 +101,7 @@ class Controller_Accounts extends Controller_General {
                             $session->set('message', $message);
                             if($this->request->post('purchase'))
                             {
-                                $this->purchase_order($order_id, $account->id);
+                                $this->purchase_order($order_id, $account->id, $price, $data['title']);
                             }
                         }
                         else
@@ -139,30 +139,25 @@ class Controller_Accounts extends Controller_General {
         return $order_id;
     }
 
-    public function purchase_order($order_id, $account_id)
+    public function purchase_order($order_id, $account_id, $price, $title)
     {
-        /**
-         * @TODO payment process
-         * @TODO need specify details for payment process
-         * @TODO need specify details for tangible
-         * @TODO and develop methods for notification
-         */
         require_once(APPPATH.'vendor/Twocheckout.php');
         $config = Kohana::$config->load('config');
         Twocheckout::setCredentials($config['api_username'], $config['api_password']);
         $product = array();
         $product['currency_code'] = 'USD';
         $product['mode'] = '2CO';
-        $product['li_0_price'] = '0.00';
+        $product['li_0_price'] = round($price / 100, 2);
         $product['merchant_order_id'] = $order_id;
-        $product['li_0_name'] = '';
+        $product['li_0_name'] = $title;
         $product['li_0_quantity'] = 1;
         $product['sid'] = $config['vendor_id'];
         $product['li_0_type'] = 'product';
         $product['li_0_tangible'] = 'N';
         $product['li_0_product_id'] = $account_id;
-        //remove this on production
-//                    Twocheckout_Charge::redirect($product);
+        $product['demo'] = 'Y';
+        Twocheckout_Charge::redirect($product);
+        exit();
     }
 
     public function action_get(){

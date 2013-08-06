@@ -14,3 +14,5 @@ Specify Mysql credentials in file  ``application/config/database.php``
 Specify base url in file ``application/bootstrap.php``
 
     Kohana::init('base_url') = '';
+
+Specify 2checkout credentials in ``application/config/config.php``

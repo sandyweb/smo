@@ -10,10 +10,6 @@ class Controller_Order extends Controller{
         require_once(APPPATH.'vendor/Twocheckout.php');
     }
 
-    /**
-     * @TODO Finish payment process
-     * @TODO update order
-     */
     public function action_passback()
     {
         $params = array();
@@ -28,21 +24,28 @@ class Controller_Order extends Controller{
         //Check the MD5 Hash to determine the validity of the sale.
         $config = Kohana::$config->load('config');
         $passback = Twocheckout_Return::check($params, $config['secret_word'], 'array');
-        var_dump($params);
-        exit();
-
         $session = Session::instance();
         if($passback['response_code'] == 'Success')
         {
-            /**
-             * @TODO need update account expiration date and cost
-             */
+            $total = Inflector::string2cents($params['total']);
+            $order = ORM::factory('Order', $params['merchant_order_id']);
+            $data = array(
+                'paid' => $total,
+                'status' => Model_Order::STATUS_PAID
+            );
+            $order->values($data)->save();
+            $account = ORM::factory('Accounts', $params['li_0_product_id']);
+            $data = array(
+                'cost' => $total,
+                'expiration' => strtotime('30 days')
+            );
+            $account->values($data)->save();
             $session->set('message', 'Payment was proceed successfully');
         }
         else
         {
             $session->set('message', $passback['response_message']);
         }
-//        $this->redirect('users/orders');
+        $this->redirect('users/orders');
     }
 }

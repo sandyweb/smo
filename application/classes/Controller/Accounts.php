@@ -84,6 +84,7 @@ class Controller_Accounts extends Controller_General {
             $price = $this->request->post('price');
             $data['cost'] = $price;
             $data['users_id'] = $this->auth->get_user()->id;
+            $data['expiration'] = time();
             $account = new Model_Accounts;
             $account->values($data);
             try

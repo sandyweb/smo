@@ -1,10 +1,10 @@
-<?php if(!empty($expired_accounts)):?>
+<?php if(sizeof($expired_accounts)):?>
     <div class="notification">
         <h4>You have expired accounts</h4>
         <?php foreach($expired_accounts as $account):?>
             <p>
                 <?=__('Title').': '.$account->title.' '.
-                __('Cost').': $'.Inflector::string2cents($account->cost).' '.
+                __('Cost').': $'.Inflector::cents2dollars($account->cost).' '.
                 __('Expiration Date').': '.Date::to_datetime($account->expiration);?>
             </p>
         <?php endforeach;?>

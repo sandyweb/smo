@@ -329,18 +329,21 @@ class Controller_Ajax extends Kohana_Controller{
     {
         $result = array('status' => self::STATUS_UNAUTHORIZED, 'reason' => 'You don\'t have permission for this method.');
         echo $this->_response_json($result);
+        exit();
     }
 
     protected function _invalid_request()
     {
         $result = array('status' => self::STATUS_BAD_REQUEST, 'reason' => 'Required parameter is missing');
         echo $this->_response_json($result);
+        exit();
     }
 
     protected function _application_error()
     {
         $result = array('status' => self::STATUS_APPLICATION_ERROR, 'reason' => 'Internal Server Error');
         echo $this->_response_json($result);
+        exit();
     }
 
     protected function _response_json($result)

@@ -16,29 +16,34 @@
             </ul>
             <!-- end commoncol2 -->
             <section class="clear"></section>
-        </section>
-        <!-- end grid_9 -->
-        <!-- start grid_3 -->
-        <section class="grid_3">
-            <!-- start latest-post -->
-            <section class="latest-post">
-                <h2>Latest Blog Posts</h2>
-                <ul id="ReplaceWithRSSFeedData">
+            <section class="team-list">
+                <h2>Our Team</h2>
+                <ul>
+                    <li>
+                        <section class="txtb">
+                            <h3>Roman Marvaniuk - Co-Founder/CEO</h3>
+                            <p>Project manager with 10 years of experience in IT, started his career on web developer position. Were working in different startup projects across USA, Canada and Russia.</p>
+                        </section>
+                        <section class="clear"></section>
+                    </li>
+                    <li>
+                        <section class="txtb">
+                            <h3>Alex Bash - Co-Founder/COO</h3>
+                            <p>Alex is a finance executive with extensive experience in corporate finance, business development, and capital raising. He has spent a career in investment banking across Kyiv and Moscow.</p>
+                        </section>
+                        <section class="clear"></section>
+                    </li>
+                    <li>
+                        <section class="txtb">
+                            <h3>Pavel Bash - Manging Partner/Social Media Manager</h3>
+                            <p>Pavel joined in November of 2010. His great experience in social media marketing made major impact on business processes in entire system.</p>
+                        </section>
+                        <section class="clear"></section>
+                    </li>
                 </ul>
-                <section class="clear"></section>
             </section>
-            <!-- end latest-post -->
-            <!-- start tweets -->
-            <section class="tweets">
-                <h2>Twitter Feed</h2>
-                <p id="ReplaceWithTweet"></p>
-            </section>
-            <!-- end tweets -->
-
-
+        <!-- end grid_9 -->
         </section>
-        <!-- end grid_3 -->
-    </section>
 </section>
 <!-- end container -->
 

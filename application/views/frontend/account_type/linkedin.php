@@ -17,6 +17,8 @@
             calculateSummary();
         });
 
+        calculateSummary();
+
         function calculateSummary(){
             var price = parseInt($('input[name="information_source"]:checked').attr('data-price'));
             $('.account-price').text('$' + convertCentsDollars(price));

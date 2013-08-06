@@ -97,6 +97,8 @@
             calculateSummary();
         });
 
+        calculateSummary();
+
         function calculateSummary(){
             var price = parseInt($('input[name="posting_range"]:checked').attr('data-price'));
             if($posting_range_custom.val() != ''){
@@ -106,12 +108,10 @@
             if($comments_range_custom.val() != ''){
                 price *= parseInt($comments_range_custom.val());
             }
-
             price += parseInt($('input[name="like_range"]:checked').attr('data-price'));
             if($like_range_custom.val() != ''){
                 price *= parseInt($like_range_custom.val());
             }
-
             price += parseInt($('input[name="information_source"]:checked').attr('data-price'));
             $('.account-price').text('$' + convertCentsDollars(price));
             $('input[name="price"]').val(price);

@@ -104,6 +104,8 @@
             calculateSummary();
         });
 
+        calculateSummary();
+
         function calculateSummary(){
             var price = parseInt($('input[name="posting_range"]:checked').attr('data-price'));
             if($posting_range_custom.val() != ''){

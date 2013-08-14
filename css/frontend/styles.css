@@ -35,6 +35,8 @@
     font-weight: normal;
     margin-right: 10px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    padding: 2px 8px;
+    text-decoration: none;
 }
 /* Login */
 body.login div.content_wrapper {

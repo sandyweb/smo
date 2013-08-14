@@ -51,8 +51,8 @@
                             </td>
                             <td><?php echo $item->description;?></td>
                             <td>
-                                <?php echo HTML::anchor('users/account_edit/'.$item->id, __("Edit"));?>
-                                <?php echo HTML::anchor('accounts/delete/'.$item->id, __("Delete"));?>
+                                <?=HTML::anchor('users/account_edit/'.$item->id, __("Edit"), array('class' => 'login-btn'));?>
+                                <?=HTML::anchor('accounts/delete/'.$item->id, __("Delete"), array('class' => 'login-btn'));?>
                             </td>
                         </tr>
                     <?php endforeach;?>

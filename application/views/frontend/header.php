@@ -1,6 +1,6 @@
 <div class="logo_wrapper">
     <div class="logo">
-        <?php echo HTML::image('files/template/frontend/logo.png');?>
+        <?=HTML::anchor(URL::base(), HTML::image('files/template/frontend/logo.png'));?>
     </div>
 </div>
 <div class="menu">

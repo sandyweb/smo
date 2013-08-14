@@ -461,3 +461,7 @@ em{color: #827e82;}
     font-weight: bold;
     color: darkred;
 }
+.notification p{
+    font-size: 12px;
+    line-height: 20px;
+}

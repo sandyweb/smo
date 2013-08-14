@@ -166,7 +166,7 @@ class Controller_Accounts extends Controller_General {
         {
             $this->auto_render = FALSE;
             $model = new Model_AccountsTypes();
-            $data['networks_types'] = $model->find_all();
+            $data['networks_types'] = $model->order_by('id')->find_all();
             echo view::factory('frontend/accounts/add', $data)->set('form', $_POST)->bind('errors', $errors);
         }
     }

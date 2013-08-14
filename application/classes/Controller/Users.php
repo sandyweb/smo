@@ -26,7 +26,7 @@ class Controller_Users extends Controller_General {
         $data_header['unread_messages_count'] = $message_model->get_unread_messages_count($this->auth->get_user()->id);
         
         $model_types = new Model_AccountsTypes();
-        $data_left_bar['social_networks'] = $model_types->find_all();
+        $data_left_bar['social_networks'] = $model_types->order_by('id')->find_all();
         
         $data_left_bar['social_id'] = $this->request->param('id');
         if (empty($data_left_bar['social_id'])) {

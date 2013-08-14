@@ -1,8 +1,5 @@
 <div class="bar_tab">    
     <div class="bar_tab_head">
-        <a href="#">
-            <?php echo HTML::image('files/template/frontend/icon_select_account.png');?>
-        </a>
         <span>Personal Account</span>
         <div class="clear"></div>
     </div>

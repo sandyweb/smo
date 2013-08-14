@@ -15,13 +15,11 @@
     <div>
         <h5><?=__('Title:');?></h5>
         <?=Form::input('title', arr::get($form, 'title'), array("class"=>"input", "style"=>"width:340px; margin:5px 0 10px 0;"));?>
-        <span class="redmessage"><?php echo arr::get($errors, 'title');?></span>
+        <span class="error-message"><?php echo arr::get($errors, 'title');?></span>
     </div>
     <div>
         <h5><?=__('Description:');?></h5>
-        <textarea name="description" class="input" style="width:340px; height:50px; margin:5px 0 10px 0;">
-            <?=arr::get($form, 'description');?>
-        </textarea>
+        <textarea name="description" class="input" style="width:340px; height:50px; margin:5px 0 10px 0;"></textarea>
     </div>
     <div class="clear"></div>
     <div class="account-type-view"></div>

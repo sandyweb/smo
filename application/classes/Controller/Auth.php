@@ -10,21 +10,37 @@ class Controller_Auth extends Controller_General {
         }
     }
     
-    public function action_restorePassword() {
-        if ($this->request->post()) {
-            try {
+    public function action_restorePassword()
+    {
+        if($this->request->post())
+        {
+            try
+            {
                 $email = $this->request->post('email');
-                $model = new Model_Users();
-                $email_validation = $model->isset_email($email);
-                $model->check($email_validation);
-                
-                // Send email
-            } catch (ORM_Validation_Exception $e) {
+                $validation = Validation::factory($this->request->post());
+                $validation->rule('email', 'not_empty');
+                $validation->rule('email', 'email');
+                if($validation->check())
+                {
+                    $model = new Model_Users();
+                    if(!$model->is_email_exists($email))
+                    {
+                        $errors['email'] = 'This email is not exists';
+                    }
+                    // Send email
+                }
+                else
+                {
+                    $errors = $validation->errors('email');
+                }
+            }
+            catch(ORM_Validation_Exception $e)
+            {
                 $errors = $e->errors('validation');
             }
         }
         
-        $this->template->title .= "Restore password";
+        $this->template->title .= "|Restore password";
         $this->template->content = view::factory('frontend/auth/restore')->set('form', $_POST)->bind('errors', $errors);
     }
     

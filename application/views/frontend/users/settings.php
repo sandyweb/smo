@@ -2,6 +2,11 @@
 <div class="user_prof">
     <h4><span>User Profile</span></h4>
     <div class="clear"></div>
+    <?php if($user->image):?>
+        <div class="avatar">
+            <?=HTML::image('files/media/avatars/'.$user->image);?>
+        </div>
+    <?php endif;?>
     <div style="padding:30px 20px 20px 20px;">
         <ul>
             <li>

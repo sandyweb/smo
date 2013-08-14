@@ -108,8 +108,7 @@ div.login .logo {
 .left_bar {
     background: url("../../files/template/frontend/left_panel_background.jpg") repeat scroll left top transparent;
     width:200px;
-    border-right: 1px solid #255485;
-    height: 100%;
+    min-height: 500px;
     float:left;
 }
 .left_bar .bar_tab {
@@ -228,15 +227,21 @@ h1 {
     font-size: 18px;
     padding-top: 15px;
 }
-.content {
+.content{
+    margin-bottom: 10px;
     float:left;
     height: 100%;
+    border-left: 1px solid #255485;
+    min-height: 500px;
 }
 .personal_data {
     padding:20px;
 }
 .personal_data .avatar {
     float:left;
+}
+.avatar{
+    margin: 10px 0 0 20px;
 }
 .personal_data .personal_info {
     float:left;
@@ -253,6 +258,7 @@ h1 {
     float:left;
     padding: 60px 20px 20px 20px;
     margin-top:-54px;
+    border-left: 1px solid #255485;
 }
 h2 {
     color: #2F6FAE;

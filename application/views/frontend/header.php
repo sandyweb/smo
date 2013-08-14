@@ -24,6 +24,6 @@
 </div>
 <div class="user_info">
     <?php echo $user->email;?>
-    <?php echo HTML::anchor('main/index', HTML::image('files/template/frontend/home_icon_small.png'));?>
+    <?php echo HTML::anchor('users/index', HTML::image('files/template/frontend/home_icon_small.png'));?>
     <?php echo HTML::anchor('auth/logout', HTML::image('files/template/frontend/logout_icon_small.png'));?>
 </div>

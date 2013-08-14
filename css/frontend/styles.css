@@ -455,6 +455,7 @@ em{color: #827e82;}
     width: 450px;
     border: #ff0000 1px solid;
     padding: 5px;
+    margin:10px 0;
 }
 .notification h4{
     font-size: 14px;
@@ -464,4 +465,7 @@ em{color: #827e82;}
 .notification p{
     font-size: 12px;
     line-height: 20px;
+}
+.table{
+    font-size: 14px;
 }

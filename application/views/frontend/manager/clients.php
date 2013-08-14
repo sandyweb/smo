@@ -11,7 +11,7 @@
         <?php endforeach;?>
     </div>
 <?php endif;?>
-<table id="clients-list-table">
+<table id="clients-list-table" class="table">
     <thead>
         <tr>
             <th><?=__('Name');?></th>

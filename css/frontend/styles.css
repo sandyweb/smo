@@ -309,6 +309,9 @@ label {
     padding: 10px;
     width: 200px;
 }
+.error-message{
+    color: #FF0000;
+}
 .order_list{
     margin: 10px 10px 40px 10px;
 }

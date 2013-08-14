@@ -7,25 +7,18 @@
 <?php endif;?>
 
 <div class="login">
-    <div class="logo"><?php // echo HTML::image("files/template/frontend/logo.png");?></div>
+    <div class="logo"></div>
     <div class="login_wrapper">
-        <?php echo Form::open();?>
-
-            <?php echo Form::input("email", arr::get($form, 'email'), array("placeholder"=>"Email", "class"=>"input"));?>
-
-            <?php echo Form::password("password", NULL, array("class"=>"input", "placeholder"=>"Password"));?>
-            
-            <?php // if (isset(arr::get($errors, 'email'))):?>
-                <span class="redmessage"><?php echo arr::get($errors, 'email');?></span>
-            <?php // endif;?>
-                
-            <?php echo Form::submit("login", __("Login"), array("class"=>"login-btn", "style"=>"height: 26px"));?>
-            
+        <?=Form::open();?>
+            <span class="error-message"><?=arr::get($errors, 'auth');?></span>
+            <span class="error-message"><?=arr::get($errors, 'validation');?></span>
+            <?=Form::input("email", arr::get($form, 'email'), array("placeholder"=>"Email", "class"=>"input"));?>
+            <?=Form::password("password", NULL, array("class"=>"input", "placeholder"=>"Password"));?>
+            <?=Form::submit("login", __("Login"), array("class"=>"login-btn", "style"=>"height: 26px"));?>
             <div class="actions_login">
-                <?php echo HTML::anchor('auth/restorePassword', __("Forgot password ?"), array("title"=>"Forgot password"));?>
-                <?php echo HTML::anchor(URL::base(), __("Home page"), array("title"=>"Learn More..."));?>
+                <?=HTML::anchor('auth/restorePassword', __("Forgot password ?"), array("title"=>"Forgot password"));?>
+                <?=HTML::anchor(URL::base(), __("Home page"), array("title"=>"Learn More..."));?>
             </div>
-
-        <?php echo Form::close();?>
+        <?=Form::close();?>
     </div>
 </div>

@@ -28,12 +28,14 @@ class Controller_Auth extends Controller_General {
         $this->template->content = view::factory('frontend/auth/restore')->set('form', $_POST)->bind('errors', $errors);
     }
     
-    public function action_login() {
-        if ($this->request->post()) {
-            try {
+    public function action_login()
+    {
+        if($this->request->post())
+        {
+            try
+            {
                 $email = $this->request->post('email');
                 $password = $this->request->post('password');
-                
                 if($this->login($email, $password))
                 {
                     (!$this->auth->get_user()->is_manager) ? $this->redirect('users/index') : $this->redirect('manager/index');
@@ -42,12 +44,14 @@ class Controller_Auth extends Controller_General {
                 {
                     $errors['auth'] = "Not valid email/password, please try again";
                 }
-            } catch (ORM_Validation_Exception $e) {
+            }
+            catch(ORM_Validation_Exception $e)
+            {
                 $errors = $e->errors('validation');
             }
         }
         
-        $this->template->title .= "Login";
+        $this->template->title .= "|Login";
         $this->template->content = view::factory('frontend/auth/login')->set('form', $_POST)->bind('errors', $errors);
     }
 
@@ -101,7 +105,7 @@ class Controller_Auth extends Controller_General {
             }
         }
         
-        $this->template->title .= "Register";
+        $this->template->title .= "|Register";
         $this->template->content = view::factory('frontend/auth/register')->set('form', $form)->bind('errors', $errors);
     }
     

@@ -87,7 +87,7 @@ div.login .logo {
     color: #2F6FAE;
     display: block;
     font-family: 'MyriadPro-Regular';
-    font-size: 1em;
+    font-size: 14px;
     display: block;
     padding: 8px;
 }
@@ -125,7 +125,7 @@ div.login .logo {
     display: inline-block;
     float: left;
     font-family: 'MyriadPro-SemiBold';
-    font-size: 1.5em;
+    font-size: 16px;
     height: 33px;
     line-height: 32px;
     padding: 0 0 0 4%;
@@ -149,7 +149,7 @@ div.login .logo {
 .bar_tab .bar_tab_body h4 {
     color: #225485;
     font-family: 'MyriadPro-SemiBold';
-    font-size: 1em;
+    font-size: 14px;
     line-height: 24px;
     padding: 0 0 0 10%;
     text-shadow: 0 1px #FFFFFF;
@@ -170,7 +170,7 @@ ul.filter_box li a {
     color: #2F6FAE;
     display: inline-block;
     font-family: 'MyriadPro-Regular';
-    font-size: 1em;
+    font-size: 14px;
     line-height: 19px;
     padding: 0 0 0 6px;
     text-decoration: none;
@@ -185,7 +185,7 @@ ul.filter_box li a span {
     padding: 0 6px 0 0;
 }
 ul.filter_box span {
-    font-size: 1em;
+    font-size: 14px;
 }
 .user_info {
     float:right;
@@ -218,7 +218,7 @@ ul.filter_box span {
     color: #2F6FAE;
     display: block;
     font-family: 'MyriadPro-Regular';
-    font-size: 1em;
+    font-size: 14px;
     line-height: 14px;
     padding: 0 0 3px;
 }
@@ -257,7 +257,7 @@ h1 {
 h2 {
     color: #2F6FAE;
     font-family: 'MyriadPro-Semibold';
-    font-size: 1.5em;
+    font-size: 16px;
     line-height: 30px;
     padding: 2px 0 5px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
@@ -265,7 +265,7 @@ h2 {
 h5 {
     color: #2F6FAE;
     font-family: 'MyriadPro-Regular';
-    font-size: 1.167em;
+    font-size: 15px;
     font-weight: 400;
     line-height: 16px;
     padding: 5px 0;
@@ -276,7 +276,7 @@ label {
     display: block;
     float: left;
     /*font-family: 'MyriadPro-SemiBold';*/
-    font-size: 1em;
+    font-size: 14px;
     line-height: 21px;
     width: 235px;
 }
@@ -298,7 +298,7 @@ label {
     display: inline-block;
     float: left;
     font-family: 'MyriadPro-Regular';
-    font-size: 1em;
+    font-size: 14px;
     line-height: 21px;
     min-height: 21px;
     padding: 4px;
@@ -318,7 +318,7 @@ label {
 .order_list h4{
     color: #225485;
     font-family: 'MyriadPro-SemiBold';
-    font-size: 1em;
+    font-size: 14px;
     line-height: 24px;
     text-shadow: 0 1px #FFFFFF;
 }
@@ -334,7 +334,7 @@ label {
     padding: 60px 20px 20px;
     width: 360px;
 }
-em{color: #ccc;}
+em{color: #827e82;}
 .message-details-container{padding:30px 20px 20px 20px;width: 450px;}
 .message-details-container label{width: 100px;}
 .message-details-container span{line-height: 21px;}

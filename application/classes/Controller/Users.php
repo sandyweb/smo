@@ -154,7 +154,7 @@ class Controller_Users extends Controller_General {
         $message = ORM::factory('Message');
         $statuses = $message->get_statuses();
         $action_url = 'inbox/view/';
-        $this->template->additional = View::factory('frontend/inbox/all_messages')
+        $this->template->additional = View::factory('frontend/inbox/project_messages')
             ->bind('messages', $messages)
             ->bind('statuses', $statuses)
             ->bind('action_url', $action_url)

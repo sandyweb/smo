@@ -8,7 +8,7 @@
     <div class="clear"></div>
     <div class="account-type-container">
         <?php foreach($networks_types as $type):?>
-            <?=Form::radio('account_type', $type->id, TRUE);?>
+            <?=Form::radio('account_type', $type->id, ($type->id == $account_type));?>
             <span><?=$type->title;?></span>
         <?php endforeach;?>
     </div>

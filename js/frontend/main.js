@@ -10,9 +10,11 @@ $(document).ready(function(){
     $('.order-list-table').dataTable();
 
     $('#add_account').click(function () {
+        var account_type = $(this).attr('data-account-type');
         $.ajax({
             url: location.protocol + "//" + location.host + "/accounts/get",
             type: "GET",
+            data: {account_type_id: account_type},
             dataType: "HTML",
             success: function(data) {
                 $("#actions").empty();

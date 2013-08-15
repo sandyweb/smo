@@ -60,21 +60,18 @@ class Controller_Users extends Controller_General {
     {
         $expired_accounts = ORM::factory('Accounts')->get_expired_accounts($this->auth->get_user()->id);
         $social_id = $this->request->param('id');
-        if(empty($social_id))
-        {
-            $social_id = NULL;
-        }
 
         $data['user'] = $this->auth->get_user();
         
         // Get accounts
         $model_accounts = new Model_Accounts();
         $model_accounts->where('users_id', '=', $this->auth->get_user()->id);
-        if($social_id != NULL)
+        if($social_id)
         {
             $model_accounts->and_where('accounts_types_id', '=', $social_id);
         }
         $data['accounts'] = $model_accounts->find_all();
+        $data['account_type_id'] = $social_id;
         
         $this->template->content = view::factory('frontend/users/index', $data)->bind('expired_accounts', $expired_accounts);
     }

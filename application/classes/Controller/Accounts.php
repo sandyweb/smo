@@ -165,6 +165,7 @@ class Controller_Accounts extends Controller_General {
         if($this->request->is_ajax())
         {
             $this->auto_render = FALSE;
+            $data['account_type'] = Arr::get($_GET, 'account_type_id', NULL);
             $model = new Model_AccountsTypes();
             $data['networks_types'] = $model->order_by('id')->find_all();
             echo view::factory('frontend/accounts/add', $data)->set('form', $_POST)->bind('errors', $errors);

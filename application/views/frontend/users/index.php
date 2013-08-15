@@ -18,21 +18,17 @@
             <?php echo HTML::image('files/media/avatars/'.$user->image);?>
         <?php endif;?>
     </div>
-    
     <div class="personal_info">
         <h1><?php echo $user->email;?>'s Projects</h1>
         <p>Personal Account</p>
     </div>
-
     <div class="clear"></div>
 </div>
 
 <div class="social_data">
     <div class="function">
-        <?php // echo HTML::anchor('accounts/add', __("Add account"));?>
-        <button type="button" id="add_account" class="login-btn"><?php echo __("Add account");?></button>
+        <button type="button" id="add_account" data-account-type="<?=$account_type_id;?>" class="login-btn"><?php echo __("Add account");?></button>
     </div>
-
     <div class="social_accounts">
         <?php if (count($accounts)):?>
             <table id='accounts' style='width:100%;'>
@@ -61,7 +57,4 @@
         <?php endif;?>
     </div>
 </div>
-
-<div id="add_account">
-    
-</div>
+<div id="add_account"></div>

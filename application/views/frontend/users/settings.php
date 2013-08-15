@@ -7,6 +7,10 @@
             <?=HTML::image('files/media/avatars/'.$user->image);?>
         </div>
     <?php endif;?>
+    <div class="error-message"><?=arr::get($errors, 'validation');?></div>
+    <?php if($message):?>
+        <div class="success-message"><?=$message;?></div>
+    <?php endif;?>
     <div style="padding:30px 20px 20px 20px;">
         <ul>
             <li>

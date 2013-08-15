@@ -84,7 +84,7 @@ class Controller_Users extends Controller_General {
         $user_id = $this->auth->get_user()->id;
         $model = new Model_Users($user_id);
         $action = 'users/settings';
-                
+        $message = '';
         if($this->request->post())
         {
             try
@@ -112,17 +112,19 @@ class Controller_Users extends Controller_General {
                     $model->image = $filename;
                 }
                 $model->save();
+                $message = 'User details was saved successfully';
             }
-            catch(ORM_Validation_Exception $e) {
-                $errors = $e->errors('validation');
+            catch(Exception $e)
+            {
+                $errors['validation'] = $e->getMessage();
             }
         }
-        
         $data['user'] = $model;
         $this->template->content = view::factory('frontend/users/settings', $data)
             ->set('form', $_POST)
             ->bind('errors', $errors)
             ->bind('action', $action)
+            ->bind('message', $message)
         ;
     }
 

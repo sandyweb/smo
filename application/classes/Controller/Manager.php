@@ -126,6 +126,7 @@ class Controller_Manager extends Controller_General{
 
     public function action_settings()
     {
+        $message = '';
         if($this->request->post())
         {
             try
@@ -153,9 +154,11 @@ class Controller_Manager extends Controller_General{
                     $this->_user->image = $filename;
                 }
                 $this->_user->save();
+                $message = 'User details was saved successfully';
             }
-            catch(ORM_Validation_Exception $e) {
-                $errors = $e->errors('validation');
+            catch(Exception $e)
+            {
+                $errors['validation'] = $e->getMessage();
             }
         }
 
@@ -165,6 +168,7 @@ class Controller_Manager extends Controller_General{
             ->set('form', $_POST)
             ->bind('errors', $errors)
             ->bind('action', $action)
+            ->bind('message', $message)
         ;
     }
 }

@@ -4,5 +4,6 @@ return array(
     'api_username' => 'romantick45dev',
     'api_password' => 'Qaz123!!',
     'secret_word' => 'tango',
-    'vendor_id' => 2058681
+    'vendor_id' => 2058681,
+    'contact_email' => 'contact@smoook.com'
 );

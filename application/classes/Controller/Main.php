@@ -35,7 +35,6 @@ class Controller_Main extends Controller_General {
             $data = $this->request->post('message');
             $validation = Validation::factory($data)
                 ->rule('name', 'not_empty')
-                ->rule('name', 'not_empty')
                 ->rule('email', 'not_empty')
                 ->rule('email', 'email')
                 ->rule('subject', 'not_empty')
@@ -43,7 +42,7 @@ class Controller_Main extends Controller_General {
             if($validation->check())
             {
                 $config = Kohana::$config->load('config');
-                $to = $config->get('admin_email');
+                $to = $config->get('contact_email');
                 $template = View::factory('mails/frontend/contact', $data);
                 $email_config = Kohana::$config->load('email');
                 Email::connect($email_config);
@@ -54,7 +53,7 @@ class Controller_Main extends Controller_General {
                 }
                 else
                 {
-                    $errors[] = 'Email wasn\'t sent';
+                    $errors[] = 'Email not sent';
                 }
             }
             else

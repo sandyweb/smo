@@ -220,13 +220,13 @@ class Controller_Ajax extends Kohana_Controller{
                 $this->twitter_view($account_type_id);
                 break;
             case 'LinkedIn':
-                $this->linkedin_view();
+                $this->linkedin_view($account_type_id);
                 break;
             case 'Google+':
                 $this->google_view($account_type_id);
                 break;
             case 'Blog':
-                $this->blog_view();
+                $this->blog_view($account_type_id);
                 break;
             case 'Pinterest':
                 $this->pinterest_view();
@@ -277,12 +277,17 @@ class Controller_Ajax extends Kohana_Controller{
         ;
     }
 
-    public function linkedin_view()
+    public function linkedin_view($account_type_id)
     {
+        $posting_model = ORM::factory('PostingRange');
+        $posting_range = $posting_model->get_range($account_type_id);
+        $default_posting_range = $posting_model->get_linkedin_default_range();
         $source_model = ORM::factory('InformationSource');
         $sources = $source_model->find_all();
         $default_source = $source_model->get_linkedin_default_source();
         echo View::factory('frontend/account_type/linkedin')
+            ->bind('posting_range', $posting_range)
+            ->bind('default_posting_range', $default_posting_range)
             ->bind('sources', $sources)
             ->bind('default_source', $default_source)
         ;

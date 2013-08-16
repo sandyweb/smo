@@ -12,6 +12,7 @@ class Model_PostingRange extends ORM{
     const FB_DEFAULT_RANGE = 2;
     const TWITTER_DEFAULT_RANGE = 4;
     const GOOGLE_DEFAULT_RANGE = 8;
+    const LINKEDIN_DEFAULT_RANGE = 10;
 
     protected $_table_name = 'posting_range';
 
@@ -49,5 +50,10 @@ class Model_PostingRange extends ORM{
     public function get_google_default_range()
     {
         return self::GOOGLE_DEFAULT_RANGE;
+    }
+
+    public function get_linkedin_default_range()
+    {
+        return self::LINKEDIN_DEFAULT_RANGE;
     }
 }

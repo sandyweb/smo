@@ -80,6 +80,7 @@ Please, contact our manager to discuss this option, will be charged additionally
 </div>
 <script>
     $(document).ready(function(){
+        $('#add-account input[type="submit"]').addClass('disabled').attr('disabled', 'disabled');
         $('input[name="description_type"]').click(function(){
             if($(this).val() == 1){
                 $('textarea[name="description"]').text('Please, input account details to your social network, like Email, Login, Passwords, etc.');

@@ -37,6 +37,7 @@
 </div>
 <script>
     $(document).ready(function(){
+        $('#add-account input[type="submit"]').addClass('disabled').attr('disabled', 'disabled');
         var $posting_range_custom = $('input[name="posting_range_custom"]');
         var $posting_range = $('input[name="posting_range"]');
         $posting_range.change(function(){

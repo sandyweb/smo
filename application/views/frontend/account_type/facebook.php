@@ -69,7 +69,6 @@ Smoook can post things like
 Please describe your SUBJECTS:
         </textarea>
         <textarea name="source" id="source-3" class="input textarea hide">
-* Unique articles that will be created by Smoook copywriter
 Please, contact our manager to discuss this option, will be charged additionally
         </textarea>
     </div>

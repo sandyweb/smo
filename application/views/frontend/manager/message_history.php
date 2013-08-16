@@ -18,7 +18,7 @@
                 <p><?=$message->message;?></p>
             </div>
             <div class="both">
-                <p><?=HTML::anchor(URL::site('manager/outbox_view/'.$message->id), __('Details'));?></p>
+                <p><?=HTML::anchor(URL::site('manager/outbox_view/'.$message->id), __('Replay'));?></p>
             </div>
             <div class="clear"></div>
         </div>

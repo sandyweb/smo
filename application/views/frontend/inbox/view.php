@@ -1,40 +1,4 @@
-<div class="user_prof">
-    <h4><span>Message</span></h4>
-    <div class="clear"></div>
-    <div class="message-details-container">
-        <ul>
-            <li>
-                <label>Subject:</label>
-                <span><?=$message->subject;?></span>
-                <div class="clear"></div>
-            </li>
-            <li>
-                <label>Sent:</label>
-                <span><?=Date::to_datetime($message->created);?></span>
-                <div class="clear"></div>
-            </li>
-            <li>
-                <label>Sender:</label>
-                <span><?=$message->sender->email;?></span>
-                <div class="clear"></div>
-            </li>
-            <li>
-                <label>Status:</label>
-                <span><?=$statuses[$message->status];?></span>
-                <div class="clear"></div>
-            </li>
-            <li>
-                <label>Message:</label>
-                <span><?=$message->message;?></span>
-                <div class="clear"></div>
-            </li>
-            <li>
-                <button type="button" id="answer-message-btn" class="login-btn"><?=__('Answer');?></button>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="answer-container" class="user_prof hide">
+<div id="answer-container" class="user_prof">
     <h4><span>Answer to <?=$message->sender->email;?></span></h4>
     <div class="clear"></div>
     <?=Form::open(URL::site($action, array('method' => 'post')));?>

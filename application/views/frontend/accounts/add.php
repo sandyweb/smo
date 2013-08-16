@@ -1,8 +1,9 @@
-<?=Form::open('accounts/add', array('method' => 'post'));?>
+<?=Form::hidden('base_price', $base_price);?>
+<?=Form::open('accounts/add', array('method' => 'post', 'id' => 'add-account'));?>
 <div class="add-account-container">
     <div class="summary-account-price">
-        <p><?=__('Total:');?><span class="account-price">$0.00</span></p>
-        <?=Form::hidden('price', 0);?>
+        <p><?=__('Total:');?><span class="account-price">$<?=Inflector::cents2dollars($base_price);?></span></p>
+        <?=Form::hidden('price', $base_price);?>
     </div>
     <h2><?=__('New Social Network');?></h2>
     <div class="clear"></div>
@@ -12,21 +13,11 @@
             <span><?=$type->title;?></span>
         <?php endforeach;?>
     </div>
-    <div>
-        <h5><?=__('Title:');?></h5>
-        <?=Form::input('title', arr::get($form, 'title'), array("class"=>"input", "style"=>"width:340px; margin:5px 0 10px 0;"));?>
-        <span class="error-message"><?php echo arr::get($errors, 'title');?></span>
-    </div>
-    <div>
-        <h5><?=__('Description:');?></h5>
-        <textarea name="description" class="input" style="width:340px; height:50px; margin:5px 0 10px 0;"></textarea>
-    </div>
-    <div class="clear"></div>
     <div class="account-type-view"></div>
     <div>
-        <?=Form::submit('add_to_order', __('Add to order list'), array("class"=>"login-btn", "style"=>"height: 26px"));?>
-        <?=Form::submit('purchase', __('Purchase'), array("class"=>"login-btn", "style"=>"height: 26px"));?>
-        <?=Form::submit('save', __("Save"), array("class"=>"login-btn", "style"=>"height: 26px"));?>
+        <?=Form::submit('add_to_order', __('Add to order list'), array('class' => 'login-btn disabled', 'disabled' => 'disabled'));?>
+        <?=Form::submit('purchase', __('Purchase'), array('class' => 'login-btn disabled', 'disabled' => 'disabled'));?>
+        <?=Form::submit('save', __("Save"), array('class' => 'login-btn disabled', 'disabled' => 'disabled'));?>
     </div>
 </div>
 <?=Form::close();?>

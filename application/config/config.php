@@ -5,5 +5,6 @@ return array(
     'api_password' => 'Qaz123!!',
     'secret_word' => 'tango',
     'vendor_id' => 2058681,
-    'contact_email' => 'contact@smoook.com'
+    'contact_email' => 'contact@smoook.com',
+    'base_price' => 4900 //$49.00
 );

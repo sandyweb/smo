@@ -61,13 +61,20 @@ div.login .logo {
     border: 1px solid #AEB8D0;
     border-radius: 3px 3px 3px 3px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 3px 3px 3px rgba(109, 118, 138, 0.4) inset;
-    color: #999999;
+    color: #827e82;
     float: left;
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 10px;
     padding: 5px 8px;
     width: 172px;
+}
+.input.textarea{
+    padding: 5px 8px;
+    width: 420px;
+    height: 100px;
+    margin: 5px 0 10px 0;
+    float: none;
 }
 .login a {
     color: #2F6FAE;
@@ -475,4 +482,15 @@ em{color: #827e82;}
 }
 .table{
     font-size: 14px;
+}
+.f16{
+    font-size: 16px;
+}
+.disabled{
+    background: linear-gradient(#ccc, #a69fa6) repeat scroll 0 0 transparent;
+    border: 1px solid #a69fa6;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    cursor: default;
+    color: #225485;
 }

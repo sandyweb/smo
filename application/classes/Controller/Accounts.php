@@ -85,6 +85,7 @@ class Controller_Accounts extends Controller_General {
             $data['cost'] = $price;
             $data['users_id'] = $this->auth->get_user()->id;
             $data['expiration'] = time();
+            $data['source'] = $this->request->post('source');
             $account = new Model_Accounts;
             $account->values($data);
             try
@@ -168,6 +169,8 @@ class Controller_Accounts extends Controller_General {
             $data['account_type'] = Arr::get($_GET, 'account_type_id', NULL);
             $model = new Model_AccountsTypes();
             $data['networks_types'] = $model->order_by('id')->find_all();
+            $config = Kohana::$config->load('config');
+            $data['base_price'] = $config->get('base_price');
             echo view::factory('frontend/accounts/add', $data)->set('form', $_POST)->bind('errors', $errors);
         }
     }

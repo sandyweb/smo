@@ -320,9 +320,17 @@ class Controller_Ajax extends Kohana_Controller{
         ;
     }
 
-    public function blog_view()
+    public function blog_view($account_type_id)
     {
-        echo View::factory('frontend/account_type/blog');
+        $posting_model = ORM::factory('PostingRange');
+        $posting_range = $posting_model->get_range($account_type_id);
+        $default_posting_range = $posting_model->get_blog_default_range();
+        $source = ORM::factory('InformationSource', 3);
+        echo View::factory('frontend/account_type/blog')
+            ->bind('posting_range', $posting_range)
+            ->bind('default_posting_range', $default_posting_range)
+            ->bind('source', $source)
+        ;
     }
 
     public function pinterest_view()

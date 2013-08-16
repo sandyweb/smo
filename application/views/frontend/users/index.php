@@ -27,7 +27,9 @@
 
 <div class="social_data">
     <div class="function">
-        <button type="button" id="add_account" data-account-type="<?=$account_type_id;?>" class="login-btn"><?php echo __("Add account");?></button>
+        <?php if($account_type_id):?>
+            <button type="button" id="add_account" data-account-type="<?=$account_type_id;?>" class="login-btn"><?php echo __("Add account");?></button>
+        <?php endif;?>
     </div>
     <div class="social_accounts">
         <?php if (count($accounts)):?>

@@ -16,3 +16,7 @@ Specify base url in file ``application/bootstrap.php``
     Kohana::init('base_url') = '';
 
 Specify 2checkout credentials in ``application/config/config.php``
+
+Auto deployment settings specified in ``deploy.php``. [Github Repository][1]
+
+[1]: https://github.com/markomarkovic/simple-php-git-deploy
